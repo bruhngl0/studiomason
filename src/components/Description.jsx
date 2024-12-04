@@ -69,7 +69,7 @@ const Description = ({  threshold = 0.4 }) => {
       >
         <h1>STUDIO MASON</h1>
         <p> Based in Bangalore, we create premium furniture and decor using High-Performance Concrete (HPC), combining industrial strength with contemporary design. Each handmade piece reflects meticulous craftsmanship, durability, and refined functionality. We excel in custom creations tailored to your vision, ensuring seamless communication and exceptional quality. With a commitment to on-time delivery, we provide both reliable service and unmatched craftsmanship.</p>
-        <button> Enquiry</button>
+        <button className='imageani-explore'> Enquiry</button>
       </motion.div>
     </section>
   );

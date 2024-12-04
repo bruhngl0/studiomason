@@ -2,11 +2,11 @@ import React, { useEffect, useState, useRef } from 'react';
 import '../styles/project.scss';
 
 const projects = [
-  { id: 1, title: 'UNNECESSARY', description: 'Here is the new, light, and entertaining format of the series that we are excited to present to you format of the series that we are excited to', name: 'e-comm', image: 'ripley.jpg', description1:'we live lit', description2: 'test description two' },
-  { id: 2, title: 'UNNECESSARY', description: 'Here is the new, light, and entertaining format of the series that we are excited to present to you format of the series that we are excited to', name: 'e-comm', image: 'ripley2.jpg', description1:'we live lit', description2: 'test description two' },
-  { id: 3, title: 'UNNECESSARY', description: 'Here is the new, light, and entertaining format of the series that we are excited to present to you format of the series that we are excited to', name: 'e-comm', image: 'ripley2.jpg', description1:'we live lit', description2: 'test description two' },
-  { id: 4, title: 'UNNECESSARY', description: 'Here is the new, light, and entertaining format of the series that we are excited to present to you format of the series that we are excited to', name: 'e-comm', image: 'ripley.jpg', description1:'we live lit', description2: 'test description two' },
-  { id: 5, title: 'UNNECESSARY', description: 'Here is the new, light, and entertaining format of the series that we are excited to present to you format of the series that we are excited to', name: 'e-comm', image: 'ripley.jpg', description1:'we live lit', description2: 'test description two' },
+  { id: 1, title: 'PRODUCTS', description: 'Here is the new, light, and entertaining format of the series that we are excited to present to you format of the series that we are excited to', name: 'explore', image: 'homedeco.png', description1:'we live lit', description2: 'test description two' },
+  { id: 2, title: "PLANTER'S", description: 'Here is the new, light, and entertaining format of the series that we are excited to present to you format of the series that we are excited to', name: 'explore', image: 'planter.png', description1:'we live lit', description2: 'test description two' },
+  { id: 3, title: "WALL PANNEL'S", description: 'Here is the new, light, and entertaining format of the series that we are excited to present to you format of the series that we are excited to', name: 'explore', image: 'wallpanel.png', description1:'we live lit', description2: 'test description two' },
+  { id: 4, title: 'FURNITURE', description: 'Here is the new, light, and entertaining format of the series that we are excited to present to you format of the series that we are excited to', name: 'explore', image: 'furniture.png', description1:'we live lit', description2: 'test description two' },
+  
 ];
 
 const Project = () => {
