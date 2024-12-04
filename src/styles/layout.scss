@@ -1,7 +1,7 @@
 .layout-one {
     display: flex;
     width: 330px; /* Set the width to fit one image */
-    overflow: hidden;
+    overflow-x: hidden;
     margin: 10px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
   }
@@ -33,7 +33,8 @@
 
   @media (max-width: 500px) {
    .layout-one{
-    width: 180px
+    width: 180px;
+    margin: 2px;
 
    }
    }

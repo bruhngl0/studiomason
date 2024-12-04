@@ -17,9 +17,9 @@ const ImageAni = () => {
           </p>
         </div>
 
-        <div className='imageani-explore'>
+        <div >
           <Link to = "/screensix">
-            <button>Explore</button>
+            <button className='imageani-explore'>Explore</button>
             </Link>
         </div>
       

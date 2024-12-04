@@ -4,22 +4,22 @@
 
   
 .title{
-    padding-top: 3rem;
+    padding-top: 0rem;
     font-size: 2rem;
   }
 
   .des{
-    padding-top: 2rem;
+    padding-top: 0rem;
     font-size: 0.8rem;
   }
  
   .name{
-    padding-top: 1rem ;
+    padding-top: 0rem ;
     font-size: 2rem;
   }
 
   .desc-1{
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-size: 0.8rem;
   
   }
@@ -34,6 +34,7 @@
     height: 600vh; /* to allow scrolling */
     width: 100vh;
     overflow-y: none;
+    margin: 0;
   }
   
   .project-card {
@@ -47,7 +48,7 @@
     transition: transform 0.5s ease, opacity 0.5s ease;
     background-color: rgba(245, 245, 246, 1);
     padding: 20px;
-    margin: 0;
+    margin: 0 auto;
     width: 100%;
     box-shadow: 0 2px 3px rgba(222, 216, 216, 0.1);
     z-index: 1;
@@ -83,7 +84,7 @@
   .project-card img {
     width: 25%;
     height: 50%;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     display: flex;
     align-self: center;
     background-color: #486ba4;
@@ -91,10 +92,10 @@
   
   @media only screen and (max-width: 500px) {
     .projects-container {
-      height: 500vh;
+      height: 600vh;
       display: flex;
       flex-direction: column;
-      width: 100vw;
+      width: 89vw;
     }
   
     .project-card img {

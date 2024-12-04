@@ -14,7 +14,7 @@ const ScrollHero = () => {
   return (
     <div>
       <ScreenVideo />
-     
+      <Project/>
       <Products />
       <About />
       <RevealOnScroll />
