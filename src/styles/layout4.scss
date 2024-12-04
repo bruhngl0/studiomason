@@ -1,0 +1,42 @@
+.layout-four {
+    display: flex;
+    width: 330px; /* Set the width to fit one image */
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+  }
+  
+  .image-container-four {
+    display: flex;
+    flex-direction: column;
+    transition: transform 1s ease-in-out; /* Smooth transition for the sliding effect */
+    height: 280px;
+   
+  }
+  
+  .image-container-four img {
+    width: 330px; /* Each image takes up the full width of the container */
+    
+  }
+  
+  /* CSS classes to handle the right-to-left sliding effect */
+  .image-four-0 {
+    transform: translateY(0); /* First image visible */
+  }
+  
+  .image-four-1 {
+    transform: translateY(-310px); /* Second image slides in from the right */
+  }
+  
+  .image-four-2 {
+    transform: translateY(-660px); /* Third image slides in from the right */
+  }
+
+
+  @media (max-width: 500px) {
+    .layout-four{
+     width: 180px
+ 
+    }
+    }

@@ -1,0 +1,88 @@
+.about-container-scrollpower {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+     
+   
+   
+  
+    .about-inner-scrollpower {
+      background-color: rgb(255, 255, 255);
+      overflow: hidden;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 5rem;
+      margin-top: 20rem;
+      justify-content: flex-start;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+      background-image: url("../../public/zoom.png");
+      background-size: cover;
+     
+      
+      
+     
+      
+      >img{
+        
+      }
+    }
+  
+    .about-text-scrollpower {
+      font-size: 2.25rem; // Equivalent to text-4xl
+      font-weight: bold;
+      color: #b9bfc9; // Blue color to match the background
+      margin-left: 4rem;
+    }
+  }
+  
+  .layout-loa-scrollpower{
+    margin-left: 3rem;
+  }
+
+
+  @media (max-width: 500px) {
+    .about-container-scrollpower {
+    
+      display: flex;
+      align-items: center;
+      justify-content: center ;
+       
+     
+     
+    
+      .about-inner-scrollpower {
+        background-color: rgb(255, 255, 255);
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0rem;
+        margin-top: 5rem;
+        justify-content: center;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+        background-image: url("../../public/zoom.png");
+        background-size: cover;
+       
+        
+        
+       
+        
+        >img{
+          
+        }
+      }
+    
+      .about-text-scrollpower {
+        font-size: 2.25rem; // Equivalent to text-4xl
+        font-weight: bold;
+        color: #b9bfc9; // Blue color to match the background
+        margin-left: 4rem;
+      }
+    }
+    
+    .layout-loa-scrollpower{
+      margin-left: 3rem;
+    }
+}

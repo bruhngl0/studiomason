@@ -1,0 +1,256 @@
+@font-face {
+  font-family: 'cool';
+  src: url('../../public/coolmain.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  color: black;
+}
+
+
+.footer {
+    display: flex;
+    background-color: url("../../public/pp.png"); /* changed from grey to black */
+    justify-content: space-around;
+    padding-top: 5rem;
+    width: 100%;
+    background-color:  rgb(52, 50, 50);
+    height: 30vh;
+    font-family: helvetica;
+
+    
+  }
+  
+  .footer a {
+    color: white; /* setting link color to inherit to keep default blue color */
+    text-decoration: none; /* removing underline by default */
+  
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; /* adding underline on hover */
+    color: silver;
+  }
+  
+  /* Rest of your CSS styles remain unchanged */
+  .one {
+    > h1 {
+      font-size: 20px;
+      color: white;
+      >ul{
+        color: white;
+      }
+    }
+  }
+  
+  .two {
+    > h1 {
+      font-size: 20px;
+      color: white;
+    }
+
+    >ul{
+      color: white;
+    }
+  }
+  
+  .three {
+    > h1 {
+      font-size: 20px;
+      color: white;
+    }
+
+    >ul{
+      color: white;
+    }
+  }
+  
+  .four {
+    > h1 {
+      font-size: 20px;
+      color: white;
+    }
+
+    >span{
+        margin-left: 10px;
+        margin-top: 10px;
+        
+    }
+  }
+
+  .location{
+    margin-top: 10px;
+    c
+    >span{
+        margin-left: 10px;
+    }
+  }
+
+
+  .footer {
+    /* Define footer styles here */
+  }
+  
+  .socialmedia {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .socialmedia a {
+    color: white;
+    text-decoration: none;
+    
+  }
+  
+  .socialmedia a:hover {
+    opacity: 0.7; /* Example: reduce opacity on hover */
+    color: silver;
+  }
+  
+  .socialmedia a svg {
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+    
+  }
+
+  .mail{
+    margin-top: 10px;
+
+    >span{
+        margin-left: 10px;
+    }
+  }
+  
+  
+.mail{
+  color: white;
+
+}
+  
+.phone{
+  color: white;
+}
+
+.location{
+  color: white
+}
+  
+  @media only screen and (max-width: 450px) {
+   
+    .footer {
+      display: none;
+       /* changed from grey to black */
+      justify-content: space-around;
+      margin-top: 7rem;
+      margin-bottom: 1rem;
+      width: 100%;
+    
+    }
+    
+    .footer a {
+      color: silver; /* setting link color to inherit to keep default blue color */
+      text-decoration: none; /* removing underline by default */
+      font-weight: 200;
+    }
+    
+    .footer a:hover {
+      text-decoration: underline; /* adding underline on hover */
+    }
+    
+    /* Rest of your CSS styles remain unchanged */
+    .one {
+      font-size: 12px;
+      > h1 {
+        font-size: 12px;
+        display: none;
+      }
+    }
+    
+    .two {
+      font-size: 12px;
+      display: none;
+      > h1 {
+        font-size: 10px;
+        display: none;
+      }
+    }
+    
+    .three {
+      font-size: 12px;
+      > h1 {
+        font-size: 10px;
+        display: none;
+      }
+    }
+    
+    .four {
+      font-size: 12px;
+      margin-top: 10px;
+      > h1 {
+        font-size: 10px;
+        display: none;
+      }
+  
+      >span{
+          margin-left: 0px;
+          margin-top: 0px;
+          
+      }
+    }
+  
+    .location{
+      margin-top: 0px;
+  
+      >span{
+          margin-left: 0px;
+      }
+    }
+  
+  
+   
+    
+    .socialmedia {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+    }
+    
+    .socialmedia a {
+      color: inherit;
+      text-decoration: none;
+      
+    }
+    
+    .socialmedia a:hover {
+      opacity: 0.7; /* Example: reduce opacity on hover */
+    }
+    
+    .socialmedia a svg {
+      width: 22px;
+      height: 22px;
+      margin-left: 10px;
+      
+    }
+  
+    .mail{
+      margin-top: 10px;
+  
+      >span{
+          margin-left: 0px;
+      }
+    }
+
+    ul {
+      display: block;
+      list-style-type: disc;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 0px;
+      unicode-bidi: isolate;
+  }
+
+  
+  }

@@ -1,0 +1,39 @@
+.layout-one {
+    display: flex;
+    width: 330px; /* Set the width to fit one image */
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-container {
+    display: flex;
+    transition: transform 1s ease-in-out; /* Smooth transition for the sliding effect */
+  }
+  
+  .image-container img {
+    width: 330px; /* Each image takes up the full width of the container */
+    height: 280px; /* Maintain aspect ratio */
+  }
+  
+  /* CSS classes to handle the right-to-left sliding effect */
+  .image-0 {
+    transform: translateX(0); /* First image visible */
+  }
+  
+  .image-1 {
+    transform: translateX(-660px); /* Second image slides in from the right */
+  }
+  
+  .image-2 {
+    transform: translateX(-330px); /* Third image slides in from the right */
+  }
+  
+
+
+  @media (max-width: 500px) {
+   .layout-one{
+    width: 180px
+
+   }
+   }
