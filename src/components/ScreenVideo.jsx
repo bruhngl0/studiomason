@@ -13,7 +13,7 @@ const ScreenVideo = () => {
         Your browser does not support the video tag.
       </video>
       <div className="overlay-text-screen">
-        
+     
       </div>
       <div className="overlay-text-screen-one">
      

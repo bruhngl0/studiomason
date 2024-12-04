@@ -40,6 +40,14 @@
 @media (max-width: 500px) {
    
     .header{
-        display: none;
+        display: flex;
+    }
+
+    .header > nav a {
+        margin: 14px;
+        font-size: 15px;
+        font-family: cool, sans-serif;
+        font-weight: 100;
+        color: white;
     }
   }
