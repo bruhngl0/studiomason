@@ -33,7 +33,7 @@ const RevealOnScroll = ({  threshold = 0.6 }) => {
         initial="hidden"
         animate={isInView ? "visible" : "hidden"}
       >
-        <h1>At Studio Mason<br/>we craft home decor, blending durable elegance with concrete precesion.</h1>
+        <h1>At Studio Mason<br/>we craft home decor , blending durable elegance with concrete precesion.</h1>
       </motion.div>
     </section>
   );
