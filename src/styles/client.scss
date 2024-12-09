@@ -13,15 +13,15 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color:  rgb(92, 89, 89);
+    background-color:#e6d4c3;
      overflow-x: hidden;
 
     >p{
         position: absolute;
         z-index: 12;
-        font-size: 10rem;
-        color: yellow;
-        font: "cool";
+        font-size: 20rem;
+        color: brown;
+        font-family: "cool";
     }
 }
 

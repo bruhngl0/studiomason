@@ -5,18 +5,64 @@ import ImageAni from './ImageAni';
 
 import '../styles/products.scss';
 
+
+
+
 const Products = () => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [selectedId, setSelectedId] = useState(null);
+  const [productDataSelect, setProductDataSelect] = useState(null)
 
-  const handleImageClick = (image, id) => {
-    setSelectedId(id);
-    setSelectedImage(image);
+
+
+
+
+  //Product Data
+
+  const productData = [
+    {
+      id: "product-1",
+      image: "love2.png",
+      name: "Love Pot",
+      description: "A beautiful pot to show your love and affection.",
+      price: "$39.99",
+      features: ["Feature one description", "Feature two description", "Feature three description"],
+      specifications: {
+        dimension: "20 x 30 cm",
+        weight: "500g",
+        material: "Premium Quality"
+      }
+    },
+    {
+      id: "product-2",
+      image: "scrollpot2.png",
+      name: "Scroll Pot",
+      description: "A modern pot with a classic scroll design.",
+      price: "$29.99",
+      features: ["Feature A description", "Feature B description", "Feature C description"],
+      specifications: {
+        dimension: "15 x 20 cm",
+        weight: "300g",
+        material: "Ceramic"
+      }
+    },
+    // Add more products here...
+  ];
+  
+
+  const handleImageClick = (productId) => {
+    const selectedProduct = productData.find((product => product.id === productId))
+    console.log(selectedProduct)
+    setSelectedId(selectedProduct.id);
+    setSelectedImage(selectedProduct.image);
+    setProductDataSelect(selectedProduct)
+    
   };
 
   const handleClose = () => {
     setSelectedImage(null);
     setSelectedId(null);
+    setProductDataSelect(null)
   };
 
   return (
@@ -37,10 +83,10 @@ const Products = () => {
                 <motion.div 
                   className="image-container-scroll"
                   layoutId="product-1"
-                  onClick={() => handleImageClick("love2.png", "product-1")}
+                  onClick={() => handleImageClick( "product-1")}
                 >
                   <img 
-                    src="love2.png" 
+                    src="one.jpg" 
                     alt="Product" 
                     className="scroll-image"
                   />
@@ -51,10 +97,10 @@ const Products = () => {
                 <motion.div 
                   className="image-container-scroll"
                   layoutId="product-2"
-                  onClick={() => handleImageClick("scrollpot2.png", "product-2")}
+                  onClick={() => handleImageClick( "product-2")}
                 >
                   <img 
-                    src="scrollpot2.png" 
+                    src="two.jpg" 
                     alt="Product" 
                     className="scroll-image"
                   />
@@ -65,15 +111,15 @@ const Products = () => {
                 
               </div>
               <div className="scroll-item-two">
-                <img src = "scrollpot4.png" />
-                <img src = "scrollpot8.png" />
+                <img src = "three.jpg" />
+                <img src = "six.jpg" />
                 
               </div>
 
               <div className="scroll-item-three">
 
-                <img src = "scrollpot5.png" />
-                <img src = "scrollpot7.png" />
+                <img src = "five.jpg" />
+                <img src = "six.jpg" />
                 
               </div>
           
@@ -84,6 +130,7 @@ const Products = () => {
             image={selectedImage}
             onClose={handleClose}
             layoutId={selectedId}
+            productData = {productDataSelect}
           />
         )}
       </AnimatePresence>

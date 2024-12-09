@@ -11,17 +11,17 @@
     display: flex;
     background-color: url("../../public/pp.png"); /* changed from grey to black */
     justify-content: space-around;
-    padding-top: 5rem;
+    padding-top: 0rem;
     width: 100%;
-    background-color:  rgb(52, 50, 50);
-    height: 30vh;
+    background-color:  white;
+    height: 18vh;
     font-family: helvetica;
 
     
   }
   
   .footer a {
-    color: white; /* setting link color to inherit to keep default blue color */
+    color: gray ;  /* setting link color to inherit to keep default blue color */
     text-decoration: none; /* removing underline by default */
   
   }
@@ -34,40 +34,41 @@
   /* Rest of your CSS styles remain unchanged */
   .one {
     > h1 {
-      font-size: 20px;
-      color: white;
+      font-size: 14px;
+      color: grayß;
       >ul{
-        color: white;
+        color: gray;
       }
     }
   }
   
   .two {
     > h1 {
-      font-size: 20px;
-      color: white;
+      font-size: 14px;
+      color: gray;
     }
 
     >ul{
-      color: white;
+      color: gray;
+      font-size: 16px;
     }
   }
   
   .three {
     > h1 {
-      font-size: 20px;
-      color: white;
+      font-size: 14px;
+      color: gray;
     }
 
     >ul{
-      color: white;
+      color: gray;
     }
   }
   
   .four {
     > h1 {
-      font-size: 20px;
-      color: white;
+      font-size: 14px;
+      color: gray;
     }
 
     >span{
@@ -91,25 +92,25 @@
   }
   
   .socialmedia {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
   }
   
   .socialmedia a {
-    color: white;
+    color: gray;
     text-decoration: none;
     
   }
   
   .socialmedia a:hover {
     opacity: 0.7; /* Example: reduce opacity on hover */
-    color: silver;
+    color: gray;
   }
   
   .socialmedia a svg {
-    width: 32px;
-    height: 32px;
+    width: 15px;
+    height: 15px;
     margin-left: 10px;
     
   }
@@ -124,16 +125,16 @@
   
   
 .mail{
-  color: white;
+  color: gray;
 
 }
   
 .phone{
-  color: white;
+  color: gray;
 }
 
 .location{
-  color: white
+  color: gray;
 }
   
   @media only screen and (max-width: 450px) {
@@ -162,7 +163,7 @@
     .one {
       font-size: 12px;
       > h1 {
-        font-size: 12px;
+        font-size: 6px;
         display: none;
       }
     }

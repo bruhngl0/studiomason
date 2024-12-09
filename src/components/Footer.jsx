@@ -25,6 +25,23 @@ const Footer = () => {
         <h1>OUR COMPANY</h1>
         <ul>
           <li><a href="#abo">About Us</a></li>
+          <div className='socialmedia'>
+        <a href='https://www.instagram.com/shinesilver_925?igsh=YTZqNGg3ZHY5cWZ2'> {/* Replace 'https://www.instagram.com/' with your Instagram URL */}
+          <FaInstagram />
+        </a>
+
+        <a href='https://wa.me/918550022888'> {/* Replace 'https://www.instagram.com/' with your Instagram URL */}
+          <FaWhatsapp />
+        </a>
+
+        <a href='https://x.com/shinesilver_925?s=11'> {/* Replace 'https://www.instagram.com/' with your Instagram URL */}
+          <FaSquareXTwitter /> 
+        </a>
+
+        <a href='https://www.facebook.com/profile.php?id=61555017549608'> {/* Replace 'https://www.instagram.com/' with your Instagram URL */}
+          <FaFacebook  className='icons'/> 
+        </a>
+      </div>
         </ul>
       </div>
 
@@ -65,23 +82,7 @@ const Footer = () => {
 
      
 
-      <div className='socialmedia'>
-        <a href='https://www.instagram.com/shinesilver_925?igsh=YTZqNGg3ZHY5cWZ2'> {/* Replace 'https://www.instagram.com/' with your Instagram URL */}
-          <FaInstagram />
-        </a>
-
-        <a href='https://wa.me/918550022888'> {/* Replace 'https://www.instagram.com/' with your Instagram URL */}
-          <FaWhatsapp />
-        </a>
-
-        <a href='https://x.com/shinesilver_925?s=11'> {/* Replace 'https://www.instagram.com/' with your Instagram URL */}
-          <FaSquareXTwitter /> 
-        </a>
-
-        <a href='https://www.facebook.com/profile.php?id=61555017549608'> {/* Replace 'https://www.instagram.com/' with your Instagram URL */}
-          <FaFacebook  className='icons'/> 
-        </a>
-      </div>
+     
       </div>
 
 

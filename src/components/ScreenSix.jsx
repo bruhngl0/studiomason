@@ -30,7 +30,7 @@ const ScreenSix = () => {
  
     <div>
       <div className="supreme-container">
-        <div className="supreme-date">08/27/2024 02:47pm TYO</div>
+      
         <div className="supreme-grid">
           {items.map((item, index) => (
             

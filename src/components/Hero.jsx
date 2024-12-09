@@ -1,8 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import '../styles/hero.scss';
+import { p } from 'framer-motion/m';
 
-const Hero = ({ image, onClose, layoutId }) => {
+const Hero = ({ image, onClose, layoutId, productData }) => {
+
+  
   return (
     <motion.div
       initial={{ opacity: 1 }}
@@ -52,10 +55,9 @@ const Hero = ({ image, onClose, layoutId }) => {
           className="product-details"
         >
           <div className="product-intro">
-            <h1>Product Name</h1>
+            <h1>{productData.name}</h1>
             <p>
-              A detailed description of your amazing product goes here. This should capture
-              the essence of what makes your product special.
+             {productData.description}
             </p>
           </div>
 
@@ -63,9 +65,9 @@ const Hero = ({ image, onClose, layoutId }) => {
             <div className="features">
               <h2>Features</h2>
               <ul>
-                <li>Feature one description</li>
-                <li>Feature two description</li>
-                <li>Feature three description</li>
+                {productData.features.map((features, index)=> (
+                  <li key = {index}>{features}</li>
+                ))}
               </ul>
             </div>
 
@@ -74,15 +76,15 @@ const Hero = ({ image, onClose, layoutId }) => {
               <div className="specs-grid">
                 <div className="spec-item">
                   <span>Dimension</span>
-                  <span>20 x 30 cm</span>
+                  <span>{productData.specifications.dimension}</span>
                 </div>
                 <div className="spec-item">
                   <span>Weight</span>
-                  <span>500g</span>
+                  <span>{productData.specifications.weight}</span>
                 </div>
                 <div className="spec-item">
                   <span>Material</span>
-                  <span>Premium Quality</span>
+                  <span>{productData.specifications.material}</span>
                 </div>
               </div>
             </div>
@@ -97,10 +99,10 @@ const Hero = ({ image, onClose, layoutId }) => {
             <div className="footer-content">
               <div className="price-info">
                 <p>Starting from</p>
-                <p className="price">$299.99</p>
+                <p className="price">{productData.price}</p>
               </div>
               <button className="cta-button">
-                Add to Cart
+                how to buy
               </button>
             </div>
           </motion.div>

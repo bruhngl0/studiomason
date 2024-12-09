@@ -8,11 +8,13 @@ import RevealOnScroll from './RevealOnScroll'
 import Description from './Description'
 import Footer from './Footer'
 import Project from './Project'
+import Logo from './Logo'
 
 
 const ScrollHero = () => {
   return (
     <div>
+      <Logo />
       <ScreenVideo />
       <Project/>
       <Products />

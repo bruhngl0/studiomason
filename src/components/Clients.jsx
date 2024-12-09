@@ -10,7 +10,7 @@ const Clients = () => {
   return (
     <div className='client-main'>
     
-     <p>BeSpoke</p>
+     <p>BeSpoke.</p>
    
     <div className='client-one'>
      <Layout />

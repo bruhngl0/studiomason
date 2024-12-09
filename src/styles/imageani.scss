@@ -18,37 +18,22 @@
     color: black;
     font-size: 2.3rem;
     text-align: left;
-    font-family: cool;
+    font-family: Arial, Helvetica, sans-serif;
+    
    
    
 }
 
+.italic{
+  font-style: italic;
+  font-size: 2rem;
+}
 
 .imageani-heading{
 
 }
 
-.imageani-explore {
-  background: linear-gradient(45deg, #ff6f61, #ff3f4f); /* Gradient color */
-  color: white; /* Text color */
-  font-size: 16px; /* Font size */
-  padding: 15px 30px; /* Padding around text */
-  border-radius: 50px; /* Rounded corners */
-  border: none; /* No border */
-  text-transform: uppercase; /* Capitalize text */
-  font-weight: bold; /* Bold text */
-  cursor: pointer; /* Pointer cursor on hover */
-  transition: all 0.3s ease; /* Smooth transition for hover effects */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
-}
-
-.imagineani-explore:hover {
-  background: linear-gradient(45deg, #ff3f4f, #ff6f61); /* Reverse gradient on hover */
-  transform: translateY(-4px); /* Lift the button slightly */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
-}
-
-.imagineani-explore:focus {
-  outline: none; /* Remove default focus outline */
-  box-shadow: 0 0 0 3px rgba(255, 99, 71, 0.5); /* Add focus ring for accessibility */
+.imageani-explore{
+  margin-left: 8rem;
+  margin-top: 2rem;
 }

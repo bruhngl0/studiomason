@@ -56,7 +56,7 @@ const Description = ({  threshold = 0.4 }) => {
         initial="hidden"
         animate={isImageInView ? "visible" : "hidden"}
       >
-        <img src= "scrollpot8.png" alt="Decorative Item" />
+        <img src= "team.jpeg" alt="Decorative Item" />
       </motion.div>
 
       {/* Text Section */}
@@ -67,9 +67,9 @@ const Description = ({  threshold = 0.4 }) => {
         initial="hidden"
         animate={isTextInView ? "visible" : "hidden"}
       >
-        <h1>STUDIO MASON</h1>
-        <p> Based in Bangalore, we create premium furniture and decor using High-Performance Concrete (HPC), combining industrial strength with contemporary design. Each handmade piece reflects meticulous craftsmanship, durability, and refined functionality. We excel in custom creations tailored to your vision, ensuring seamless communication and exceptional quality. With a commitment to on-time delivery, we provide both reliable service and unmatched craftsmanship.</p>
-        <button className='imageani-explore'> Enquiry</button>
+        <h1>MEET THE TEAM</h1>
+        <p> Based in Bangalore, we create premium furniture and decor using High-Performance Concrete (HPC), combining industrial strength with contemporary design. Each handmade piece reflects meticulous craftsmanship, durability, and refined functionality. <br/> <br/> We excel in custom creations tailored to your vision, ensuring seamless communication and exceptional quality. With a commitment to on-time delivery, we provide both reliable service and unmatched craftsmanship.</p>
+        <p> Based in Bangalore, we create premium furniture and decor using High-Performance Concrete (HPC), combining industrial strength with contemporary design. Each handmade piece reflects meticulous craftsmanship, durability, and refined functionality.<br/> <br/> We excel in custom creations tailored to your vision, ensuring seamless communication and exceptional quality. With a commitment to on-time delivery, we provide both reliable service and unmatched craftsmanship.</p>
       </motion.div>
     </section>
   );

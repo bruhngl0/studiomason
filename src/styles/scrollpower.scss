@@ -5,6 +5,8 @@
     justify-content: center ;
      
     overflow-x: hidden;
+  
+   
    
   
     .about-inner-scrollpower {
@@ -12,17 +14,18 @@
       overflow: hidden;
       display: flex;
       flex-direction: row;
-      align-items: flex-start;
-      gap: 5rem;
-      margin-top: 20rem;
+      align-items: center;
+      gap: 0rem;
+      margin-top: 00rem;
       justify-content: flex-start;
       box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
-      background-image: url("../../public/zoom.png");
+      background-image: url("../../public/craftsmanship.jpg");
       background-size: cover;
+  
      
       
       
-     
+    
       
       >img{
         
@@ -36,11 +39,21 @@
       margin-left: 4rem;
     }
   }
-  
+    
   .layout-loa-scrollpower{
     margin-left: 3rem;
   }
 
+  .craftsmanship{
+    margin: 0 auto;
+    margin-top: 20rem;
+    font-size: 10rem;
+    font-style: italic;
+    font-family: cursive;
+    font-weight: bold;
+    padding-left: 20rem;
+    
+  }
 
   @media (max-width: 500px) {
     .about-container-scrollpower {

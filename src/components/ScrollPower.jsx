@@ -46,8 +46,8 @@ const ScrollPower = () => {
     });
 
     tl.to(innerDiv, {
-      width: '90vw',
-      height: '70vh',
+      width: '75vw',
+      height: '55vh',
       opacity: 1,
       scale: 1,
       duration: 5,
@@ -70,9 +70,11 @@ const ScrollPower = () => {
   }, []);
 
   return (
-    <div ref={containerRef} className="about-container-scrollpower">
-      <div ref={innerDivRef} className="about-inner-scrollpower">
-      </div>
+    <div className='scrollpower-main'> 
+       <p className='craftsmanship'>craftsmanship</p>
+      <div ref={containerRef} className="about-container-scrollpower">
+      <div ref={innerDivRef} className="about-inner-scrollpower"></div>
+    </div>
     </div>
   );
 };

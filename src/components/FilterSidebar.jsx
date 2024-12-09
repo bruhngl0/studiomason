@@ -62,7 +62,7 @@ const FilterSidebar = () => {
 
         
       ))}
-     <Link to= "/">
+     <Link to= "/screensix">
       <button>
         back
       </button>

@@ -5,11 +5,11 @@
   }
   
   .sticky-section {
-    width: 30%;
+    width: 40%;
     position: sticky;
     top: 0;
     height: 100vh;
-    background-color:#e5e7eb;
+    background-color:#e6d4c3;
     
     .content {
       
@@ -38,7 +38,7 @@
   
   .scroll-section {
     width: 70%;
-    background-color:  #e5e7eb;
+    background-color:  #e6d4c3;
   
     .scroll-item {
       height: 100vh;
@@ -49,11 +49,11 @@
      
       
       &:nth-child(odd) {
-        background-color: #e5e7eb;
+        background-color: #e6d4c3;
       }
   
       &:nth-child(even) {
-        background-color: #e5e7eb;
+        background-color: #e6d4c3;
       }
   
       h2 {

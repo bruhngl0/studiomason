@@ -1,8 +1,16 @@
 .supreme-container {
-    width: 80vw;
+    width: 100vw;
     margin: 0 auto;
     font-family: Arial, sans-serif;
-    margin-top: 8rem;
+  
+
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../public/concrete.jpg");
+    background-size: cover;
     
   }
   
@@ -25,6 +33,7 @@
     justify-content: space-between;
     height: 500px;
     position: relative;
+    width: 80vw;
     
   }
   

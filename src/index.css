@@ -5,7 +5,9 @@
   overflow-x: hidden;
   color-scheme: light dark;
   color: rgba(20, 19, 19, 0.87);
-  background-color:  rgb(92, 89, 89);
+  background-color:antiquewhite;
+
+  background-size: cover;
   margin: 0 auto;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,6 +17,7 @@
 
 a {
   font-weight: 500;
+ 
   color: #646cff;
   text-decoration: inherit;
 }
@@ -31,7 +34,7 @@ body {
 }
 
 h1 {
-
+  font-size: 2rem;
 
 }
 
@@ -40,14 +43,15 @@ button {
   border: 1px solid transparent;
   
   font-size: 0.7em;
-
+  color: rgb(80, 65, 65);
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: transparent;
   cursor: pointer;
   transition: border-color 0.25s;
+
 }
 button:hover {
-  border-color: #646cff;
+  text-decoration: underline;
 }
 button:focus,
 button:focus-visible {

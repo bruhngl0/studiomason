@@ -10,8 +10,35 @@ import About from './components/About'
 import ImageAni from './components/ImageAni'
 import ScrollHero from './components/ScrollHero';
 import ScreenSix from './components/ScreenSix';
+import Enquiry from './components/Enqury';
+
 
 import ClientOne from './components/ClientOne';
+
+
+const categoryOne = [
+  { id: 1, image1: 'vasef7.png', image2: 'vasef4.png', image3: 'vasef3.png', image4: 'vasef5.png', image5:'vasef.png', }, 
+];
+
+
+const categoryTwo = [
+  { id: 1, image1: 'vasef7.png', image2: 'vasef4.png', image3: 'vasef5.png', image4: 'vasef3.png', image5:'vasef.png', },  
+];
+const categoryThree = [
+  { id: 1, image1: 'vasef7.png', image2: 'vasef4.png', image3: 'vasef5.png', image4: 'vasef3.png', image5:'vasef.png', },  
+];
+const categoryFour = [
+  { id: 1, image1: 'vasef7.png', image2: 'vasef4.png', image3: 'vasef5.png', image4: 'vasef3.png', image5:'vasef.png', },  
+];
+const categoryFive = [
+  { id: 1, image1: 'vasef7.png', image2: 'vasef4.png', image3: 'vasef5.png', image4: 'vasef3.png', image5:'vasef.png', },  
+];
+const categorySix = [
+  { id: 1, image1: 'vasef7.png', image2: 'vasef4.png', image3: 'vasef5.png', image4: 'vasef3.png', image5:'vasef.png', },  
+];
+
+
+
 
 function App() {
 
@@ -21,7 +48,14 @@ function App() {
       <Routes>
         <Route path= "/" element= {<ScrollHero />}/>
         <Route path= "/screensix" element= {< ScreenSix/>} />
-        <Route path= "/category-one" element= {< ClientOne/>} />
+        <Route path= "/bespoke" element= {<Clients/>} />
+        <Route path= "/enquiry" element= {<Enquiry /> } />
+        <Route path= "/category-one" element= {<ClientOne props = {categoryOne} />} />
+        <Route path= "/category-two" element = {<ClientOne props = {categoryTwo}/>} />
+        <Route path= "/category-three" element = {<ClientOne props = {categoryThree}/>} />
+        <Route path= "/category-four" element = {<ClientOne props = {categoryFour}/>} />
+        <Route path= "/category-five" element = {<ClientOne props = {categoryFive}/>} />
+        <Route path= "/category-six" element = {<ClientOne props = {categorySix}/>} />
 
    
 
