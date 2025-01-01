@@ -86,7 +86,7 @@ const Products = () => {
                   onClick={() => handleImageClick( "product-1")}
                 >
                   <img 
-                    src="one.jpg" 
+                    src="scrollpot1.png" 
                     alt="Product" 
                     className="scroll-image"
                   />
@@ -100,7 +100,7 @@ const Products = () => {
                   onClick={() => handleImageClick( "product-2")}
                 >
                   <img 
-                    src="two.jpg" 
+                    src="scrollpot2.png" 
                     alt="Product" 
                     className="scroll-image"
                   />
@@ -111,15 +111,15 @@ const Products = () => {
                 
               </div>
               <div className="scroll-item-two">
-                <img src = "three.jpg" />
-                <img src = "six.jpg" />
+                <img src = "scrollpot4.png" />
+                <img src = "scrollpot5.png" />
                 
               </div>
 
               <div className="scroll-item-three">
 
-                <img src = "five.jpg" />
-                <img src = "six.jpg" />
+                <img src = "pot11.png" />
+                <img src = "scrollpot7.png" />
                 
               </div>
           

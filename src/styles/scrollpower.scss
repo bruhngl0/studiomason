@@ -1,3 +1,20 @@
+
+@font-face {
+  font-family: 'cool';
+  src: url('../../public/coolmain.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  color: black;
+}
+
+.scrollpower-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .about-container-scrollpower {
     
     display: flex;
@@ -46,12 +63,13 @@
 
   .craftsmanship{
     margin: 0 auto;
-    margin-top: 20rem;
-    font-size: 10rem;
-    font-style: italic;
-    font-family: cursive;
+    margin-top: 30rem;
+    font-size: 9rem;
+
+  color: rgb(13, 13, 14);
+    font-family: cool;
     font-weight: bold;
-    padding-left: 20rem;
+
     
   }
 
@@ -61,7 +79,8 @@
       display: flex;
       align-items: center;
       justify-content: center ;
-       
+       display: flex;
+
      
      
     
@@ -72,7 +91,7 @@
         flex-direction: row;
         align-items: center;
         gap: 0rem;
-        margin-top: 5rem;
+        margin-top: 2rem;
         justify-content: center;
         box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
         background-image: url("../../public/zoom.png");
@@ -97,5 +116,18 @@
     
     .layout-loa-scrollpower{
       margin-left: 3rem;
+    }
+
+
+    .craftsmanship{
+      margin: 0 auto;
+      margin-top: 13rem;
+      font-size: 2.5rem;
+
+    color: rgb(13, 13, 14);
+      font-family: cool;
+      font-weight: bold;
+      display: flex;
+      
     }
 }

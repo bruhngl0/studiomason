@@ -7,7 +7,7 @@ const ImageAni = () => {
   return (
     <div className= "imageani-main">
         <div className='imageani-heading'>
-            <h2> <span className='italic'>MADE BY<br/></span>STUDIO MASON,<br/><span className='italic'>CREATED WITH</span> LOVE</h2>
+            <h2> MADE BY <br/>STUDIO MASON, <br/> CREATED WITH LOVE</h2>
         </div>
 
         <div className='imageani-para'>

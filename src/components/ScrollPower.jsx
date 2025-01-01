@@ -71,7 +71,7 @@ const ScrollPower = () => {
 
   return (
     <div className='scrollpower-main'> 
-       <p className='craftsmanship'>craftsmanship</p>
+       <p className='craftsmanship'>CRAFTSMANSHIP</p>
       <div ref={containerRef} className="about-container-scrollpower">
       <div ref={innerDivRef} className="about-inner-scrollpower"></div>
     </div>
