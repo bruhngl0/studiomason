@@ -6,21 +6,25 @@
 .title{
     padding-top: 0rem;
     font-size: 2rem;
+    padding-left: 1rem;
   }
 
   .des{
     padding-top: 0rem;
     font-size: 0.8rem;
+    padding-left: 1rem;
   }
  
   .name{
     padding-top: 0rem ;
     font-size: 2rem;
+    padding-left: 1rem;
   }
 
   .desc-1{
   margin-top: 1rem;
   font-size: 0.8rem;
+  padding-left: 1rem;
   
   }
   
@@ -46,8 +50,8 @@
     justify-content: flex-start;
     align-items: flex-start;
     transition: transform 0.5s ease, opacity 0.5s ease;
-    background-color: rgba(245, 245, 246, 1);
-    padding: 20px;
+    background-color: rgb(234, 218, 184);
+    margin: 20px;
     margin: 0 auto;
     width: 100%;
     box-shadow: 0 2px 3px rgba(222, 216, 216, 0.1);
@@ -95,11 +99,11 @@
       height: 400vh;
       display: flex;
       flex-direction: column;
-      width: 89vw;
+      width: 100%
     }
   
     .project-card img {
-      width: 100%;
+      width: 90%;
       height: auto;
     }
   }

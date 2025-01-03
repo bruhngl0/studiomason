@@ -24,18 +24,13 @@
     display: flex;
     flex-direction: row;
     color: black;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-   
+
     margin-top: 20vh;
 }
-.about-logo{
-    font-size: 10rem;
-    width: 0%;
-    padding-left: 2rem;
-    color: black;
-    padding-top: 2rem;
-    
-}
+
 
 
 
@@ -47,7 +42,8 @@
     color: black;
     font-size: 2rem;
     width: 40%;
-    margin-left: 28rem;
+
+  
   
    
   
@@ -112,6 +108,7 @@
     list-style-type: none;
     list-style-position: inside;
     font-size: 2rem;
+
   }
   
   .about-reach ul li::before {
@@ -139,16 +136,17 @@
 }
 
 
-.about-three{
-    height: 140vh;
-  
-    width: 100%;
-    
+.logo-div{
+  width: 40%;
+  margin-left: 0.5rem;
 }
 
 
 .logo{
-  display: none;
+
+ padding-top: 6rem;
+ padding-left: 2rem;
+ width: 300px;
 }
 
 @media (max-width: 500px) {
@@ -161,7 +159,7 @@
         height: auto;
         font-family: cool;
         color: black;
-         background-color: #e5e7eb;
+      
          width: 100%;
     }
     
@@ -174,14 +172,7 @@
         
         margin-top: 0vh;
     }
-    .about-logo{
-        font-size: 5rem;
-        width: 0%;
-        padding-left: 2rem;
-        color: black;
-        padding-top: 2rem;
-        
-    }
+  
     
     
     

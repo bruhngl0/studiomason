@@ -10,9 +10,9 @@ const About = () => {
   return (
     <div className='about-main'>
       <div className='about-one'>
-       
+       <div className='logo-div'>
        <img src = "logo2.png" className='logo' />
-
+       </div>
       <div className='about-menu'>
         <ul>
           <li>CONCRETE/FURNITURE DESIGN</li>

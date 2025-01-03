@@ -17,7 +17,7 @@ import ClientOne from './components/ClientOne';
 
 
 const categoryOne = [
-  { id: 1, image1: 'vasef7.png', image2: 'vasef4.png', image3: 'vasef3.png', image4: 'vasef5.png', image5:'vasef.png', }, 
+  { id: 1, image1: 'riovase1.jpg', image2: 'riovase2.jpg', image3: 'riovase3.jpg', image4: 'riovase5.jpg', image5:'riovase4.jpg', }, 
 ];
 
 
