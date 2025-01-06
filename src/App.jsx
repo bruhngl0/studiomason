@@ -56,6 +56,7 @@ function App() {
         <Route path= "/category-four" element = {<ClientOne props = {categoryFour}/>} />
         <Route path= "/category-five" element = {<ClientOne props = {categoryFive}/>} />
         <Route path= "/category-six" element = {<ClientOne props = {categorySix}/>} />
+        <Route path= "/products" element={<Products />} />
 
    
 

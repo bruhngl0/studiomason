@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState} from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Hero from './Hero';
 import ImageAni from './ImageAni';
+import { useNavigate } from 'react-router-dom';
 
 import '../styles/products.scss';
 
@@ -14,6 +15,7 @@ const Products = () => {
   const [productDataSelect, setProductDataSelect] = useState(null)
 
 
+  const navigate = useNavigate()
 
 
 
@@ -22,7 +24,7 @@ const Products = () => {
   const productData = [
     {
       id: "product-1",
-      image: "love2.png",
+      image:  "scrollpot1.png",
       name: "Love Pot",
       description: "A beautiful pot to show your love and affection.",
       price: "$39.99",
@@ -36,6 +38,62 @@ const Products = () => {
     {
       id: "product-2",
       image: "scrollpot2.png",
+      name: "Scroll Pot",
+      description: "A modern pot with a classic scroll design.",
+      price: "$29.99",
+      features: ["Feature A description", "Feature B description", "Feature C description"],
+      specifications: {
+        dimension: "15 x 20 cm",
+        weight: "300g",
+        material: "Ceramic"
+      }
+    },
+
+    {
+      id: "product-4",
+      image: "scrollpot4.png",
+      name: "Scroll Pot",
+      description: "A modern pot with a classic scroll design.",
+      price: "$29.99",
+      features: ["Feature A description", "Feature B description", "Feature C description"],
+      specifications: {
+        dimension: "15 x 20 cm",
+        weight: "300g",
+        material: "Ceramic"
+      }
+    },
+
+    {
+      id: "product-5",
+      image: "scrollpot5.png",
+      name: "Scroll Pot",
+      description: "A modern pot with a classic scroll design.",
+      price: "$29.99",
+      features: ["Feature A description", "Feature B description", "Feature C description"],
+      specifications: {
+        dimension: "15 x 20 cm",
+        weight: "300g",
+        material: "Ceramic"
+      }
+    },
+
+    {
+      id: "product-6",
+      image: "pot11.png",
+      name: "Scroll Pot",
+      description: "A modern pot with a classic scroll design.",
+      price: "$29.99",
+      features: ["Feature A description", "Feature B description", "Feature C description"],
+      specifications: {
+        dimension: "15 x 20 cm",
+        weight: "300g",
+        material: "Ceramic"
+      }
+    },
+
+    {
+      id: "product-7",
+      image: "scrollpot7.png",
       name: "Scroll Pot",
       description: "A modern pot with a classic scroll design.",
       price: "$29.99",
@@ -63,6 +121,7 @@ const Products = () => {
     setSelectedImage(null);
     setSelectedId(null);
     setProductDataSelect(null)
+   
   };
 
   return (
@@ -108,18 +167,76 @@ const Products = () => {
              
                 </motion.div>
                 </div>
+
+
+                
                 
               </div>
               <div className="scroll-item-two">
-                <img src = "scrollpot4.png" />
-                <img src = "scrollpot5.png" />
+
+              <div className='image-container-love'>
+                <motion.div 
+                  className="image-container-scroll"
+                  layoutId="product-4"
+                  onClick={() => handleImageClick( "product-4")}
+                >
+                  <img 
+                    src="scrollpot4.png" 
+                    alt="Product" 
+                    className="scroll-image"
+                  />
+
+             
+                </motion.div>
+
+                <motion.div 
+                  className="image-container-scroll"
+                  layoutId="product-5"
+                  onClick={() => handleImageClick( "product-5")}
+                >
+                  <img 
+                    src="scrollpot5.png" 
+                    alt="Product" 
+                    className="scroll-image"
+                  />
+
+             
+                </motion.div>
+                </div>
                 
               </div>
 
               <div className="scroll-item-three">
 
-                <img src = "pot11.png" />
-                <img src = "scrollpot7.png" />
+              <div className='image-container-love'>
+                <motion.div 
+                  className="image-container-scroll"
+                  layoutId="product-6"
+                  onClick={() => handleImageClick( "product-6")}
+                >
+                  <img 
+                    src="pot11.png" 
+                    alt="Product" 
+                    className="scroll-image"
+                  />
+
+             
+                </motion.div>
+
+                <motion.div 
+                  className="image-container-scroll"
+                  layoutId="product-7"
+                  onClick={() => handleImageClick( "product-7")}
+                >
+                  <img 
+                    src="scrollpot7.png" 
+                    alt="Product" 
+                    className="scroll-image"
+                  />
+
+             
+                </motion.div>
+                </div>
                 
               </div>
           

@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import '../styles/hero.scss';
 import { p } from 'framer-motion/m';
+import { Link } from 'react-router-dom';
 
 const Hero = ({ image, onClose, layoutId, productData }) => {
 
@@ -16,9 +17,9 @@ const Hero = ({ image, onClose, layoutId, productData }) => {
     >
       <motion.div 
         className="hero-transition-background"
-        initial={{ opacity: 0 }}
+        initial={{ opacity: 1 }}
         animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
+        exit={{ opacity: 1 }}
       />
       
       <motion.div
@@ -27,17 +28,18 @@ const Hero = ({ image, onClose, layoutId, productData }) => {
         transition={{ delay: 0.5 }}
         className="hero-header"
       >
-        <button onClick={onClose} className="back-button">
+        <Link to = "/products">       <button onClick={onClose} className="back-button">
           ← Back
-        </button>
+        </button>  </Link>
+
       </motion.div>
 
       <div className="main-content">
         <div className="hero-image-wrapper">
           <motion.div
             layoutId={layoutId}
-            initial={{ y: 90, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
+            initial={{ y: 1, opacity: 1 }}
+            animate={{ y: 1, opacity: 1 }}
             
             className="hero-image-container"
           >
