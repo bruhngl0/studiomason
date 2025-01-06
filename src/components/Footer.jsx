@@ -13,9 +13,9 @@ const Footer = () => {
       </div>
      <div className='footer-two'>
         <div className='footer-two-one'>
-        <h1>UNNSSRY</h1>
+        <h1>STUDIO MASON</h1>
         <div className='footer-two-one-two'>
-        <p>@BAW STUDIO</p>
+        <p>@STUDIO MASON</p>
         <p>25/26 BMT COMPLEX 560025</p>
         <p>BANGALORE, INDIA</p>
         </div>
@@ -29,8 +29,8 @@ const Footer = () => {
 
         <div className='footer-two-two'>
             
-         <p style = {{paddingTop: "1.5rem"}}>01/ UNNSSRY</p>
-         <p style = {{paddingTop: "1.5rem"}}>ABOUT UNNSSRY</p>
+         <p style = {{paddingTop: "1.5rem"}}>01/ MASON</p>
+         <p style = {{paddingTop: "1.5rem"}}>ABOUT STUDIO MASON</p>
      
          <p style = {{paddingTop: "2px"}}>CONTACT</p>
          <p style = {{paddingTop: "2px"}}>BECOME A DEALER</p>

@@ -1,10 +1,11 @@
 import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import image1 from "../../public/cat1.png"
-import image2 from "../../public/cat2.png"
-import image3 from "../../public/cat3.png"
-import image4 from "../../public/cat4.png"
+import image1 from "../../public/rio_1.jpg"
+import image2 from "../../public/rio_2.jpg"
+import image3 from "../../public/rio_3.jpg"
+import image4 from "../../public/rio_4.jpg"
+import image5 from "../../public/rio_5.jpg"
 
 
 import "../styles/screensix.scss"
@@ -19,7 +20,7 @@ const ScreenSix = () => {
       { image: image2, color: 'red', text: 'Item 2', content: 'Detailed info about Item 2', id: 2, route: '/category-two' },
       { image: image3, color: 'blue', text: 'Item 3', content: 'Detailed info about Item 3', id: 3, route: '/category-three' },
       { image: image4, color: 'gray', text: 'Item 4', content: 'Detailed info about Item 4', id: 4, route: '/category-four' },
-      { image: image2, color: 'yellow', text: 'Item 5', content: 'Detailed info about Item 5', id: 5, route: '/category-five' },
+      { image: image5, color: 'yellow', text: 'Item 5', content: 'Detailed info about Item 5', id: 5, route: '/category-five' },
       { image: image1, color: 'navy', text: 'Item 6', content: 'Detailed info about Item 6', id: 6, route: '/category-six' },
      
       
