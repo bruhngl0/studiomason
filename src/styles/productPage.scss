@@ -1,0 +1,21 @@
+
+
+.product-carousel {
+    max-width: 600px;
+    margin: 0 auto;
+  
+    .slick-slide img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+  
+    .slick-dots {
+      bottom: -30px;
+    }
+  
+    .slick-prev,
+    .slick-next {
+      z-index: 10;
+    }
+  }

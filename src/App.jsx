@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css'
-
+import bigPlanters from './products/bigPlanters';
 
 
 import Products from './components/Products'
@@ -11,9 +11,11 @@ import ImageAni from './components/ImageAni'
 import ScrollHero from './components/ScrollHero';
 import ScreenSix from './components/ScreenSix';
 import Enquiry from './components/Enqury';
+import ProductPage from './components/ProductPage';
 
 
 import ClientOne from './components/ClientOne';
+import TestComp from './components/TestComp';
 
 
 const categoryOne = [
@@ -56,6 +58,9 @@ function App() {
         <Route path= "/category-four" element = {<ClientOne props = {categoryFour}/>} />
         <Route path= "/category-five" element = {<ClientOne props = {categoryFive}/>} />
         <Route path= "/category-six" element = {<ClientOne props = {categorySix}/>} />
+        <Route path= "/test-comp" element = {<TestComp props = {bigPlanters}/>} />
+        <Route path="/product/:id" element={<ProductPage />} />
+
         <Route path= "/products" element={<Products />} />
 
    
