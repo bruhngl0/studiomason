@@ -43,9 +43,9 @@ import image24 from "../../public/bigPlanters/groovecylinder/groovecylinder_1.jp
 
 import image25 from "../../public/bigPlanters/KazePlanter/KazePlanter.webp"
 
-import image26 from "../../public/bigPlanters/Knotted/Knotted_1.webp"
-import image27 from "../../public/bigPlanters/Knotted/Knotted_2.webp"
-import image28 from "../../public/bigPlanters/Knotted/Knotted_3.webp"
+import image26 from "../../public/bigPlanters/Knotted/knotted_1.webp"
+import image27 from "../../public/bigPlanters/Knotted/knotted_2.webp"
+import image28 from "../../public/bigPlanters/Knotted/knotted_3.webp"
 
 import image29 from "../../public/bigPlanters/LeafEmborsed/leafEmbrosed_1.webp"
 
