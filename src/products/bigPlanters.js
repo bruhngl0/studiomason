@@ -50,7 +50,7 @@ import image28 from "../../public/bigPlanters/Knotted/knotted_3.webp"
 import image29 from "../../public/bigPlanters/LeafEmborsed/leafEmbrosed_1.webp"
 
 
-import image30 from "../../public/bigPlanters/MatkaShapeBroad/MatkaShapeBoard.webp"
+import image30 from "../../public/bigPlanters/MatkaShapeBroad/matkaShapeBoard.webp"
 
 import image31 from "../../public/bigPlanters/MatkaShapeNarrow/matkaShapedNarrow_1.webp"
 
