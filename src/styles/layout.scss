@@ -1,6 +1,7 @@
 .layout-one {
     display: flex;
-    width: 360px; /* Set the width to fit one image */
+    width: 400px;
+    height: auto;
     overflow-x: hidden;
     margin: 10px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -12,21 +13,21 @@
   }
   
   .image-container img {
-    width: 360px; /* Each image takes up the full width of the container */
-    height: auto; /* Maintain aspect ratio */
+    width: 400px; /* Each image takes up the full width of the container */
+    height: 400px; /* Maintain aspect ratio */
   }
   
   /* CSS classes to handle the right-to-left sliding effect */
   .image-0 {
-    transform: translateX(0); /* First image visible */
+    transform: translateX(400px); /* First image visible */
   }
   
   .image-1 {
-    transform: translateX(-660px); /* Second image slides in from the right */
+    transform: translateX(800px); /* Second image slides in from the right */
   }
   
   .image-2 {
-    transform: translateX(-330px); /* Third image slides in from the right */
+    transform: translateX(1200px); /* Third image slides in from the right */
   }
   
 

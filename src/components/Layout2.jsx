@@ -21,10 +21,13 @@ const Layout2 = () => {
 
   return (
     <div className="layout-two">
-      <div className={`image-container-two image-${currentImageIndex}`}>
-        <img src="pot13.png" alt="frame1" />
-        <img src="pot5.png" alt="frame2" />
-        <img src="pot6.png" alt="frame3" />
+      <div className={`image-container-two image-${currentImageIndex}`} style={{
+          transform: `translateX(-${currentImageIndex * 400}px)`, // Dynamically update position
+          transition: 'transform 1s ease-in-out', // Smooth transition
+        }}>
+        <img src="image_4.jpg" alt="frame1" />
+        <img src="image_5.jpg" alt="frame2" />
+        <img src="image_6.jpg" alt="frame3" />
       </div>
     </div>
   );
