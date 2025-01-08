@@ -22,7 +22,7 @@ const TestComp = ({}) => {
      <div className='client-one-col2-raja'>
       <div className='client-one-col2'>
       <Link to={`/product/${bigPlanters[0].id}`} className="client-one-col2">
-              <img src={bigPlanters[0].images[0]} className="vase1" alt="Product" />
+              <img src={bigPlanters[0].images[2]} className="vase1" alt="Product" />
      </Link>
       </div>
 
@@ -30,16 +30,18 @@ const TestComp = ({}) => {
 
       <div className='client-one-col3-grid1'>    
          <div className='client-one-col3-grid1-1'>
-           <img src = {bigPlanters[1].images[0]} />
+         <Link to={`/product/${bigPlanters[3].id}`} className="client-one-col3-grid1-1">
+           <img src = {bigPlanters[3].images[2]} />
+           </Link>
          </div>
          <div className='client-one-col3-grid1-2'>
-           <img src = {bigPlanters[2].images[0]} />
+           <img src = {bigPlanters[2].images[2]} />
          </div>
        </div>
        
        <div className='client-one-col3-grid2'> 
         <div className='client-one-col3-grid1-3'>
-        <img src = {bigPlanters[3].images[0]} />
+        <img src = {bigPlanters[1].images[1]} />
         </div>
         <div className='client-one-col3-grid1-4'>
         <img src = {bigPlanters[4].images[0]} /> 
@@ -54,23 +56,27 @@ const TestComp = ({}) => {
       <div className='client-one-col3'>
       <div className='client-one-col3-grid1'>    
          <div className='client-one-col3-grid1-1'>
-           <img src = {bigPlanters[1].images[0]} />
+         <Link to={`/product/${bigPlanters[5].id}`} className="client-one-col3-grid1-1">
+           <img src = {bigPlanters[5].images[0]} />
+           </Link>?
          </div>
          <div className='client-one-col3-grid1-2'>
-           <img src = {bigPlanters[2].images[0]} />
+           <img src = {bigPlanters[6].images[0]} />
          </div>
        </div>
        <div className='client-one-col3-grid2'> 
         <div className='client-one-col3-grid1-3'>
-        <img src = {bigPlanters[3].images[0]} />
+        <img src = {bigPlanters[7].images[0]} />
         </div>
         <div className='client-one-col3-grid1-4'>
-        <img src = {bigPlanters[4].images[0]} /> 
+        <img src = {bigPlanters[8].images[1]} /> 
         </div>
        </div>
        </div>
        <div className='client-one-col2'>
-         <img src= {bigPlanters[0].images[0]} className='vase1' />
+       <Link to={`/product/${bigPlanters[9].id}`} className="client-one-col2">
+         <img src= {bigPlanters[9].images[0]} className='vase1' />
+         </Link>
       </div>
       </div>
 
@@ -79,26 +85,30 @@ const TestComp = ({}) => {
 
       <div className='client-one-col2-raja'>
       <div className='client-one-col2'>
-         <img src= {bigPlanters[0].images[0]} className='vase1' />
+      <Link to={`/product/${bigPlanters[10].id}`} className="client-one-col2">
+         <img src= {bigPlanters[10].images[0]} className='vase1' />
+         </Link>
       </div>
 
       <div className='client-one-col3'>
 
       <div className='client-one-col3-grid1'>    
          <div className='client-one-col3-grid1-1'>
-           <img src = {bigPlanters[1].images[0]} />
+         <Link to={`/product/${bigPlanters[11].id}`} className="client-one-col3-grid1-1">
+           <img src = {bigPlanters[11].images[1]} />
+           </Link>
          </div>
          <div className='client-one-col3-grid1-2'>
-           <img src = {bigPlanters[2].images[0]} />
+           <img src = {bigPlanters[14].images[0]} />
          </div>
        </div>
        
        <div className='client-one-col3-grid2'> 
         <div className='client-one-col3-grid1-3'>
-        <img src = {bigPlanters[3].images[0]} />
+        <img src = {bigPlanters[13].images[0]} />
         </div>
         <div className='client-one-col3-grid1-4'>
-        <img src = {bigPlanters[4].images[0]} /> 
+        <img src = {bigPlanters[12].images[0]} /> 
         </div>
        </div>
        </div>
@@ -109,48 +119,52 @@ const TestComp = ({}) => {
       <div className='client-one-col3'>
       <div className='client-one-col3-grid1'>    
          <div className='client-one-col3-grid1-1'>
-           <img src = {bigPlanters[1].images[0]} />
+           <img src = {bigPlanters[15].images[0]} />
          </div>
          <div className='client-one-col3-grid1-2'>
-           <img src = {bigPlanters[2].images[0]} />
+           <img src = {bigPlanters[16].images[0]} />
          </div>
        </div>
        <div className='client-one-col3-grid2'> 
         <div className='client-one-col3-grid1-3'>
-        <img src = {bigPlanters[3].images[0]} />
+        <img src = {bigPlanters[17].images[1]} />
         </div>
         <div className='client-one-col3-grid1-4'>
-        <img src = {bigPlanters[4].images[0]} /> 
+        <img src = {bigPlanters[18].images[0]} /> 
         </div>
        </div>
        </div>
        <div className='client-one-col2'>
-         <img src= {bigPlanters[0].images[0]} className='vase1' />
+       <Link to={`/product/${bigPlanters[19].id}`} className="client-one-col2">
+         <img src= {bigPlanters[19].images[0]} className='vase1' />
+         </Link>
       </div>
       </div>
 
       <div className='client-one-col2-raja'>
       <div className='client-one-col2'>
-         <img src= {bigPlanters[0].images[0]} className='vase1' />
+      <Link to={`/product/${bigPlanters[20].id}`} className="client-one-col2">
+         <img src= {bigPlanters[20].images[1]} className='vase1' />
+         </Link>
       </div>
 
       <div className='client-one-col3'>
 
       <div className='client-one-col3-grid1'>    
          <div className='client-one-col3-grid1-1'>
-           <img src = {bigPlanters[1].images[0]} />
+           <img src = {bigPlanters[21].images[0]} />
          </div>
          <div className='client-one-col3-grid1-2'>
-           <img src = {bigPlanters[2].images[0]} />
+           <img src = {bigPlanters[22].images[0]} />
          </div>
        </div>
        
        <div className='client-one-col3-grid2'> 
         <div className='client-one-col3-grid1-3'>
-        <img src = {bigPlanters[3].images[0]} />
+        <img src = {bigPlanters[23].images[1]} />
         </div>
         <div className='client-one-col3-grid1-4'>
-        <img src = {bigPlanters[4].images[0]} /> 
+        <img src = {bigPlanters[24].images[0]} /> 
         </div>
        </div>
        </div>
@@ -162,23 +176,25 @@ const TestComp = ({}) => {
       <div className='client-one-col3'>
       <div className='client-one-col3-grid1'>    
          <div className='client-one-col3-grid1-1'>
-           <img src = {bigPlanters[1].images[0]} />
+           <img src = {bigPlanters[25].images[0]} />
          </div>
          <div className='client-one-col3-grid1-2'>
-           <img src = {bigPlanters[2].images[0]} />
+           <img src = {bigPlanters[26].images[0]} />
          </div>
        </div>
        <div className='client-one-col3-grid2'> 
         <div className='client-one-col3-grid1-3'>
-        <img src = {bigPlanters[3].images[0]} />
+        <img src = {bigPlanters[27].images[1]} />
         </div>
         <div className='client-one-col3-grid1-4'>
-        <img src = {bigPlanters[4].images[0]} /> 
+        <img src = {bigPlanters[28].images[0]} /> 
         </div>
        </div>
        </div>
        <div className='client-one-col2'>
-         <img src= {bigPlanters[0].images[0]} className='vase1' />
+       <Link to={`/product/${bigPlanters[27].id}`} className="client-one-col2">
+         <img src= {bigPlanters[27].images[0]} className='vase1' />
+         </Link>
       </div>
       </div>
 

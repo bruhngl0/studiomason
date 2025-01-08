@@ -47,7 +47,7 @@ const ScrollPower = () => {
 
     tl.to(innerDiv, {
       width: '75vw',
-      height: '55vh',
+      height: '70vh',
       opacity: 1,
       scale: 1,
       duration: 5,

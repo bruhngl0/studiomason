@@ -7,6 +7,13 @@ import { useNavigate } from 'react-router-dom';
 import '../styles/products.scss';
 
 
+import image1 from "../../public/mainSix/face.webp"
+import image2 from "../../public/mainSix/furniture.webp"
+import image3 from "../../public/mainSix/POT.webp"
+import image4 from "../../public/mainSix/ribmat.webp"
+import image5 from "../../public/mainSix/squarebox.webp"
+import image6 from "../../public/mainSix/stoneseries.webp"
+
 
 
 const Products = () => {
@@ -24,7 +31,7 @@ const Products = () => {
   const productData = [
     {
       id: "product-1",
-      image:  "masterRio1.jpg",
+      image:  image1,
       name: "Love Pot",
       description: "A beautiful pot to show your love and affection.",
       price: "$39.99",
@@ -37,7 +44,7 @@ const Products = () => {
     },
     {
       id: "product-2",
-      image: "masterRio2.jpg",
+      image: image2,
       name: "Scroll Pot",
       description: "A modern pot with a classic scroll design.",
       price: "$29.99",
@@ -51,7 +58,7 @@ const Products = () => {
 
     {
       id: "product-3",
-      image: "masterRio3.jpg",
+      image: image3,
       name: "Scroll Pot",
       description: "A modern pot with a classic scroll design.",
       price: "$29.99",
@@ -65,7 +72,7 @@ const Products = () => {
 
     {
       id: "product-4",
-      image: "masterRio4.jpg",
+      image: image4,
       name: "Scroll Pot",
       description: "A modern pot with a classic scroll design.",
       price: "$29.99",
@@ -79,7 +86,7 @@ const Products = () => {
 
     {
       id: "product-5",
-      image: "rioMaster5.jpg",
+      image: image5,
       name: "Scroll Pot",
       description: "A modern pot with a classic scroll design.",
       price: "$29.99",
@@ -93,7 +100,7 @@ const Products = () => {
 
     {
       id: "product-6",
-      image: "rioMaster6.jpg",
+      image: image6,
       name: "Scroll Pot",
       description: "A modern pot with a classic scroll design.",
       price: "$29.99",
@@ -142,10 +149,10 @@ const Products = () => {
                 <motion.div 
                   className="image-container-scroll"
                   layoutId="product-1"
-                  onClick={() => handleImageClick( "product-1")}
+                  onClick={() => handleImageClick( "product-5")}
                 >
                   <img 
-                    src="masterRio1.jpg" 
+                    src={image5}
                     alt="Product" 
                     className="scroll-image"
                   />
@@ -159,7 +166,7 @@ const Products = () => {
                   onClick={() => handleImageClick( "product-2")}
                 >
                   <img 
-                    src="masterRio2.jpg" 
+                    src= {image2}
                     alt="Product" 
                     className="scroll-image"
                   />
@@ -178,10 +185,10 @@ const Products = () => {
                 <motion.div 
                   className="image-container-scroll"
                   layoutId="product-3"
-                  onClick={() => handleImageClick( "product-3")}
+                  onClick={() => handleImageClick( "product-6")}
                 >
                   <img 
-                    src="masterRio3.jpg" 
+                    src= {image6}
                     alt="Product" 
                     className="scroll-image"
                   />
@@ -195,7 +202,7 @@ const Products = () => {
                   onClick={() => handleImageClick( "product-4")}
                 >
                   <img 
-                    src="masterRio4.jpg" 
+                    src= {image4} 
                     alt="Product" 
                     className="scroll-image"
                   />
@@ -212,10 +219,10 @@ const Products = () => {
                 <motion.div 
                   className="image-container-scroll"
                   layoutId="product-5"
-                  onClick={() => handleImageClick( "product-5")}
+                  onClick={() => handleImageClick( "product-1")}
                 >
                   <img 
-                    src="rioMaster5.jpg" 
+                    src= {image1}
                     alt="Product" 
                     className="scroll-image"
                   />
@@ -226,10 +233,10 @@ const Products = () => {
                 <motion.div 
                   className="image-container-scroll"
                   layoutId="product-6"
-                  onClick={() => handleImageClick( "product-6")}
+                  onClick={() => handleImageClick( "product-3")}
                 >
                   <img 
-                    src="masterRio6.jpg" 
+                    src= {image3} 
                     alt="Product" 
                     className="scroll-image"
                   />

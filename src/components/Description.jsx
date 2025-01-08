@@ -1,8 +1,8 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import { motion, useInView } from 'framer-motion';
 import "../styles/description.scss";
 
-const Description = ({  threshold = 0.4 }) => {
+const Description = ({ threshold = 0.4 }) => {
   const textRef = useRef(null);
   const imageRef = useRef(null);
 
@@ -15,6 +15,25 @@ const Description = ({  threshold = 0.4 }) => {
     amount: threshold,
     once: false, // Same replay logic
   });
+
+  const [currentImage, setCurrentImage] = useState(0);
+
+  const images = [
+   
+   
+    "founders_together1.jpg",
+    "team.jpg",
+    "founder_2.jpg",
+    "founder_1.jpg",
+  ];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prevIndex) => (prevIndex + 1) % images.length);
+    }, 2000); // Change image every 2 seconds
+
+    return () => clearInterval(interval); // Cleanup on component unmount
+  }, [images.length]);
 
   const textVariants = {
     hidden: {
@@ -56,7 +75,7 @@ const Description = ({  threshold = 0.4 }) => {
         initial="hidden"
         animate={isImageInView ? "visible" : "hidden"}
       >
-        <img src= "team.jpeg" alt="Decorative Item" />
+        <img src={images[currentImage]} alt={`Decorative Item ${currentImage + 1}`} />
       </motion.div>
 
       {/* Text Section */}
@@ -68,11 +87,21 @@ const Description = ({  threshold = 0.4 }) => {
         animate={isTextInView ? "visible" : "hidden"}
       >
         <h1>MEET THE TEAM</h1>
-        <p> Based in Bangalore, we create premium furniture and decor using High-Performance Concrete (HPC), combining industrial strength with contemporary design. Each handmade piece reflects meticulous craftsmanship, durability, and refined functionality. <br/> <br/> We excel in custom creations tailored to your vision, ensuring seamless communication and exceptional quality. With a commitment to on-time delivery, we provide both reliable service and unmatched craftsmanship.</p>
-        <p> Based in Bangalore, we create premium furniture and decor using High-Performance Concrete (HPC), combining industrial strength with contemporary design. Each handmade piece reflects meticulous craftsmanship, durability, and refined functionality.<br/> <br/> We excel in custom creations tailored to your vision, ensuring seamless communication and exceptional quality. With a commitment to on-time delivery, we provide both reliable service and unmatched craftsmanship.</p>
+        <p>
+        At Studio Mason, we manufacture premium furniture and decor crafted from High-Performance
+Concrete (HPC) and are based in the garden city of Bangalore - India.<br/> <br/>We bring together the
+strength of industrial-grade materials with the sophistication of contemporary design, producing
+pieces that are not only durable but also refined and functional.<br/> <br/>Each item is handmade,
+showcasing our meticulous eye for detail and commitment to quality. We take pride in our
+flexibility to customize creations to fit your unique vision, with a streamlined communication
+process that ensures clarity and ease every step of the way. At Studio Mason, we are dedicated to
+delivering on time, every time, so you can count on us for both exceptional craftsmanship and
+reliable service.
+        </p>
       </motion.div>
     </section>
   );
 };
 
 export default Description;
+

@@ -13,9 +13,12 @@ import ScreenSix from './components/ScreenSix';
 import Enquiry from './components/Enqury';
 import ProductPage from './components/ProductPage';
 
+import smallPlanters from './products/smallPlanters';
+
 
 import ClientOne from './components/ClientOne';
 import TestComp from './components/TestComp';
+import TestComp2 from './components/TestComp2';
 
 
 const categoryOne = [
@@ -59,6 +62,7 @@ function App() {
         <Route path= "/category-five" element = {<ClientOne props = {categoryFive}/>} />
         <Route path= "/category-six" element = {<ClientOne props = {categorySix}/>} />
         <Route path= "/test-comp" element = {<TestComp props = {bigPlanters}/>} />
+        <Route path= "/test-comp2" element = {<TestComp2 props = {smallPlanters}/>} />
         <Route path="/product/:id" element={<ProductPage />} />
 
         <Route path= "/products" element={<Products />} />
