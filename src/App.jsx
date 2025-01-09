@@ -19,6 +19,7 @@ import smallPlanters from './products/smallPlanters';
 import ClientOne from './components/ClientOne';
 import TestComp from './components/TestComp';
 import TestComp2 from './components/TestComp2';
+import ProductPageSmallPlanters from './components/ProductPageSmallPlanters';
 
 
 const categoryOne = [
@@ -64,6 +65,7 @@ function App() {
         <Route path= "/test-comp" element = {<TestComp props = {bigPlanters}/>} />
         <Route path= "/test-comp2" element = {<TestComp2 props = {smallPlanters}/>} />
         <Route path="/product/:id" element={<ProductPage />} />
+        <Route path="/smallPlanters/:id" element={<ProductPageSmallPlanters />} />
 
         <Route path= "/products" element={<Products />} />
 

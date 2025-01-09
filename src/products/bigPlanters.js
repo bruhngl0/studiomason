@@ -244,6 +244,8 @@ export const bigPlanters =
     price: 129.99,
     images: [
         image13,
+        image13,
+        image13,
       
     ],
     description: "Beautiful handcrafted ceramic vase...",
@@ -289,6 +291,8 @@ export const bigPlanters =
     name: "Modern Ceramic Vase",
     price: 129.99,
     images: [
+       image19,
+       image19,
        image19
     ],
     description: "Beautiful handcrafted ceramic vase...",
@@ -311,6 +315,8 @@ export const bigPlanters =
     name: "Modern Ceramic Vase",
     price: 129.99,
     images: [
+      image20,
+      image20,
       image20
     ],
     description: "Beautiful handcrafted ceramic vase...",
@@ -357,6 +363,8 @@ export const bigPlanters =
     name: "Modern Ceramic Vase",
     price: 129.99,
     images: [
+      image24,
+      image24,
       image24
     ],
     description: "Beautiful handcrafted ceramic vase...",
@@ -379,6 +387,8 @@ export const bigPlanters =
     name: "Modern Ceramic Vase",
     price: 129.99,
     images: [
+      image25,
+      image25,
       image25
     ],
     description: "Beautiful handcrafted ceramic vase...",
@@ -423,6 +433,8 @@ export const bigPlanters =
     name: "Modern Ceramic Vase",
     price: 129.99,
     images: [
+      image29,
+      image29,
       image29
     ],
     description: "Beautiful handcrafted ceramic vase...",
@@ -445,6 +457,8 @@ export const bigPlanters =
     name: "Modern Ceramic Vase",
     price: 129.99,
     images: [
+      image30,
+      image30,
       image30
     ],
     description: "Beautiful handcrafted ceramic vase...",
@@ -467,7 +481,9 @@ export const bigPlanters =
     name: "Modern Ceramic Vase",
     price: 129.99,
     images: [
-      image31
+      image31,
+      image31,
+      image31,
     ],
     description: "Beautiful handcrafted ceramic vase...",
     specifications: [
@@ -488,7 +504,9 @@ export const bigPlanters =
     name: "Modern Ceramic Vase",
     price: 129.99,
     images: [
-      image32
+      image32,
+      image32,
+      image33,
     ],
     description: "Beautiful handcrafted ceramic vase...",
     specifications: [
@@ -510,6 +528,7 @@ export const bigPlanters =
     price: 129.99,
     images: [
       image33,
+      image34,
       image34,
   
     ],
@@ -555,7 +574,9 @@ export const bigPlanters =
     name: "Modern Ceramic Vase",
     price: 129.99,
     images: [
-      image38
+      image38,
+      image38,
+      image38,
     ],
     description: "Beautiful handcrafted ceramic vase...",
     specifications: [
@@ -698,7 +719,9 @@ export const bigPlanters =
     name: "Modern Ceramic Vase",
     price: 129.99,
     images: [
-      image56
+      image56,
+      image56,
+      image56,
     ],
     description: "Beautiful handcrafted ceramic vase...",
     specifications: [
@@ -720,7 +743,9 @@ export const bigPlanters =
     name: "Modern Ceramic Vase",
     price: 129.99,
     images: [
-      image57
+      image57,
+      image57,
+      image57,
     ],
     description: "Beautiful handcrafted ceramic vase...",
     specifications: [
@@ -742,7 +767,9 @@ export const bigPlanters =
     name: "Modern Ceramic Vase",
     price: 129.99,
     images: [
-      image58
+      image58,
+      image58,
+      image58,
     ],
     description: "Beautiful handcrafted ceramic vase...",
     specifications: [
@@ -788,7 +815,9 @@ export const bigPlanters =
     name: "Modern Ceramic Vase",
     price: 129.99,
     images: [
-      image62
+      image62,
+      image62,
+      image62,
     ],
     description: "Beautiful handcrafted ceramic vase...",
     specifications: [
@@ -809,7 +838,9 @@ export const bigPlanters =
     name: "Modern Ceramic Vase",
     price: 129.99,
     images: [
-      image13
+      image13,
+      image13,
+      image13,
     ],
     description: "Beautiful handcrafted ceramic vase...",
     specifications: [

@@ -54,7 +54,7 @@ const ScreenSix = () => {
         </div>
        
          <Link to= "/">
-         <button>back</button>
+         <button className='screen-six-btn'>back</button>
          </Link>
       </div>
     </div>

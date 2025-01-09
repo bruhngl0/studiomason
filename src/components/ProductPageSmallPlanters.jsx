@@ -1,12 +1,12 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import bigPlanters from "../products/bigPlanters";
+import smallPlanters from "../products/smallPlanters";
 import Slider from "react-slick";
 import "../styles/productPage.scss"
 
 const ProductPage = () => {
   const { id } = useParams();
-  const product = bigPlanters.find((item) => item.id === parseInt(id));
+  const product = smallPlanters.find((item) => item.id === parseInt(id));
 
   if (!product) {
     return <div>Product not found</div>;

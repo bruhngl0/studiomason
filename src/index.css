@@ -43,25 +43,7 @@ h1 {
 
 }
 
-button {
- 
-  border: 1px solid transparent;
-  
-  font-size: 0.7em;
-  color: rgb(80, 65, 65);
-  font-family: inherit;
-  background-color: transparent;
-  cursor: pointer;
-  transition: border-color 0.25s;
 
-}
-button:hover {
-  text-decoration: underline;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
 
 @media (prefers-color-scheme: light) {
   :root {
