@@ -2,6 +2,7 @@
 import React from 'react'
 import "../styles/imageani.scss"
 import { Link } from 'react-router-dom'
+import AnimatedButton from './AnimatedButton'
 
 const ImageAni = () => {
   return (
@@ -17,9 +18,9 @@ const ImageAni = () => {
           </p>
         </div>
 
-        <div >
-          <Link to = "/screensix">
-            <button className='imageani-explore'>EXPLORE</button>
+        <div className='imageani-btn' >
+          <Link to = "/screensix" className='imageani-explore'>
+            <AnimatedButton text= "EXPLORE"/>
             </Link>
         </div>
       

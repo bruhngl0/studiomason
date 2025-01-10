@@ -3,6 +3,7 @@
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden;
@@ -28,5 +29,21 @@
       color: #575151; /* Ensure the text is visible */
       text-align: center;
     }
+
+
   }
+  
+
+    
+    .testcomp-btn {
+      position: absolute;  // Change to absolute
+      top: 20px;          // Adjust this value for desired distance from top
+      left: 20px;         // Adjust this value for desired distance from left
+      z-index: 1;
+     
+      padding: 10px 10px;
+      color: rgb(241, 236, 236);
+      font-size: 22px;
+  }
+
   

@@ -31,7 +31,7 @@ const ProductPage = () => {
         e.preventDefault(); // Prevent the default anchor tag behavior
         window.history.back(); // Navigate to the previous page
       }}>
-      <button>back</button>
+      <button className="pp-btn">←</button>
       </a>
       <div className="product-carousel">
         <Slider {...sliderSettings}>
