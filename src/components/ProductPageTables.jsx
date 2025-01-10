@@ -27,8 +27,12 @@ const ProductPageTables = () => {
   return (
     <div className="product-page">
       <div className="product-page-one">
-      {/* Carousel */}
+      <a href = "#" className="anchor" onClick={(e) => {
+        e.preventDefault(); // Prevent the default anchor tag behavior
+        window.history.back(); // Navigate to the previous page
+      }}>
       <button>back</button>
+      </a>
       <div className="product-carousel">
         <Slider {...sliderSettings}>
           {product.images.map((image, index) => (
