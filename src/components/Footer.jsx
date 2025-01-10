@@ -2,6 +2,7 @@ import React from 'react'
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import "../styles/footer.scss"
+import { Link } from 'react-router-dom';
 
 
 
@@ -9,53 +10,88 @@ const Footer = () => {
   return (
     <div className='footer-main'>
       <div className='footer-one'>
-     
       </div>
-     <div className='footer-two'>
+      <div className='footer-two'>
         <div className='footer-two-one'>
-        <h1>STUDIO MASON</h1>
-        <div className='footer-two-one-two'>
-        <p>@STUDIO MASON</p>
-        <p>25/26 BMT COMPLEX 560025</p>
-        <p>BANGALORE, INDIA</p>
-        </div>
-
-        <p className='footer-followus'>FOLLOW US</p>
-        <div className='footer-follow-us'>
-         <FaFacebookSquare  size = {30}className='footer-facebook'/>  
-         <FaSquareInstagram  size = {30}className='footer-instagram'/>   
-        </div>
+          <h1>STUDIO MASON</h1>
+          <div className='footer-two-one-two'>
+            <p>@STUDIO MASON</p>
+            <p>KSSIDC INDUSTRIAL ESTATE, 74,</p>
+            <p>BOMMASANDRA</p>
+            <p>BANGALORE, INDIA</p>
+          </div>
+          <p className='footer-followus'>FOLLOW US</p>
+          <div className='footer-follow-us'>
+            <FaFacebookSquare size={30} className='footer-facebook'/>
+            <FaSquareInstagram size={30} className='footer-instagram'/>
+          </div>
         </div>
 
         <div className='footer-two-two'>
-            
-         <p style = {{paddingTop: "1.5rem"}}>01/ MASON</p>
-         <p style = {{paddingTop: "1.5rem"}}>ABOUT STUDIO MASON</p>
-     
-         <p style = {{paddingTop: "2px"}}>CONTACT</p>
-         <p style = {{paddingTop: "2px"}}>BECOME A DEALER</p>
-         <p style = {{paddingTop: "2px"}}> SHOP</p>
+          <p className='section-title'>01/ MASON</p>
+          <a href="/" className='about-link'>
+            <p className='section-item'>ABOUT STUDIO MASON</p>
+          </a>
 
+          <a href="/enquiry" className='about-link'>
+          <p className='section-item'>CONTACT</p>
+          </a>
+          <a href="/bulkOrders" className='about-link'>
+          <p className='section-item'>BULK ORDERS</p>
+          </a>
+          <a href="/buyGuide" className='about-link'>
+          <p className='section-item'>BUY GUIDE</p>
+          </a>
         </div>
 
         <div className='footer-two-three'>
-        <p  style = {{paddingTop: "1.5rem"}}>02/ CUSTOMER SERVICE</p>
-         <p style = {{paddingTop: "1.5rem"}}>FAQ</p>
-         <p style = {{paddingTop: "2px"}}>DELIVERY</p>
-         <p style = {{paddingTop: "2px"}}>RETURN</p>
-         <p style = {{paddingTop: "2px"}}>SIZE GUIDE</p>
-         <p style = {{paddingTop: "2px"}}>MY ACCOUNT</p>
-         <p style = {{paddingTop: "2px"}}>TERMA OF TRADE</p>
-         <p style = {{paddingTop: "2px"}}>PRIVACY POLICY</p>
-         <p style = {{paddingTop: "2px"}}>COOKIES</p>
+          <p className='section-title'>02/ CUSTOMER SERVICE</p>
+          <a href ="/bespoke" className='about-link'>
+          <p className='section-item'>BESPOKE</p>
+          </a>
+
+          <a href ="/shipping-policy" className='about-link'>
+          <p className='section-item'>SHIPPING POLICY</p>
+          </a>
+
+          <a href="/return-policy" className='about-link'>
+          <p className='section-item'>RETURN & EXCHANGE</p>
+          </a>
+
+
+          <a href="/return-policy" className='about-link'>
+          <p className='section-item'>TERMS OF TRADE</p>
+          </a>
+
+          <a href="/return-policy" className='about-link'>
+          <p className='section-item'>PRIVACY POLICY</p>
+          </a>
+         
+          <a href="/care-instructions" className='about-link'>
+          <p className='section-item'>CARE INSTRUCTIONS</p>
+          </a>
+         
         </div>
 
         <div className='footer-two-four'>
-        <p style = {{paddingTop: "1.5rem"}}>03/ POPULAR NOW</p>
-         <p style = {{paddingTop: "1.5rem"}}>FLEECE</p>
-         <p style = {{paddingTop: "2px"}}>OUTDOOR</p>
-         <p style = {{paddingTop: "2px"}}>ESSENTIALS</p>
-         <p style = {{paddingTop: "2px"}}>UNNSSRY X BAW</p>
+
+
+          <p className='section-title'>03/ POPULAR NOW</p>
+      
+
+          <a href="/test-comp" className='about-link'>
+          <p className='section-item'>PLANTERS</p>
+          </a>
+
+          <a href="/test-comp2" className='about-link'>
+          <p className='section-item'>DESK PLANTERS</p>
+          </a>
+
+          <a href="/test-comp4" className='about-link'>
+          <p className='section-item'>TABLES</p>
+          </a>
+
+         
         </div>
 
         <div className='footer-two-five'>
@@ -63,9 +99,7 @@ const Footer = () => {
           <input type='email' placeholder='EMAIL ADDRESS'></input>
           <button>submit</button>
         </div>
-
-     </div>
-
+      </div>
     </div>
   )
 }

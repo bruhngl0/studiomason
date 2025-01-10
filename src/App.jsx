@@ -15,11 +15,21 @@ import ProductPage from './components/ProductPage';
 
 import smallPlanters from './products/smallPlanters';
 
-
+import BuyGuide from "./components/BuyGuide"
 import ClientOne from './components/ClientOne';
 import TestComp from './components/TestComp';
 import TestComp2 from './components/TestComp2';
 import ProductPageSmallPlanters from './components/ProductPageSmallPlanters';
+import BulkOrders from "./components/BulkOrders"
+import Shipping from "./components/Shipping"
+import Return from "./components/Return"
+import Terms from "./components/Terms"
+import Privacy from "./components/Privacy"
+import Care from "./components/Care"
+import TestComp3 from './components/TestComp3';
+import TestComp4 from './components/TestComp4';
+import ProductPageTables from './components/ProductPageTables';
+
 
 
 const categoryOne = [
@@ -65,9 +75,23 @@ function App() {
         <Route path= "/test-comp" element = {<TestComp props = {bigPlanters}/>} />
         <Route path= "/test-comp2" element = {<TestComp2 props = {smallPlanters}/>} />
         <Route path="/product/:id" element={<ProductPage />} />
-        <Route path="/smallPlanters/:id" element={<ProductPageSmallPlanters />} />
+        <Route path= "/smallPlanters/:id" element = {<ProductPageSmallPlanters />} />
+        <Route path= "/tables/:id" element = {<ProductPageTables />} />
+      
+        <Route path="/buyGuide" element={<BuyGuide />} />
+        <Route path="/bulkOrders" element={<BulkOrders />} />
+    x
 
         <Route path= "/products" element={<Products />} />
+
+        <Route path= "/shipping-policy" element={<Shipping />} />
+        <Route path= "/shipping-policy" element={<Shipping />} />
+        <Route path= "/return-policy" element={<Return />} />
+        <Route path= "/terms-policy" element={<Terms />} />
+        <Route path= "/privacy-policy" element={<Privacy />} />
+        <Route path= "/care-instructions" element={<Care />} />
+        <Route path= "/test-comp3" element={<TestComp3 />} />
+        <Route path= "/test-comp4" element={<TestComp4 />} />
 
    
 
