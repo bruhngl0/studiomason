@@ -65,10 +65,11 @@ p{
 
 
 a {
-  all: unset; /* Reset all styles */
+
   color: inherit; /* Ensure it inherits the text color */
   text-decoration: none; /* Remove underline */
   font-size: inherit; /* This prevents font size changes */
+  cursor: pointer;
 
  
 }
@@ -76,4 +77,5 @@ a {
 a:hover {
   color: inherit; /* Prevent color change on hover */
   text-decoration: underline; /* Prevent underline on hover */
+  cursor: pointer;
 }
