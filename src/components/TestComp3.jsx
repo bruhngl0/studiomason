@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/testComp3.scss";
+import "../styles/testcomp3.scss";
 
 const TestComp3 = () => {
   return (
