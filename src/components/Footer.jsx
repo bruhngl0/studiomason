@@ -1,6 +1,8 @@
 import React from 'react'
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
+import { IoMailSharp } from "react-icons/io5";
+import { IoLogoWhatsapp } from "react-icons/io";
 import "../styles/footer.scss"
 import { Link } from 'react-router-dom';
 
@@ -94,11 +96,27 @@ const Footer = () => {
          
         </div>
 
-        <div className='footer-two-five'>
-          <h1>REACH OUT SAVE 10% ON <br/> EVERYTHING NEW</h1>
-          <input type='email' placeholder='EMAIL ADDRESS'></input>
-          <button>submit</button>
-        </div>
+        <div className="footer-two-five" >
+      <h1>
+        REACH OUT SAVE 10% ON <br /> EVERYTHING NEW
+      </h1>
+      <div className='footer-icons'>
+      <a 
+        href="mailto:example@example.com" // Replace with your email address
+        style = {{marginTop: "1rem"}}
+      >
+        <IoMailSharp size={40}   style = {{marginRight: "1rem"}}/>
+      </a>
+      
+      <a 
+        href="https://wa.me/+919167563398" // Replace with your email address
+        style = {{marginTop: "1rem"}}
+      >
+        <IoLogoWhatsapp size={40} />
+      </a>
+      </div>
+
+    </div>
       </div>
     </div>
   )

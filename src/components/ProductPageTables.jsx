@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import {Link, useParams } from "react-router-dom";
 import tables from "../products/tables";
 import Slider from "react-slick";
 import "../styles/productPage.scss"
@@ -73,7 +73,9 @@ const ProductPageTables = () => {
     
       </div>
       <div className="product-page-three">
-      <p>Price: ${product.price}</p>
+      <Link to ="/buyguide">
+            <button style={{padding: "5px" , fontSize: "14px"}}>BUY-GUIDE</button>
+            </Link>
       </div>
       </div>
     </div>

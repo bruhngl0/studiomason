@@ -99,10 +99,7 @@ const Hero = ({ image, onClose, layoutId, productData }) => {
             className="product-footer"
           >
             <div className="footer-content">
-              <div className="price-info">
-                <p>Starting from</p>
-                <p className="price">{productData.price}</p>
-              </div>
+              
               <button className="cta-button">
                 how to buy
               </button>

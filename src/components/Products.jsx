@@ -37,22 +37,22 @@ const Products = () => {
       price: "$39.99",
       features: ["Feature one description", "Feature two description", "Feature three description"],
       specifications: {
-        dimension: "20 x 30 cm",
-        weight: "500g",
-        material: "Premium Quality"
+        width: "20 x 30 cm",
+        length: "500g",
+        height: "Premium Quality"
       }
     },
     {
       id: "product-2",
       image: image2,
-      name: "Scroll Pot",
-      description: "A modern pot with a classic scroll design.",
+      name: "COFFEE TABLE",
+      description: "This sleek concrete coffee table is durable, fiberglass-reinforced, and available in multiple colors. Water, moss, and stain-resistant, it’s easy to maintain and perfect for any indoor or outdoor space.",
       price: "$29.99",
-      features: ["Feature A description", "Feature B description", "Feature C description"],
+      features: ["FROST-RESISTANCE", "UV-RESISTANCE", "OUTDOOR-READY"],
       specifications: {
-        dimension: "15 x 20 cm",
-        weight: "300g",
-        material: "Ceramic"
+        dimension: "Height 1ft 6inch",
+        weight: "3kg",
+        material: "MS, SS, WOOD"
       }
     },
 

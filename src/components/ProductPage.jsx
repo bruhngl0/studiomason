@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import bigPlanters from "../products/bigPlanters";
 import Slider from "react-slick";
 import "../styles/productPage.scss"
@@ -60,20 +60,21 @@ const ProductPage = () => {
         ))}
       </ul>
       <ul className="ul-2">
-      <h3>Specifications:</h3>
-        {product.specifications.map((spec, index) => (
-          <li key={index}>
-           {spec.name}: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{spec.value}
-          </li>
-        ))}
-      </ul>
+  <h3>Specifications:</h3>
+  {product.specifications.map((spec, index) => (
+    <li key={index} className="spec-item">
+      <span className="spec-name">{spec.name}:</span>
+      <span className="spec-value">{spec.value}</span>
+    </li>
+  ))}
+</ul>
     
     
       </div>
       <div className="product-page-three">
-      <p>Price: ${product.price}</p>
+      <Link to ="/buyGuide">
+            <button style={{padding: "10px"}}>How To Buy</button>
+            </Link>
       </div>
       </div>
     </div>

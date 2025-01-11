@@ -143,23 +143,26 @@ export const bigPlanters =
 [
     {
     id: 1,
-    name: "Modern Ceramic Vase lol",
+    name: "Antelier Tall",
     price: 129.99,
     images: [
       image1,
       image2,
       image3
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "S , M, L" },
+      { name: "Height", value: "12.5' ,  18.5' ,  24.5'" },
+      { name: "Width", value: "10' , 13.5' , 18.5'" }
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -167,23 +170,26 @@ export const bigPlanters =
 
    {
     id: 2,
-    name: "Modern Ceramic Vase",
+    name:  "Antier Tall",
     price: 129.99,
     images: [
         image4,
         image5,
         image6
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "S , L" },
+      { name: "Height", value: "18' , 24'" },
+      { name: "Width", value: "22.5', 30'" }
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -191,23 +197,26 @@ export const bigPlanters =
 
    {
     id: 3,
-    name: "Modern Ceramic Vase",
+    name: "Antelier Tall",
     price: 129.99,
     images: [
         image7,
         image8,
         image9
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description:  "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "S , L" },
+      { name: "Height", value: "18' , 24'" },
+      { name: "Width", value: "22.5', 30'" }
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -225,14 +234,17 @@ export const bigPlanters =
     ],
     description: "Beautiful handcrafted ceramic vase...",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "S , L" },
+      { name: "Height", value: "18' , 24'" },
+      { name: "Width", value: "22.5', 30'" }
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -250,14 +262,17 @@ export const bigPlanters =
     ],
     description: "Beautiful handcrafted ceramic vase...",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "S , M, L" },
+      { name: "Height", value: "12.5' , 18.5',  24.5'" },
+      { name: "Width", value: "10', 13.5', 18.5'" }
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 

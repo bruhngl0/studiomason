@@ -16,7 +16,7 @@ const ScreenVideo = () => {
      
       </div>
       <div className="overlay-text-screen-one">
-        STUDIO MASON
+      
       </div>
     </div>
     </>

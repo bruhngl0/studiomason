@@ -1,10 +1,13 @@
 .hero-container {
   position: fixed;
   inset: 0;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   z-index: 50;
   overflow: auto;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+ 
 
  
 
@@ -39,19 +42,21 @@
     margin: 0 auto;
     padding: 0 1rem;
     margin-top: 2rem;
+    width: 100vw;
    
     .hero-image-container {
       position: relative;
  
 
       img {
-        width: 400px;
+        width: 500px;
+        height: 85vh;
       }
     }
 
     .product-details {
    
-     padding-left: 2rem;
+     padding-left: 5rem;
 
      width: 60vw;
       .product-intro {
@@ -73,9 +78,9 @@
       .features-specs {
         display: grid;
         grid-template-columns: 1fr;
-
-        margin-bottom: 2rem;
-        gap: 70px;
+   
+        padding-top: 6rem;
+        gap: 30px;
 
         @media (min-width: 768px) {
           grid-template-columns: 1fr 1fr;
@@ -135,6 +140,7 @@
       background-color: white;
       border-top: 1px solid #eee;
       padding: 1rem;
+      padding-left: 5rem;
 
       .footer-content {
         max-width: 1200px;

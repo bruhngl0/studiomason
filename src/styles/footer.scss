@@ -143,6 +143,11 @@
   font-size: inherit;
 }
 
+.footer-icons{
+  display: flex;
+  flex-direction: row;
+}
+
 @media screen and (max-width: 500px) {
   .footer-main {
     display: none;
