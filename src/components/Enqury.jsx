@@ -45,15 +45,15 @@ const Enquiry = () => {
       <div className="container">
         <div className="enquiry-top">
         <div className="contact-info">
-            <h3>Contact Info</h3>
-            <p>Email: info@studiomason.in</p>
-            <p>Phone: +91 91675 63398</p>
+            <h3>CONTACT INFO</h3>
+            <p>email: info@studiomason.in</p>
+            <p>phone: +91 9167563398</p>
             <p>KSSIDC Industrial Estate, 74, Bommasandra,</p>
             <p>Bengaluru, Karnataka 560099</p>
           </div>
 
           <div className="contact-form">
-            <h3>Contact Us</h3>
+            <h3>CONTACT US</h3>
             <form onSubmit={handleSubmit}>
               <input type="text" name="name" placeholder="Name" required />
               <input type="email" name="email" placeholder="Email" required />

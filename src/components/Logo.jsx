@@ -4,7 +4,7 @@ import "../styles/logo.scss"
 const Logo = () => {
   return (
     <div className='logo-main'>
-        <img src = "logo.png"  className='logo' />
+        <img src = "logo2.png"  className='logo' />
     </div>
   )
 }

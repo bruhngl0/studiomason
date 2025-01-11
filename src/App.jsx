@@ -29,6 +29,7 @@ import Care from "./components/Care"
 import TestComp3 from './components/TestComp3';
 import TestComp4 from './components/TestComp4';
 import ProductPageTables from './components/ProductPageTables';
+import BeSpokeInt from './components/BeSpokeInt';
 
 
 
@@ -92,6 +93,7 @@ function App() {
         <Route path= "/care-instructions" element={<Care />} />
         <Route path= "/test-comp3" element={<TestComp3 />} />
         <Route path= "/test-comp4" element={<TestComp4 />} />
+        <Route path= "/bespokeInt" element={<BeSpokeInt />} />
 
    
 

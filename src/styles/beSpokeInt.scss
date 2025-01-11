@@ -1,0 +1,79 @@
+.bespoke-int {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: peachpuff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+    .left-section {
+      width: 50%;
+      padding: 3rem;
+      border-right: 1px solid black;
+      h1 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+  
+      .intro {
+        font-size: 16px;
+        color: #555;
+        margin-bottom: 20px;
+      }
+  
+      .project-image {
+        width: 100%;
+  
+       
+      }
+    }
+  
+    .right-section {
+      width: 45%;
+  
+      .project-info {
+        padding-left: 2rem;
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        margin-bottom: 20px;
+  
+        p {
+          margin: 0;
+          color: #666;
+        }
+      }
+  
+      .stages {
+        .stage {
+          margin-bottom: 20px;
+         border-bottom: 1px solid black ;
+         padding-left: 2rem;
+
+
+         img{
+            margin-right: 1rem;
+         }
+          h3 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #333;
+          }
+  
+          p {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.6;
+          }
+        }
+      }
+    }
+  }
+  
