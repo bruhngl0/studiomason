@@ -20,6 +20,9 @@ to deliver exceptional results.
           alt="Project stages"
           className="project-image"
         />
+       <a href= "/enquiry">
+        <button className="enq-btn">ENQUIRY</button>
+        </a>
       </div>
 
       <div className="right-section">

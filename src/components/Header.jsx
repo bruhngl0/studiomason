@@ -7,7 +7,7 @@ const Header = () => {
         <nav className='header-nav'>
             <a href="/">Home</a>
             <a href="/screensix">Products</a>
-            <a href="/bespoke">BeSpoke</a>
+            <a href="/bespokeint">BeSpoke</a>
             <a href="/enquiry">Enquiry</a>
             
         </nav>
