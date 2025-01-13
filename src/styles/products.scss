@@ -37,11 +37,11 @@
   }
   
   .scroll-section {
-    width: 70vw;
+    width: 60vw;
     background-color:  #e6d4c3;
   
     .scroll-item {
-      height: 80vh;
+
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -72,14 +72,14 @@
 
 
   .scroll-item-two{
-    height: 80vh;
+   
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 
     >img{
-      width: 400px;
+      
   
       margin: 2rem;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -88,7 +88,7 @@
 
   
   .scroll-item-three{
-    height: 80vh;
+  
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -96,7 +96,7 @@
 
 
     >img{
-      width: 400px;
+    
      
       margin: 2rem;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -105,7 +105,7 @@
 
   .scroll-image{
     width: 400px;
-    height: 550px;
+ 
     margin: 2rem;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
   }
