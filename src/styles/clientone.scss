@@ -1,171 +1,100 @@
 
-@font-face {
-    font-family: 'cool';
-    src: url('../../public/coolmain.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-    color: black;
-  }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 
-
-
-.client-one-main1{
+.client-one-main1 {
     background-color: white;
-    width: 100vw;
-    height: 100vh;
     display: flex;
     font-family: helvetica;
     overflow: scroll;
-    border: 0.5px solid gray;
-   
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: visible; /* Allows sticky positioning */
+    
 }
 
-
-.client-one-col1{
-    width: 20vw;
-    height: 100%;
-    background-color: #e5e7eb;
-
+.client-one-col1 {
     position: sticky;
-    top: 0; 
+    height: 100vh; /* Fixed to match the viewport height */
+    background-color: #e5e7eb; 
+    top: 0;
+    border-right: 0.5px solid black ;
+    overflow: scroll;
  
+}
+
+.client-one-col2 {
+    flex: 1;
+    background-color: #ffffff;
+   
+    height: 100%; /* Ensures consistent height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 0.5px solid black ;
    
 }
 
-.client-one-col2{
-    width: 40vw;
-    background-color: #000000;
+.client-one-col2 > img {
+    width: 100%;
     height: 100%;
-   border: 0.5px solid gray;
- 
-    >img{
-        width: 40vw;
-        height: 100%;
-    }
+    object-fit: cover;
 }
 
-.client-one-col3{
-    width: 40vw;
+.client-one-col3 {
+    flex: 1;
     background-color: white;
-    height: 100vh;
+    margin: 0;
+    padding: 0;
     display: flex;
-    flex-direction: row;
-    border: 0.5px solid gray;
   
-   
-    
 }
 
-.client-one-col3-grid1{
+.client-one-col3-grid1, .client-one-col3-grid2 {
     width: 50%;
-    height: 100vh;
-    background-color: white;
-    display: flex;
-    flex-direction: column; 
-    border-right: none;
- 
-    border-top: none;
-    border-bottom: none;
-    border: 0.5px solid gray;
- 
-   
-}
-
-
-
-.client-one-col3-grid2{
-    width: 50%;
-    height: 100vh;
-    background-color: white;
-    display: flex;
-    flex-direction: column; 
-    border-left: none;
-    border-top: none;
-    border-bottom: none;
-    border: 0.5px solid gray;
-   
-   
-}
-
-
-.client-one-col3-grid1-1{
-    height: 50vh;
-    
-    background-color: transparent;
-    border-left: none ;
-    border-top: none;
-    border-bottom: none;
-    border-right: none;
-  
-    
-    >img{
-        width: 100%;
-        height: 100%;
-       
-    }
-}
-
-.client-one-col3-grid1-2{
-    height: 50vh;
-    width: 100%;
-    background-color: #e5e7eb;
-    border-left: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    border: 0.5px solid gray;
-    
-    >img{
-        width: 100%;
-        height: 100%;
-      
-    }
-}
-
-.client-one-col3-grid1-3{
-    height: 50vh;
-    background-color: #e5e7eb;
-    border-top: none;
-    border-bottom: none;
- 
-   
-    >img{
-        width: 100%;
-        height: 100%;
-       
-    }
-}
-.client-one-col3-grid1-4{
-    height: 50vh;
-    width: 100%;
-    background-color: #e5e7eb;
-    border-left: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- 
-    border: 0.5px solid gray;
-
-    >img{
-        width: 100%;
-        height: 100%;
-      
-    }
-}
-
-
-
-.client-one-combined{
+    height: 100%;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    justify-content: start;
+    align-items: start;
+    background-color: rgb(18, 18, 18);
+    border-right: 0.5px solid black ;
 }
 
-.client-one-col2-raja{
+.client-one-col3-grid1-1, 
+.client-one-col3-grid1-2, 
+.client-one-col3-grid1-3, 
+.client-one-col3-grid1-4 {
+    flex: 1; /* Ensures equal height for all child elements */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292e38;
+}
+
+.client-one-col3-grid1-1 > img, 
+.client-one-col3-grid1-2 > img, 
+.client-one-col3-grid1-3 > img, 
+.client-one-col3-grid1-4 > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.client-one-combined {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%; /* Adjusted height */
+}
+
+.client-one-col2-raja {
     display: flex;
     flex-direction: row;
-    height: 100vh;
-
+    height: 100%; /* Matches the combined height */
 }

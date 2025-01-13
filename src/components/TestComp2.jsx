@@ -63,7 +63,7 @@ const TestComp2 = ({}) => {
          <div className='client-one-col3-grid1-1'>
          <Link to={`/smallplanters/${smallPlanters[5].id}`} className="client-one-col3-grid1-1">
            <img src = {smallPlanters[5].images[0]} />
-           </Link>?
+           </Link>
          </div>
          <div className='client-one-col3-grid1-2'>
          <Link to={`/smallplanters/${smallPlanters[6].id}`} className="client-one-col3-grid1-2">
@@ -137,7 +137,7 @@ const TestComp2 = ({}) => {
       <div className='client-one-col3-grid1'>    
          <div className='client-one-col3-grid1-1'>
          <Link to={`/smallplanters/${smallPlanters[15].id}`} className="client-one-col3-grid1-1">
-           <img src = {smallPlanters[15].images[0]} />
+           <img src = {smallPlanters[15].images[1]} />
            </Link>
          </div>
          <div className='client-one-col3-grid1-2'>
@@ -210,7 +210,7 @@ const TestComp2 = ({}) => {
       <div className='client-one-col3-grid1'>    
          <div className='client-one-col3-grid1-1'>
          <Link to={`/smallplanters/${smallPlanters[25].id}`} className="client-one-col3-grid1-1">
-           <img src = {smallPlanters[25].images[0]} />
+           <img src = {smallPlanters[25].images[1]} />
            </Link>
          </div>
          <div className='client-one-col3-grid1-2'>

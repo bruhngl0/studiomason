@@ -64,7 +64,7 @@ const TestComp = ({}) => {
          <div className='client-one-col3-grid1-1'>
          <Link to={`/product/${bigPlanters[5].id}`} className="client-one-col3-grid1-1">
            <img src = {bigPlanters[5].images[0]} />
-           </Link>?
+           </Link>
          </div>
          <div className='client-one-col3-grid1-2'>
          <Link to={`/product/${bigPlanters[6].id}`} className="client-one-col3-grid1-2">
