@@ -1,8 +1,9 @@
+// ProductPage.jsx
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 import bigPlanters from "../products/bigPlanters";
 import Slider from "react-slick";
-import "../styles/productPage.scss"
+import "../styles/productPage.scss";
 
 const ProductPage = () => {
   const { id } = useParams();
@@ -12,7 +13,6 @@ const ProductPage = () => {
     return <div>Product not found</div>;
   }
 
-  // Settings for the carousel
   const sliderSettings = {
     dots: true,
     infinite: true,
@@ -26,56 +26,65 @@ const ProductPage = () => {
 
   return (
     <div className="product-page">
-      <div className="product-page-one">
-     <a href = "#" onClick={(e) => {
-        e.preventDefault(); // Prevent the default anchor tag behavior
-        window.history.back(); // Navigate to the previous page
-      }}>
-      <button className="pp-btn">←</button>
-      </a>
-      <div className="product-carousel">
-        <Slider {...sliderSettings}>
-          {product.images.map((image, index) => (
-            <div key={index}>
-              <img src={image} alt={`${product.name} - ${index + 1}`} />
-            </div>
-          ))}
-        </Slider>
-      </div>
+      {/* Left Side - Image Carousel */}
+      <div className="product-page__left">
+        <div className="product-carousel">
+          <Slider {...sliderSettings}>
+            {product.images.map((image, index) => (
+              <div key={index} className="carousel-slide">
+                <img src={image} alt={`${product.name} - ${index + 1}`} />
+              </div>
+            ))}
+          </Slider>
+        </div>
       </div>
 
-<div className="product-page-two">
-      {/* Product Details */}
+      {/* Right Side - Product Details */}
+      <div className="product-page__right">
+        {/* Green Section */}
+        <div className="product-header">
+          <h1>{product.name}</h1>
+          <p>{product.description}</p>
+        </div>
 
-      <div className="pp-2-1">
-      <h1>{product.name}</h1>
-      <p>{product.description}</p>
-      </div>
+        {/* Red Section */}
+        <div className="product-details">
+          {/* Features */}
+          <div className="features">
+            <h3>Features:</h3>
+            <ul>
+              {product.features.map((feature, index) => (
+                <li key={index}>{feature}</li>
+              ))}
+            </ul>
+          </div>
 
-      <div className="pp-2-2">
-      <ul className="ul-1">
-      <h3>Features:</h3>
-        {product.features.map((feature, index) => (
-          <li key={index}>{feature}</li>
-        ))}
-      </ul>
-      <ul className="ul-2">
-  <h3>Specifications:</h3>
-  {product.specifications.map((spec, index) => (
-    <li key={index} className="spec-item">
-      <span className="spec-name">{spec.name}:</span>
-      <span className="spec-value">{spec.value}</span>
-    </li>
-  ))}
-</ul>
-    
-    
-      </div>
-      <div className="product-page-three">
-      <Link to ="/buyGuide">
-            <button style={{padding: "10px"}}>How To Buy</button>
-            </Link>
-      </div>
+          {/* Specifications */}
+          <div className="specifications">
+            <h3>Specifications:</h3>
+            <ul>
+              {product.specifications.map((spec, index) => (
+                <li key={index} className="spec-item">
+                  <span className="spec-name">{spec.name}:</span>
+                  <span className="spec-value">{spec.value}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
+        {/* Buy Guide Button */}
+        <div className="product-actions">
+          <Link to="/buyGuide">
+            <button className="buy-guide-btn">How To Buy</button>
+          </Link>
+          <button 
+            className="back-btn"
+            onClick={() => window.history.back()}
+          >
+            ←
+          </button>
+        </div>
       </div>
     </div>
   );

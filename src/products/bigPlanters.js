@@ -143,7 +143,7 @@ export const bigPlanters =
 [
     {
     id: 1,
-    name: "Antelier Tall",
+    name: "ANTELIER",
     price: 129.99,
     images: [
       image1,
@@ -153,9 +153,9 @@ export const bigPlanters =
     description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
       {name: "Material", value: "GRC/FRP"},
-      { name: "Size", value: "S , M, L" },
-      { name: "Height", value: "12.5' ,  18.5' ,  24.5'" },
-      { name: "Width", value: "10' , 13.5' , 18.5'" }
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "FROST-RESISTANCE",
@@ -170,7 +170,7 @@ export const bigPlanters =
 
    {
     id: 2,
-    name:  "Antier Tall",
+    name:  "ANTELIER TALL",
     price: 129.99,
     images: [
         image4,
@@ -180,9 +180,10 @@ export const bigPlanters =
     description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
       {name: "Material", value: "GRC/FRP"},
-      { name: "Size", value: "S , L" },
-      { name: "Height", value: "18' , 24'" },
-      { name: "Width", value: "22.5', 30'" }
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "10' x 12.5'" },
+      { name: "M", value: "13.5' x 18.5'" },
+      { name: "L", value: "18.5' x 24.5'" }
     ],
     features: [
       "FROST-RESISTANCE",
@@ -197,7 +198,7 @@ export const bigPlanters =
 
    {
     id: 3,
-    name: "Antelier Tall",
+    name: "BALLOON",
     price: 129.99,
     images: [
         image7,
@@ -207,9 +208,9 @@ export const bigPlanters =
     description:  "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
       {name: "Material", value: "GRC/FRP"},
-      { name: "Size", value: "S , L" },
-      { name: "Height", value: "18' , 24'" },
-      { name: "Width", value: "22.5', 30'" }
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "18' x 12'" },
+      { name: "L", value: "36' x 24'" }
     ],
     features: [
       "FROST-RESISTANCE",
@@ -225,19 +226,21 @@ export const bigPlanters =
 
    {
     id: 4,
-    name: "Modern Ceramic Vase",
+    name: "CONCURVE",
     price: 129.99,
     images: [
       image10,
       image11,
       image12,
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
       {name: "Material", value: "GRC/FRP"},
-      { name: "Size", value: "S , L" },
-      { name: "Height", value: "18' , 24'" },
-      { name: "Width", value: "22.5', 30'" }
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "18' x 18'" },
+      { name: "M", value: "24' x 24'" },
+      { name: "L", value: "22' x 36'" },
+      { name: "XL", value: "36' x 36'" },
     ],
     features: [
       "FROST-RESISTANCE",
@@ -252,7 +255,7 @@ export const bigPlanters =
 
    {
     id: 5,
-    name: "Modern Ceramic Vase",
+    name: "CONE",
     price: 129.99,
     images: [
         image13,
@@ -260,12 +263,12 @@ export const bigPlanters =
         image13,
       
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
       {name: "Material", value: "GRC/FRP"},
-      { name: "Size", value: "S , M, L" },
-      { name: "Height", value: "12.5' , 18.5',  24.5'" },
-      { name: "Width", value: "10', 13.5', 18.5'" }
+      { name: "Size", value: "W x H" },
+      { name: "M", value: "22.5' x 21'" },
+    
     ],
     features: [
       "FROST-RESISTANCE",
@@ -279,18 +282,20 @@ export const bigPlanters =
 
    {
     id: 6,
-    name: "Modern Ceramic Vase",
+    name: "CURVY",
     price: 129.99,
     images: [
         image16,
         image17,
         image18
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "7.5' x 12.5'" },
+      { name: "M", value: "16' x 16.5'" },
+      { name: "L", value: "20' x 20'" }
     ],
     features: [
       "Hand-crafted design",
@@ -303,18 +308,19 @@ export const bigPlanters =
 
    {
     id: 7,
-    name: "Modern Ceramic Vase",
+    name: "CYLINDER",
     price: 129.99,
     images: [
        image19,
        image19,
        image19
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "M", value: "21' x 18'" },
+     
     ],
     features: [
       "Hand-crafted design",
@@ -327,18 +333,21 @@ export const bigPlanters =
 
    {
     id: 8,
-    name: "Modern Ceramic Vase",
+    name: "FLUTED BOX",
     price: 129.99,
     images: [
       image20,
       image20,
       image20
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H x L" },
+      { name: "XS", value: "12' x 15' x 48'" },
+      { name: "S", value: "12' x 15' x 60'" },
+      { name: "L", value: "15' x 30' x 50.5'" },
+      { name: "XL", value: "27.5' x 30' x 50.5'" }
     ],
     features: [
       "Hand-crafted design",
@@ -351,18 +360,20 @@ export const bigPlanters =
 
    {
     id: 9,
-    name: "Modern Ceramic Vase",
+    name: "FLUTED CYLINDER SERIES",
     price: 129.99,
     images: [
       image21,
       image22,
       image23
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "16' x 16'" },
+      { name: "M", value: "15.5' x 22'" },
+      { name: "L", value: "16' x 27'" }
     ],
     features: [
       "Hand-crafted design",
@@ -375,18 +386,19 @@ export const bigPlanters =
 
    {
     id: 10,
-    name: "Modern Ceramic Vase",
+    name: "GROOVE CYLINDER",
     price: 129.99,
     images: [
       image24,
       image24,
       image24
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "M", value: "32.5' x 18'" },
+   
     ],
     features: [
       "Hand-crafted design",
@@ -399,18 +411,19 @@ export const bigPlanters =
 
    {
     id: 11,
-    name: "Modern Ceramic Vase",
+    name: "KAZE PLANTER",
     price: 129.99,
     images: [
       image25,
       image25,
       image25
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H x L" },
+      { name: "S", value: "11' x 10' x 25'" },
+    
     ],
     features: [
       "Hand-crafted design",
@@ -422,18 +435,22 @@ export const bigPlanters =
 
    {
     id: 12,
-    name: "Modern Ceramic Vase",
+    name: "KNOTTED",
     price: 129.99,
     images: [
       image26,
       image27,
       image28
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "19' x 16'" },
+      { name: "M", value: "20' x 24'" },
+      { name: "L", value: "30' x 36'" },
+      { name: "XL", value: "40' x 48'" },
+
     ],
     features: [
       "Hand-crafted design",
@@ -445,18 +462,19 @@ export const bigPlanters =
 
    {
     id: 13,
-    name: "Modern Ceramic Vase",
+    name: "LEAF EMBROSED",
     price: 129.99,
     images: [
       image29,
       image29,
       image29
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H x L" },
+      { name: "M", value: "14' x 17.5' x 14'" },
+     
     ],
     features: [
       "Hand-crafted design",
@@ -469,18 +487,19 @@ export const bigPlanters =
 
    {
     id: 14,
-    name: "Modern Ceramic Vase",
+    name: "MATKA PLANTER-1",
     price: 129.99,
     images: [
       image30,
       image30,
       image30
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "10' x 10'" },
+      { name: "M", value: "10.5' x 10.5'" }
     ],
     features: [
       "Hand-crafted design",
@@ -493,18 +512,19 @@ export const bigPlanters =
 
    {
     id: 15,
-    name: "Modern Ceramic Vase",
+    name: "MATKA PLANTER-2",
     price: 129.99,
     images: [
       image31,
       image31,
       image31,
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "10' x 10'" },
+      { name: "M", value: "10.5' x 10.5'" }
     ],
     features: [
       "Hand-crafted design",
@@ -516,18 +536,19 @@ export const bigPlanters =
 
    {
     id: 16,
-    name: "Modern Ceramic Vase",
+    name: "PLANTER BOX",
     price: 129.99,
     images: [
       image32,
       image32,
       image33,
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H x L" },
+      { name: "M", value: "14' x 14.75' x 24'" },
+   
     ],
     features: [
       "Hand-crafted design",
@@ -539,7 +560,7 @@ export const bigPlanters =
 
    {
     id: 17,
-    name: "Modern Ceramic Vase",
+    name: "RIBMAT",
     price: 129.99,
     images: [
       image33,
@@ -547,11 +568,13 @@ export const bigPlanters =
       image34,
   
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "18' x 18'" },
+      { name: "M", value: "22' x 24'" },
+      { name: "L", value: "26' x 30'" }
     ],
     features: [
       "Hand-crafted design",
@@ -563,18 +586,20 @@ export const bigPlanters =
 
    {
     id: 18,
-    name: "Modern Ceramic Vase",
+    name: "RIBMAT",
     price: 129.99,
     images: [
       image35,
       image36,
       image37
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "18' x 18'" },
+      { name: "M", value: "22' x 24'" },
+      { name: "L", value: "26' x 30'" }
     ],
     features: [
       "Hand-crafted design",
@@ -586,18 +611,19 @@ export const bigPlanters =
 
    {
     id: 19,
-    name: "Modern Ceramic Vase",
+    name: "SOL PLANTER",
     price: 129.99,
     images: [
       image38,
       image38,
       image38,
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H x L" },
+      { name: "M", value: "2O' x 33' x 20'" },
+     
     ],
     features: [
       "Hand-crafted design",
@@ -609,18 +635,20 @@ export const bigPlanters =
 
    {
     id: 20,
-    name: "Modern Ceramic Vase",
+    name: "SQUARE BOX",
     price: 129.99,
     images: [
       image39,
       image40,
       image41,
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H x L" },
+      { name: "S", value: "12' x 13 x 12'" },
+      { name: "M", value: "16' x 17' x 17'" },
+      { name: "L", value: "20' x 21 x 20'" }
     ],
     features: [
       "Hand-crafted design",
@@ -632,18 +660,21 @@ export const bigPlanters =
 
    {
     id: 21,
-    name: "Modern Ceramic Vase",
+    name: "STONE SERIES",
     price: 129.99,
     images: [
       image42,
       image43,
       image44
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "10' x 1O'" },
+      { name: "M", value: "12' x 12'" },
+      { name: "L", value: "18' x 18'" },
+      { name: "XL", value: "24' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -656,19 +687,20 @@ export const bigPlanters =
 
    {
     id: 22,
-    name: "Modern Ceramic Vase",
+    name: "CENTRE TABLE",
     price: 129.99,
     images: [
       image45,
-      image46,
-      image47,
-      image48
+      image45,
+      image45,
+    
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -682,7 +714,7 @@ export const bigPlanters =
 
    {
     id: 23,
-    name: "Modern Ceramic Vase",
+    name: "TAPER TOP",
     price: 129.99,
     images: [
       image49,
@@ -690,11 +722,12 @@ export const bigPlanters =
       image51,
       image52
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "L", value: "14' x 20.5'" },
+      { name: "M", value: "15.5' x 13.5'" }
     ],
     features: [
       "Hand-crafted design",
@@ -707,18 +740,19 @@ export const bigPlanters =
 
    {
     id: 24,
-    name: "Modern Ceramic Vase",
+    name: "TEAR DROP",
     price: 129.99,
     images: [
       image53,
       image54,
       image55
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 23'" },
+      { name: "L", value: "23' x 26.5'" }
     ],
     features: [
       "Hand-crafted design",
@@ -731,18 +765,21 @@ export const bigPlanters =
 
    {
     id: 25,
-    name: "Modern Ceramic Vase",
+    name: "TRAVENTINE MARBLE GROOVE",
     price: 129.99,
     images: [
       image56,
       image56,
       image56,
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H x L" },
+      { name: "S", value: "11.81' x 17.72' x 11.81'" },
+      { name: "M", value: "17.72' x 23.62' x 17.72'" },
+      { name: "L", value: "23.62' x 29.53' x 23.62" },
+      { name: "XL", value: "29.53' x 33.46' x 29.53'" }
     ],
     features: [
       "Hand-crafted design",
@@ -755,18 +792,20 @@ export const bigPlanters =
 
    {
     id: 26,
-    name: "Modern Ceramic Vase",
+    name: "UNO Planter",
     price: 129.99,
     images: [
       image57,
       image57,
       image57,
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "D x H" },
+      { name: "S", value: "12' x 18'" },
+      { name: "M", value: "17.5' x 18'" },
+      { name: "L", value: "24' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -779,18 +818,19 @@ export const bigPlanters =
 
    {
     id: 27,
-    name: "Modern Ceramic Vase",
+    name: "VESSEL PLANTER",
     price: 129.99,
     images: [
       image58,
       image58,
       image58,
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "M", value: "22.5' x 16.5'" },
+ 
     ],
     features: [
       "Hand-crafted design",
@@ -803,18 +843,21 @@ export const bigPlanters =
 
    {
     id: 28,
-    name: "Modern Ceramic Vase",
+    name: "VORTEX",
     price: 129.99,
     images: [
       image59,
       image60,
       image61
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H x L" },
+      { name: "S", value: "9.5' x 9.5' x 9.5'" },
+      { name: "M", value: "11' x 12' x 11'" },
+      { name: "L", value: "17' x 18' x 17'" },
+      { name: "XL", value: "23.5' x 24.5 x 23.5'" }
     ],
     features: [
       "Hand-crafted design",
@@ -827,18 +870,19 @@ export const bigPlanters =
 
    {
     id: 29,
-    name: "Modern Ceramic Vase",
+    name: "CONE",
     price: 129.99,
     images: [
       image62,
       image62,
       image62,
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+     
+      { name: "Size", value: "W x H" },
+      { name: "M", value: "22.5' x 21'" },
     ],
     features: [
       "Hand-crafted design",
@@ -850,18 +894,19 @@ export const bigPlanters =
 
    {
     id: 30,
-    name: "Modern Ceramic Vase",
+    name: "CONE",
     price: 129.99,
     images: [
       image13,
       image13,
       image13,
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",

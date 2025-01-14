@@ -53,6 +53,9 @@ p{
 
 }
 
+ul{
+  list-style: none;
+}
 
 
 @media (prefers-color-scheme: light) {

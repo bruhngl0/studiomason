@@ -142,7 +142,7 @@ const TestComp = ({}) => {
            </Link>
          </div>
          <div className='client-one-col3-grid1-2'>
-         <Link to={`/product/${bigPlanters[2].id}`} className="client-one-col3-grid1-2">
+         <Link to={`/product/${bigPlanters[16].id}`} className="client-one-col3-grid1-2">
            <img src = {bigPlanters[16].images[0]} />
            </Link>
          </div>
@@ -183,8 +183,8 @@ const TestComp = ({}) => {
            </Link>
          </div>
          <div className='client-one-col3-grid1-2'>
-           <Link to={`/product/${bigPlanters[21].id}`} className="client-one-col3-grid1-2">
-           <img src = {bigPlanters[22].images[0]} />
+           <Link to={`/product/${bigPlanters[22].id}`} className="client-one-col3-grid1-2">
+           <img src = {bigPlanters[22].images[1]} />
            </Link>
          </div>
        </div>

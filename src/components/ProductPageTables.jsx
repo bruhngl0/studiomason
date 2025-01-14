@@ -26,59 +26,67 @@ const ProductPageTables = () => {
 
   return (
     <div className="product-page">
-      <div className="product-page-one">
-      <a href = "#" className="anchor" onClick={(e) => {
-        e.preventDefault(); // Prevent the default anchor tag behavior
-        window.history.back(); // Navigate to the previous page
-      }}>
-      <button>←</button>
-      </a>
+    {/* Left Side - Image Carousel */}
+    <div className="product-page__left">
       <div className="product-carousel">
         <Slider {...sliderSettings}>
           {product.images.map((image, index) => (
-            <div key={index}>
+            <div key={index} className="carousel-slide">
               <img src={image} alt={`${product.name} - ${index + 1}`} />
             </div>
           ))}
         </Slider>
       </div>
+    </div>
+
+    {/* Right Side - Product Details */}
+    <div className="product-page__right">
+      {/* Green Section */}
+      <div className="product-header">
+        <h1>{product.name}</h1>
+        <p>{product.description}</p>
       </div>
 
-<div className="product-page-two">
-      {/* Product Details */}
+      {/* Red Section */}
+      <div className="product-details">
+        {/* Features */}
+        <div className="features">
+          <h3>Features:</h3>
+          <ul>
+            {product.features.map((feature, index) => (
+              <li key={index}>{feature}</li>
+            ))}
+          </ul>
+        </div>
 
-      <div className="pp-2-1">
-      <h1>{product.name}</h1>
-      <p>{product.description}</p>
+        {/* Specifications */}
+        <div className="specifications">
+          <h3>Specifications:</h3>
+          <ul>
+            {product.specifications.map((spec, index) => (
+              <li key={index} className="spec-item">
+                <span className="spec-name">{spec.name}:</span>
+                <span className="spec-value">{spec.value}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
 
-      <div className="pp-2-2">
-      <ul className="ul-1">
-      <h3>Features:</h3>
-        {product.features.map((feature, index) => (
-          <li key={index}>{feature}</li>
-        ))}
-      </ul>
-      <ul className="ul-2">
-      <h3>Specifications:</h3>
-        {product.specifications.map((spec, index) => (
-          <li key={index}>
-           {spec.name}: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{spec.value}
-          </li>
-        ))}
-      </ul>
-    
-    
-      </div>
-      <div className="product-page-three">
-      <Link to ="/buyguide">
-            <button style={{padding: "5px" , fontSize: "14px"}}>BUY-GUIDE</button>
-            </Link>
-      </div>
+      {/* Buy Guide Button */}
+      <div className="product-actions">
+        <Link to="/buyGuide">
+          <button className="buy-guide-btn">How To Buy</button>
+        </Link>
+        <button 
+          className="back-btn"
+          onClick={() => window.history.back()}
+        >
+          ←
+        </button>
       </div>
     </div>
+  </div>
   );
 };
 

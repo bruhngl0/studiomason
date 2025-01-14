@@ -22,9 +22,10 @@ export const tables =
     ],
     description: "Polished terrazzo table tops with customizable concrete color, chip size, and thickness (20mm to 40mm). Durable, easy to maintain, and reinforced with fiberglass mesh for added strength. Water, moss, and stain-resistant. Available in diameters from 1.5' to 8. Bases can be customized in MS, SS, or wood to suit customer preferences.",
     specifications: [
-      { name: "Material", value: "MS, SS, WOOD," },
-      { name: "Diameter", value: "3 ft" },
-      { name: "Height", value: "1ft 6 inch" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -46,9 +47,10 @@ export const tables =
     ],
     description: "Beautiful handcrafted ceramic vase...",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -70,9 +72,10 @@ export const tables =
     ],
     description: "Beautiful handcrafted ceramic vase...",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -95,9 +98,10 @@ export const tables =
     ],
     description: "Beautiful handcrafted ceramic vase...",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -119,9 +123,10 @@ export const tables =
     ],
     description: "Beautiful handcrafted ceramic vase...",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",

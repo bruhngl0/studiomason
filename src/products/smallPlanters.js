@@ -142,12 +142,13 @@ export const smallPlanters =
       image2,
       image3
     ],
-    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials Both add elegance and versatility indoors or outdoors.",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
+
     specifications: [
       {name: "Material", value: "GRC/FRP"},
-      { name: "Size", value: "S , L" },
-      { name: "Height", value: "18' , 24'" },
-      { name: "Width", value: "22.5', 30'" }
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "FROST-RESISTANCE",
@@ -169,11 +170,12 @@ export const smallPlanters =
         image5,
         image6
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -193,11 +195,12 @@ export const smallPlanters =
         image8,
         image9
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -218,11 +221,12 @@ export const smallPlanters =
       image11,
       image12,
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -242,11 +246,12 @@ export const smallPlanters =
         image14,
         image15,
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -265,11 +270,12 @@ export const smallPlanters =
         image17,
         image18
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -289,11 +295,12 @@ export const smallPlanters =
        image20,
        image21
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -311,11 +318,12 @@ export const smallPlanters =
     images: [
       image22
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -335,11 +343,12 @@ export const smallPlanters =
       image24,
       image25
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -357,11 +366,12 @@ export const smallPlanters =
     images: [
       image26
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -381,11 +391,12 @@ export const smallPlanters =
       image28,
       image29
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -404,11 +415,12 @@ export const smallPlanters =
       image31,
       image32
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -426,11 +438,12 @@ export const smallPlanters =
       image33,
       image34
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -450,11 +463,12 @@ export const smallPlanters =
       image36,
       image37,
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -473,11 +487,12 @@ export const smallPlanters =
       image38,
       image39
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -495,11 +510,12 @@ export const smallPlanters =
       image40,
       image41
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -519,11 +535,12 @@ export const smallPlanters =
       image44
   
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -542,11 +559,12 @@ export const smallPlanters =
       image46,
       image47
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -564,11 +582,12 @@ export const smallPlanters =
       image48,
       image49
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -587,11 +606,12 @@ export const smallPlanters =
       image51,
       
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -610,11 +630,12 @@ export const smallPlanters =
       image53,
       
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -634,11 +655,12 @@ export const smallPlanters =
       image55,
      
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -659,11 +681,12 @@ export const smallPlanters =
       image57,
     
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -683,11 +706,12 @@ export const smallPlanters =
       image59,
       image60
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -707,11 +731,12 @@ export const smallPlanters =
       image62,
   
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -731,11 +756,12 @@ export const smallPlanters =
       image64,
       image65
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -754,11 +780,12 @@ export const smallPlanters =
       image66,
       image67,
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -778,11 +805,12 @@ export const smallPlanters =
       image69,
 
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -800,11 +828,12 @@ export const smallPlanters =
     images: [
       image62
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
@@ -821,11 +850,12 @@ export const smallPlanters =
     images: [
       image13
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      { name: "Material", value: "Ceramic" },
-      { name: "Height", value: "12 inches" },
-      { name: "Weight", value: "2.5 lbs" }
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "22.5' x 18'" },
+      { name: "L", value: "30' x 24'" }
     ],
     features: [
       "Hand-crafted design",
