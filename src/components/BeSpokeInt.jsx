@@ -23,6 +23,12 @@ to deliver exceptional results.
        <a href= "/enquiry">
         <button className="enq-btn">ENQUIRY</button>
         </a>
+        <button 
+            className="back-btn1"
+            onClick={() => window.history.back()}
+          >
+            ←
+          </button>
       </div>
 
       <div className="right-section">
@@ -36,7 +42,7 @@ to deliver exceptional results.
             </p>
           </div>
           <div className="stage">
-            <h3>STAGE 2: DESIGN & TESTING</h3>
+            <h3>STAGE 2: DESIGN & MANUFACTURING</h3>
             <p>
             Once we’ve gathered your input, our skilled team gets to work. We craft innovative designs and rigorously test them to ensure they meet the highest standards of quality and functionality. Your feedback is integrated throughout the process to refine the product to perfection.
             </p>

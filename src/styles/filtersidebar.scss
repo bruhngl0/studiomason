@@ -1,18 +1,32 @@
 // FilterSidebar.scss
 .filter-sidebar {
  
-    padding: 12px;
+    
     background-color: #e5e7eb;
     border-right: 1px solid #e5e5e5;
     color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   
     .categories {
+      margin-top: 4rem;
       margin-bottom: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
   
-      h2 {
-        font-size: 18px;
+      p {
+     
         font-weight: 600;
-        margin-bottom: 16px;
+        color: #373434;
+        font-size: 14px;
+        display: none;
+  
+       
+      
         
       }
   
@@ -23,9 +37,11 @@
   
         li {
           
-          border-bottom: 1px solid rgb(113, 102, 102);
+          border-bottom: 1px solid rgb(202, 198, 198);
           font-size: 12px;
-          padding: 10px;
+          padding: 20px;
+          padding-left: 10px;
+          padding-right: 5px;
           font-weight: 600;
   
           a {
@@ -42,4 +58,11 @@
       }
     }
   
+  }
+
+
+  .back-btn2{
+    
+    padding: 2px 3px;
+    margin-right:29px ;
   }

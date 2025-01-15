@@ -22,8 +22,12 @@ const FilterSidebar = () => {
   return (
     <div className="filter-sidebar">
       <div className="categories">
-        <h2>CATEGORIES</h2>
+        <p>CATEGORIES</p>
         <ul>
+
+        <li style = {{color: "black"}}>
+            <a>CATEGORIES</a>
+          </li>
           <li>
             <a href="/test-comp">PLANTERS</a>
           </li>
@@ -51,7 +55,7 @@ const FilterSidebar = () => {
 
   
      <Link to= "/screensix">
-      <button>
+      <button className='back-btn2'>
       ←BACK
       </button>
       </Link>

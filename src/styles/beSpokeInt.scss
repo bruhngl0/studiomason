@@ -17,7 +17,12 @@
       height: 100vh;
       background-color: #d5a981;
       border-right: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
       h1 {
+    
         font-size: 36px;
         font-weight: bold;
    
@@ -26,7 +31,7 @@
       .intro {
         font-size: 16px;
         color: #555;
-        padding-top: 3rem;
+        padding-top: 1rem;
 
       }
   
@@ -40,17 +45,26 @@
 
       .enq-btn{
        margin-top: 2rem;
-       font-size: 20px;
-       padding: 10px 5px;
+       font-size: 14px;
+       padding: 3px 5px;
        color: white;
        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+    
        
       }
+    }
+
+    .back-btn1{
+      margin-top: 0.5rem;
     }
   
     .right-section {
       width: 50%;
       padding: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
       .project-info {
        
         display: flex;

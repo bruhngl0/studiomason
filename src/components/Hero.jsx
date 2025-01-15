@@ -1,111 +1,90 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import '../styles/hero.scss';
-import { p } from 'framer-motion/m';
 import { Link } from 'react-router-dom';
+import '../styles/hero.scss';
 
 const Hero = ({ image, onClose, layoutId, productData }) => {
+  if (!productData) {
+    return null;
+  }
 
-  
   return (
     <motion.div
       initial={{ opacity: 1 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      
       className="hero-container"
     >
-      <motion.div 
-        className="hero-transition-background"
-        initial={{ opacity: 1 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 1 }}
-      />
-      
-      <motion.div
-        initial={{ y: 20, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.5 }}
-        className="hero-header"
-      >
-        <Link to = "/products">       <button onClick={onClose} className="back-button">
-          ← Back
-        </button>  </Link>
-
-      </motion.div>
-
-      <div className="main-content">
-        <div className="hero-image-wrapper">
+      <div className="hero-content">
+        {/* Left Side - Image */}
+        <div className="hero-left">
           <motion.div
             layoutId={layoutId}
             initial={{ y: 1, opacity: 1 }}
             animate={{ y: 1, opacity: 1 }}
-            
             className="hero-image-container"
           >
-            <img 
-              src={image || "/api/placeholder/1200/800"} 
+            <img
+              src={image || "/api/placeholder/1200/800"}
               alt="Product Hero"
             />
           </motion.div>
         </div>
 
-        <motion.div
-          initial={{ y: 100, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 1.3 }}
-          className="product-details"
-        >
+        {/* Right Side - Product Details */}
+        <div className="hero-right">
           <div className="product-intro">
             <h1>{productData.name}</h1>
-            <p>
-             {productData.description}
-            </p>
+            <p>{productData.description}</p>
           </div>
 
           <div className="features-specs">
-            <div className="features">
-              <h2>Features</h2>
-              <ul>
-                {productData.features.map((features, index)=> (
-                  <li key = {index}>{features}</li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="specifications">
-              <h2>Specifications</h2>
-              <div className="specs-grid">
-                <div className="spec-item">
-                  <span>Dimension</span>
-                  <span>{productData.specifications.dimension}</span>
-                </div>
-                <div className="spec-item">
-                  <span>Weight</span>
-                  <span>{productData.specifications.weight}</span>
-                </div>
-                <div className="spec-item">
-                  <span>Material</span>
-                  <span>{productData.specifications.material}</span>
-                </div>
+            {productData.features && (
+              <div className="features">
+                <h3>Features:</h3>
+                <ul>
+                  {productData.features.map((feature, index) => (
+                    <li key={index}>{feature}</li>
+                  ))}
+                </ul>
               </div>
-            </div>
+            )}
+
+            {productData.specifications && (
+              <div className="specifications">
+                <h3>Specifications:</h3>
+                <ul>
+                  {Array.isArray(productData.specifications) ? (
+                    productData.specifications.map((spec, index) => (
+                      <li key={index} className="spec-item">
+                        <span className="spec-name">{spec.name}:</span>
+                        <span className="spec-value">{spec.value}</span>
+                      </li>
+                    ))
+                  ) : (
+                    Object.entries(productData.specifications).map(([key, value], index) => (
+                      <li key={index} className="spec-item">
+                        <span className="spec-name">{key}:</span>
+                        <span className="spec-value">{value}</span>
+                      </li>
+                    ))
+                  )}
+                </ul>
+              </div>
+            )}
           </div>
 
-          <motion.div
-            initial={{ y: 50, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ delay: 0.6 }}
-            className="product-footer"
-          >
-            <div className="footer-content">
-              
-              <button className="cta-button">
-                how to buy
+          <div className="product-actions">
+            <button className="cta-button">
+              How To Buy
+            </button>
+            <Link to="/products">
+              <button onClick={onClose} className="back-button">
+                ←
               </button>
-            </div>
-          </motion.div>
-        </motion.div>
+            </Link>
+          </div>
+        </div>
       </div>
     </motion.div>
   );

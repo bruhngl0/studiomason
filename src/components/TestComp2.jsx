@@ -34,7 +34,7 @@ const TestComp2 = ({}) => {
            </Link>
          </div>
          <div className='client-one-col3-grid1-2'>
-         <Link to={`/smallplanters/${smallPlanters[3].id}`} className="client-one-col3-grid1-2">
+         <Link to={`/smallplanters/${smallPlanters[2].id}`} className="client-one-col3-grid1-2">
            <img src = {smallPlanters[2].images[2]} />
            </Link>
          </div>

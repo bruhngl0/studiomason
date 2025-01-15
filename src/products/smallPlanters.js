@@ -145,17 +145,16 @@ export const smallPlanters =
     description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
 
     specifications: [
-      {name: "Material", value: "GRC/FRP"},
+      { name: "Material", value: "GRC" },
       { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "S", value: "3.5' x 4.5 inch" },
     ],
     features: [
-      "FROST-RESISTANCE",
-      "UV-RESISTANCE",
-      "DRAINAGE",
-      "OUTDOOR-READY",
-      "INDOOR-READY"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
+     
     ]
    },
 
@@ -163,7 +162,7 @@ export const smallPlanters =
 
    {
     id: 2,
-    name: "Modern Ceramic Vase",
+    name: "SPACE POT 2",
     price: 129.99,
     images: [
         image4,
@@ -172,15 +171,16 @@ export const smallPlanters =
     ],
     description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      {name: "Material", value: "GRC/FRP"},
+      {name: "Material", value: "GRC"},
       { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "S", value: "4.5' x 3.5'inch" },
+   
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
@@ -188,7 +188,7 @@ export const smallPlanters =
 
    {
     id: 3,
-    name: "Modern Ceramic Vase",
+    name: "BASIC ROUND",
     price: 129.99,
     images: [
         image7,
@@ -197,15 +197,16 @@ export const smallPlanters =
     ],
     description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      {name: "Material", value: "GRC/FRP"},
+      {name: "Material", value: "GRC"},
       { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "S", value: "4' x 4'inch" },
+   
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
@@ -214,7 +215,7 @@ export const smallPlanters =
 
    {
     id: 4,
-    name: "Modern Ceramic Vase",
+    name: "DECORKART POT 1",
     price: 129.99,
     images: [
       image10,
@@ -223,15 +224,16 @@ export const smallPlanters =
     ],
     description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      {name: "Material", value: "GRC/FRP"},
+      {name: "Material", value: "GRC"},
       { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "S", value: "5' x 4.5 inch'" },
+    
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
@@ -239,7 +241,7 @@ export const smallPlanters =
 
    {
     id: 5,
-    name: "Modern Ceramic Vase",
+    name: "DECORKART POT 2",
     price: 129.99,
     images: [
         image13,
@@ -248,22 +250,23 @@ export const smallPlanters =
     ],
     description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      {name: "Material", value: "GRC/FRP"},
+      {name: "Material", value: "GRC"},
       { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "S", value: "5' x 4.5 inch'" },
+    
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
 
    {
     id: 6,
-    name: "Modern Ceramic Vase",
+    name: "DECORKART POT 3",
     price: 129.99,
     images: [
         image16,
@@ -272,15 +275,16 @@ export const smallPlanters =
     ],
     description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      {name: "Material", value: "GRC/FRP"},
+      {name: "Material", value: "GRC"},
       { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "S", value: "3' x 3' inch'" },
+    
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
@@ -288,7 +292,7 @@ export const smallPlanters =
 
    {
     id: 7,
-    name: "Modern Ceramic Vase",
+    name: "FACE",
     price: 129.99,
     images: [
        image19,
@@ -299,13 +303,14 @@ export const smallPlanters =
     specifications: [
       {name: "Material", value: "GRC/FRP"},
       { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "S", value: "4.7' x 4.5'inch" },
+  
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
@@ -316,7 +321,9 @@ export const smallPlanters =
     name: "Modern Ceramic Vase",
     price: 129.99,
     images: [
-      image22
+      image22,
+      image22,
+      image22,
     ],
     description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
@@ -326,9 +333,10 @@ export const smallPlanters =
       { name: "L", value: "30' x 24'" }
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
@@ -336,7 +344,7 @@ export const smallPlanters =
 
    {
     id: 9,
-    name: "Modern Ceramic Vase",
+    name: "FRACTRAL 1",
     price: 129.99,
     images: [
       image23,
@@ -345,15 +353,16 @@ export const smallPlanters =
     ],
     description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      {name: "Material", value: "GRC/FRP"},
+      {name: "Material", value: "GRC"},
       { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "S", value: "4' x 6'inch" },
+   
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
@@ -361,22 +370,26 @@ export const smallPlanters =
 
    {
     id: 10,
-    name: "Modern Ceramic Vase",
+    name: "FRACTRAL 5",
     price: 129.99,
     images: [
-      image26
+      image26,
+      image26,
+      image26,
+
     ],
     description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
       {name: "Material", value: "GRC/FRP"},
-      { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "Size", value: "W x H x L" },
+      { name: "S", value: "14' x 14' x 15'" },
+    
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
@@ -384,7 +397,7 @@ export const smallPlanters =
 
    {
     id: 11,
-    name: "Modern Ceramic Vase",
+    name: "FRACTAL 7",
     price: 129.99,
     images: [
       image27,
@@ -393,22 +406,23 @@ export const smallPlanters =
     ],
     description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      {name: "Material", value: "GRC/FRP"},
+      {name: "Material", value: "GRC"},
       { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "S", value: "4.5' x 4.7'inch" },
+    
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
 
    {
     id: 12,
-    name: "Modern Ceramic Vase",
+    name: "GEOHEX",
     price: 129.99,
     images: [
       image30,
@@ -418,21 +432,21 @@ export const smallPlanters =
     description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
       {name: "Material", value: "GRC/FRP"},
-      { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "Size", value: "4' x 4'inch" },
+
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
 
    {
     id: 13,
-    name: "Modern Ceramic Vase",
+    name: "GEOHEX (broad)",
     price: 129.99,
     images: [
       image33,
@@ -440,15 +454,16 @@ export const smallPlanters =
     ],
     description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      {name: "Material", value: "GRC/FRP"},
+      {name: "Material", value: "GRC"},
       { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "S", value: "4.6' x 4.5'inch" },
+   
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
@@ -456,7 +471,7 @@ export const smallPlanters =
 
    {
     id: 14,
-    name: "Modern Ceramic Vase",
+    name: "GRANO",
     price: 129.99,
     images: [
       image35,
@@ -465,15 +480,16 @@ export const smallPlanters =
     ],
     description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      {name: "Material", value: "GRC/FRP"},
+      {name: "Material", value: "GRC"},
       { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "S", value: "3.5' x 3.5'inch" },
+    
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
@@ -481,7 +497,7 @@ export const smallPlanters =
 
    {
     id: 15,
-    name: "Modern Ceramic Vase",
+    name: "GRANO LARGE",
     price: 129.99,
     images: [
       image38,
@@ -491,20 +507,21 @@ export const smallPlanters =
     specifications: [
       {name: "Material", value: "GRC/FRP"},
       { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "S", value: "6' x 5.5'inch" },
+    
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
 
    {
     id: 16,
-    name: "Modern Ceramic Vase",
+    name: "HEXAGON",
     price: 129.99,
     images: [
       image40,
@@ -512,22 +529,23 @@ export const smallPlanters =
     ],
     description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      {name: "Material", value: "GRC/FRP"},
-      { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      {name: "Material", value: "GRC"},
+      { name: "Size", value: "W x H x L" },
+      { name: "S", value: "12' x 12'x 6.5'" },
+    
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
 
    {
     id: 17,
-    name: "Modern Ceramic Vase",
+    name: "HONEYCOMB",
     price: 129.99,
     images: [
       image42,
@@ -537,22 +555,23 @@ export const smallPlanters =
     ],
     description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      {name: "Material", value: "GRC/FRP"},
-      { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      {name: "Material", value: "GRC"},
+      { name: "Size", value: "W x H x L" },
+      { name: "S", value: "9' x 9' x 7.5'" },
+     
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
 
    {
     id: 18,
-    name: "Modern Ceramic Vase",
+    name: "INVERTED GRANO",
     price: 129.99,
     images: [
       image45,
@@ -561,22 +580,23 @@ export const smallPlanters =
     ],
     description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      {name: "Material", value: "GRC/FRP"},
+      {name: "Material", value: "GRC"},
       { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "S", value: "3.5' x 3'inch" },
+ 
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
 
    {
     id: 19,
-    name: "Modern Ceramic Vase",
+    name: "M&S POT 1",
     price: 129.99,
     images: [
       image48,
@@ -584,22 +604,23 @@ export const smallPlanters =
     ],
     description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      {name: "Material", value: "GRC/FRP"},
+      {name: "Material", value: "GRC"},
       { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "S", value: "3' x 3'inch" },
+      
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
 
    {
     id: 20,
-    name: "Modern Ceramic Vase",
+    name: "M&S POT 2",
     price: 129.99,
     images: [
       image50,
@@ -608,22 +629,23 @@ export const smallPlanters =
     ],
     description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      {name: "Material", value: "GRC/FRP"},
+      {name: "Material", value: "GRC"},
       { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "S", value: "3' x 3'inch" },
+ 
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
 
    {
     id: 21,
-    name: "Modern Ceramic Vase",
+    name: "M&S POT 3",
     price: 129.99,
     images: [
       image52,
@@ -634,13 +656,14 @@ export const smallPlanters =
     specifications: [
       {name: "Material", value: "GRC/FRP"},
       { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "S", value: "3' x 3'inch" },
+   
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
@@ -648,7 +671,7 @@ export const smallPlanters =
 
    {
     id: 22,
-    name: "Modern Ceramic Vase",
+    name: "M&S POT 4",
     price: 129.99,
     images: [
       image54,
@@ -659,13 +682,14 @@ export const smallPlanters =
     specifications: [
       {name: "Material", value: "GRC/FRP"},
       { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "S", value: "3.3' x 3'inch" },
+     
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
@@ -674,7 +698,7 @@ export const smallPlanters =
 
    {
     id: 23,
-    name: "Modern Ceramic Vase",
+    name: "M&S POT 5",
     price: 129.99,
     images: [
       image56,
@@ -685,13 +709,14 @@ export const smallPlanters =
     specifications: [
       {name: "Material", value: "GRC/FRP"},
       { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "S", value: "4.75 x 4'inch" },
+    
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
@@ -699,7 +724,7 @@ export const smallPlanters =
 
    {
     id: 24,
-    name: "Modern Ceramic Vase",
+    name: "MARCO",
     price: 129.99,
     images: [
       image58,
@@ -710,13 +735,14 @@ export const smallPlanters =
     specifications: [
       {name: "Material", value: "GRC/FRP"},
       { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "S", value: "3 x 6'inch" },
+
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
@@ -739,9 +765,10 @@ export const smallPlanters =
       { name: "L", value: "30' x 24'" }
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
@@ -749,7 +776,7 @@ export const smallPlanters =
 
    {
     id: 26,
-    name: "Modern Ceramic Vase",
+    name: "REVERSE MARCO",
     price: 129.99,
     images: [
       image63,
@@ -758,15 +785,16 @@ export const smallPlanters =
     ],
     description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      {name: "Material", value: "GRC/FRP"},
+      {name: "Material", value: "GRC"},
       { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "S", value: "6'inch x 1'ft" },
+     
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
@@ -774,7 +802,7 @@ export const smallPlanters =
 
    {
     id: 27,
-    name: "Modern Ceramic Vase",
+    name: "VEXGEO",
     price: 129.99,
     images: [
       image66,
@@ -784,13 +812,14 @@ export const smallPlanters =
     specifications: [
       {name: "Material", value: "GRC/FRP"},
       { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "S", value: "4' x 2.5'inch" },
+     
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
@@ -798,7 +827,7 @@ export const smallPlanters =
 
    {
     id: 28,
-    name: "Modern Ceramic Vase",
+    name: "VEXGEO(tall)",
     price: 129.99,
     images: [
       image68,
@@ -807,15 +836,16 @@ export const smallPlanters =
     ],
     description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      {name: "Material", value: "GRC/FRP"},
+      {name: "Material", value: "GRC"},
       { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "S", value: "3.5' x 4'inch" },
+    
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
@@ -823,22 +853,25 @@ export const smallPlanters =
 
    {
     id: 29,
-    name: "Modern Ceramic Vase",
+    name: "PLUTO",
     price: 129.99,
     images: [
-      image62
+      image61,
+      image62,
+      image62,
     ],
     description: "Elevate your workspace with our minimalist Concrete Desk Planters—a seamless blend of functionality and modern design. Handcrafted from premium concrete, these planters offer a sleek, industrial aesthetic that complements any desk or shelf.",
     specifications: [
-      {name: "Material", value: "GRC/FRP"},
+      {name: "Material", value: "GRC"},
       { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "S", value: "6' x 5.5'inch" },
+
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 
@@ -858,9 +891,10 @@ export const smallPlanters =
       { name: "L", value: "30' x 24'" }
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "DURABLE AND SUSTAINABLE",
+      "MODERN AESTHETIC",
+      "PLANT-FRIENDLY FEATURES",
+      "GIFT-READY",
     ]
    },
 

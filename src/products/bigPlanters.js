@@ -298,9 +298,11 @@ export const bigPlanters =
       { name: "L", value: "20' x 20'" }
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -323,9 +325,11 @@ export const bigPlanters =
      
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -350,9 +354,11 @@ export const bigPlanters =
       { name: "XL", value: "27.5' x 30' x 50.5'" }
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -376,9 +382,11 @@ export const bigPlanters =
       { name: "L", value: "16' x 27'" }
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -401,9 +409,11 @@ export const bigPlanters =
    
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -426,9 +436,11 @@ export const bigPlanters =
     
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -453,9 +465,11 @@ export const bigPlanters =
 
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -477,9 +491,11 @@ export const bigPlanters =
      
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -502,9 +518,11 @@ export const bigPlanters =
       { name: "M", value: "10.5' x 10.5'" }
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -527,9 +545,11 @@ export const bigPlanters =
       { name: "M", value: "10.5' x 10.5'" }
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -551,9 +571,11 @@ export const bigPlanters =
    
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -577,9 +599,11 @@ export const bigPlanters =
       { name: "L", value: "26' x 30'" }
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -602,9 +626,11 @@ export const bigPlanters =
       { name: "L", value: "26' x 30'" }
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -626,9 +652,11 @@ export const bigPlanters =
      
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -651,9 +679,11 @@ export const bigPlanters =
       { name: "L", value: "20' x 21 x 20'" }
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -677,9 +707,11 @@ export const bigPlanters =
       { name: "XL", value: "24' x 24'" }
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -703,9 +735,11 @@ export const bigPlanters =
       { name: "L", value: "30' x 24'" }
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -730,9 +764,11 @@ export const bigPlanters =
       { name: "M", value: "15.5' x 13.5'" }
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -755,9 +791,11 @@ export const bigPlanters =
       { name: "L", value: "23' x 26.5'" }
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -782,9 +820,11 @@ export const bigPlanters =
       { name: "XL", value: "29.53' x 33.46' x 29.53'" }
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -808,9 +848,11 @@ export const bigPlanters =
       { name: "L", value: "24' x 24'" }
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -833,9 +875,11 @@ export const bigPlanters =
  
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -860,9 +904,11 @@ export const bigPlanters =
       { name: "XL", value: "23.5' x 24.5 x 23.5'" }
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -885,9 +931,11 @@ export const bigPlanters =
       { name: "M", value: "22.5' x 21'" },
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 
@@ -909,9 +957,11 @@ export const bigPlanters =
       { name: "L", value: "30' x 24'" }
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
     ]
    },
 

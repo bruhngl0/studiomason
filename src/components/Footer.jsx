@@ -48,7 +48,7 @@ const Footer = () => {
 
         <div className='footer-two-three'>
           <p className='section-title'>02/ CUSTOMER SERVICE</p>
-          <a href ="/bespoke" className='about-link'>
+          <a href ="/bespokeint" className='about-link'>
           <p className='section-item'>BESPOKE</p>
           </a>
 
@@ -109,7 +109,7 @@ const Footer = () => {
       </a>
       
       <a 
-        href="https://wa.me/+919167563398" // Replace with your email address
+        href="https://wa.me/+919980547044" // Replace with your email address
         style = {{marginTop: "1rem"}}
       >
         <IoLogoWhatsapp size={40} />

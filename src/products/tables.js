@@ -23,14 +23,14 @@ export const tables =
     description: "Polished terrazzo table tops with customizable concrete color, chip size, and thickness (20mm to 40mm). Durable, easy to maintain, and reinforced with fiberglass mesh for added strength. Water, moss, and stain-resistant. Available in diameters from 1.5' to 8. Bases can be customized in MS, SS, or wood to suit customer preferences.",
     specifications: [
       {name: "Material", value: "GRC/FRP"},
-      { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "Size", value: "D x H" },
+      { name: "M", value: "3ft' x 1.6ft'" },
+    
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "HAND-CRAFTED DESIGN",
+      "WATERPROOF FINISH",
+      "SCRATCH RESISTANT"
     ]
    },
 
@@ -38,24 +38,24 @@ export const tables =
 
    {
     id: 2,
-    name: "Modern Ceramic Vase",
+    name: "COFFEE TABLE",
     price: 129.99,
     images: [
         image2,
         image2,
         image2
     ],
-    description: "Beautiful handcrafted ceramic vase...",
-    specifications: [
+   description: "Polished terrazzo table tops with customizable concrete color, chip size, and thickness (20mm to 40mm). Durable, easy to maintain, and reinforced with fiberglass mesh for added strength. Water, moss, and stain-resistant. Available in diameters from 1.5' to 8. Bases can be customized in MS, SS, or wood to suit customer preferences.",  
+      specifications: [
       {name: "Material", value: "GRC/FRP"},
-      { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "Size", value: "W x H x L" },
+      { name: "M", value: "2.6ft' x 3.6ft' x 1.4ft" },
+   
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "HAND-CRAFTED DESIGN",
+      "WATERPROOF FINISH",
+      "SCRATCH RESISTANT"
     ]
    },
 
@@ -63,24 +63,23 @@ export const tables =
 
    {
     id: 3,
-    name: "Modern Ceramic Vase",
+    name: "CENTRE TABLE",
     price: 129.99,
     images: [
         image3,
         image3,
         image3
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Polished terrazzo table tops with customizable concrete color, chip size, and thickness (20mm to 40mm). Durable, easy to maintain, and reinforced with fiberglass mesh for added strength. Water, moss, and stain-resistant. Available in diameters from 1.5' to 8. Bases can be customized in MS, SS, or wood to suit customer preferences.",
     specifications: [
       {name: "Material", value: "GRC/FRP"},
-      { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "Size", value: "D x H" },
+      { name: "M", value: "3ft' x 1.6ft'" },
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "HAND-CRAFTED DESIGN",
+      "WATERPROOF FINISH",
+      "SCRATCH RESISTANT"
     ]
    },
 
@@ -89,24 +88,24 @@ export const tables =
 
    {
     id: 4,
-    name: "Modern Ceramic Vase",
+    name: "CENTRE TABLE",
     price: 129.99,
     images: [
       image4,
       image4,
       image4,
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Polished terrazzo table tops with customizable concrete color, chip size, and thickness (20mm to 40mm). Durable, easy to maintain, and reinforced with fiberglass mesh for added strength. Water, moss, and stain-resistant. Available in diameters from 1.5' to 8. Bases can be customized in MS, SS, or wood to suit customer preferences.",
     specifications: [
       {name: "Material", value: "GRC/FRP"},
-      { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "Size", value: "L X W" },
+      { name: "M", value: "4ft' x 2.6ft'" },
+     
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "HAND-CRAFTED DESIGN",
+      "WATERPROOF FINISH",
+      "SCRATCH RESISTANT"
     ]
    },
 
@@ -114,24 +113,23 @@ export const tables =
 
    {
     id: 5,
-    name: "Modern Ceramic Vase",
+    name: "CENTRE TABLE",
     price: 129.99,
     images: [
         image1,
         image1,
         image1,
     ],
-    description: "Beautiful handcrafted ceramic vase...",
+    description: "Polished terrazzo table tops with customizable concrete color, chip size, and thickness (20mm to 40mm). Durable, easy to maintain, and reinforced with fiberglass mesh for added strength. Water, moss, and stain-resistant. Available in diameters from 1.5' to 8. Bases can be customized in MS, SS, or wood to suit customer preferences.",
     specifications: [
       {name: "Material", value: "GRC/FRP"},
-      { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
+      { name: "Size", value: "D x H" },
+      { name: "M", value: "3ft' x 1.6ft'" },
     ],
     features: [
-      "Hand-crafted design",
-      "Waterproof finish",
-      "Scratch resistant"
+      "HAND-CRAFTED DESIGN",
+      "WATERPROOF FINISH",
+      "SCRATCH RESISTANT"
     ]
    },
 ]
