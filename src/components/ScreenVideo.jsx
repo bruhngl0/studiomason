@@ -9,7 +9,7 @@ const ScreenVideo = () => {
     <Header />
     <div className="video-container-screen">
       <video autoPlay loop muted className="video-bg-screen">
-        <source src="video_3.mp4" type="video/mp4" />
+        <source src="final_video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="overlay-text-screen">

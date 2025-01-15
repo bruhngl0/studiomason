@@ -129,24 +129,41 @@
         gap: 4rem;
 
         .cta-button {
-          padding: 0.3rem 0.7rem;
-          cursor: pointer;
-          transition: background-color 0.2s;
-
-          &:hover {
-            background-color: #d1d1d1;
-          }
+          all: unset;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0b0a0a;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 3px 7px;
+  
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: background-color 0.2s;
+  
+    &:hover {
+      background-color: #3e3d3d;
+    }
         }
 
         .back-button {
-          padding: 0.5rem;
-          border: none;
-          cursor: pointer;
-          transition: background-color 0.2s;
-
-          &:hover {
-            background-color: #d1d1d1;
-          }
+          all: unset;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #050505;
+    color: #fffcfc;
+    font-size: 1rem;
+    padding: 3px 5px;
+  
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: background-color 0.2s;
+  
+    &:hover {
+      background-color: #3d3b3b;
+    }
         }
       }
     }

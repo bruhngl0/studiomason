@@ -5,12 +5,12 @@ import ImageAni from './ImageAni';
 import { useNavigate } from 'react-router-dom';
 import '../styles/products.scss';
 
-import image1 from "../../public/mainSix/face.webp";
-import image2 from "../../public/mainSix/furniture.webp";
-import image3 from "../../public/mainSix/POT.webp";
-import image4 from "../../public/mainSix/ribmat.webp";
-import image5 from "../../public/mainSix/squarebox.webp";
-import image6 from "../../public/mainSix/stoneseries.webp";
+import image1 from "../../public/image_1.jpg";
+import image2 from "../../public/image_2.jpg";
+import image3 from "../../public/image_3.jpg";
+import image4 from "../../public/image_4.jpg";
+import image5 from "../../public/image_5.jpg";
+import image6 from "../../public/image_6.jpg";
 
 const Products = () => {
   const [selectedImage, setSelectedImage] = useState(null);
