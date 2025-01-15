@@ -25,9 +25,9 @@ const Layout2 = () => {
           transform: `translateX(-${currentImageIndex * 400}px)`, // Dynamically update position
           transition: 'transform 1s ease-in-out', // Smooth transition
         }}>
-        <img src="image_4.jpg" alt="frame1" />
-        <img src="image_5.jpg" alt="frame2" />
-        <img src="image_6.jpg" alt="frame3" />
+        <img src="image4.jpg" alt="frame1" />
+        <img src="image5.jpg" alt="frame2" />
+        <img src="image6.jpg" alt="frame3" />
       </div>
     </div>
   );
