@@ -11,7 +11,8 @@ const TestComp3 = () => {
       }}>
       <button className="testcomp-btn">←BACK</button>
       </a>
-      <p>COMING SOON...</p>
+      <p className='mol-1'>Coming Soon...</p>
+      
     </div>
   );
 };
