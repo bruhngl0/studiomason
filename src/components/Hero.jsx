@@ -75,9 +75,11 @@ const Hero = ({ image, onClose, layoutId, productData }) => {
           </div>
 
           <div className="product-actions">
+            <Link to = "/buyGuide">
             <button className="cta-button">
               How To Buy
             </button>
+            </Link>
             <Link to="/products">
               <button onClick={onClose} className="back-button">
                 ←
