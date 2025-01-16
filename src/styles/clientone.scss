@@ -98,3 +98,13 @@
     flex-direction: row;
     height: 100%; /* Matches the combined height */
 }
+
+
+@media (max-width: 500px) {
+    .client-one-col2-raja {
+        display: flex;
+        flex-direction: column;
+        height: 100%; /* Matches the combined height */
+    }
+
+}

@@ -81,3 +81,10 @@
       background-color: #676060;
     }
   }
+
+
+  @media (max-width: 500px) { 
+    .filter-sidebar{
+      display: none;
+    }
+  }
