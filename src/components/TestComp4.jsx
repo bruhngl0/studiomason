@@ -22,7 +22,7 @@ const TestComp4 = ({}) => {
      <div className='client-one-col2-raja'>
       <div className='client-one-col2'>
       <Link to={`/tables/${tables[0].id}`} className="client-one-col2">
-              <img src={tables[0].images[2]} className="vase1" alt="Product" />
+              <img src={tables[0].images[0]} className="vase1" alt="Product" />
      </Link>
       </div>
 

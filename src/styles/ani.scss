@@ -7,7 +7,9 @@
     font-weight: 700;
     justify-content: center;
     padding-left: 10px;
-  color: rgb(8, 8, 8)
+  color: rgb(8, 8, 8);
+  padding-left: 3rem;
+
     
 }
 
@@ -29,7 +31,7 @@
     display: flex;
     flex-direction: column;
     transition: transform 1s ease-in-out; /* Smooth transition for the sliding effect */
-    font-size: 300px;
+    font-size: 280px;
     height: 80px;
    
 
@@ -40,31 +42,32 @@
     height: auto; /* Maintain aspect ratio */
     font-size: 1rem;
     line-height: 10px;
+    
   }
   
   /* CSS classes to handle the right-to-left sliding effect */
   .ani-image-0 {
-    transform: translateY(-168px); /* First image visible */
+    transform: translateY(-170px); /* First image visible */
   }
   
   .ani-image-1 {
-    transform: translateY(-778px); /* Second image slides in from the right */
+    transform: translateY(-750px); /* Second image slides in from the right */
   }
   
   .ani-image-2 {
-    transform: translateY(-1408px); /* Third image slides in from the right */
+    transform: translateY(-1308px); /* Third image slides in from the right */
   }
 
   .ani-image-3 {
-    transform: translateY(-2005px); /* Third image slides in from the right */
+    transform: translateY(-1875px); /* Third image slides in from the right */
   }
 
   .ani-image-4{
-    transform: translateY(-2617px); /* Third image slides in from the right */
+    transform: translateY(-2450px); /* Third image slides in from the right */
   }
 
   .ani-image-5{
-    transform: translateY(-3230px); /* Third image slides in from the right */
+    transform: translateY(-3000px); /* Third image slides in from the right */
   }
 
   .ani-image-6{

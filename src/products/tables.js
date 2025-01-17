@@ -5,6 +5,7 @@ import image1 from "../../public/bigPlanters/Tables/tables_1.webp"
 import image2 from "../../public/bigPlanters/Tables/tables_2.webp"
 import image3 from "../../public/bigPlanters/Tables/tables_3.webp"
 import image4 from "../../public/bigPlanters/Tables/tables_4.webp"
+import image5 from "../../public/bigPlanters/Tables/tables_0.jpg"
 
 
 
@@ -16,7 +17,7 @@ export const tables =
     name: "CENTRE TABLE",
     price: 129.99,
     images: [
-      image1,
+      image5,
       image1,
       image1
     ],

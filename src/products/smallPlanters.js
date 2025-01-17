@@ -2,7 +2,7 @@
 
 
 import image1 from "../../public/smallPlanters/AboutSpacePot1/aboutspacepot_1_1.webp"
-import image2 from "../../public/smallPlanters/AboutSpacePot1/aboutspacepot_1_2.webp"
+import image2 from "../../public/smallPlanters/AboutSpacePot1/aboutspacepot_1_2.jpg"
 import image3 from "../../public/smallPlanters/AboutSpacePot1/aboutspacepot_1_3.webp"
 
 
