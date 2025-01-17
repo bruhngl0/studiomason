@@ -2,21 +2,21 @@
     display: flex;
  
     width: 100vw;
-    height: 110vh;
+   height: 100vh;
     justify-content: space-between;
-
+overflow-y: hidden;
     font-family: Arial, sans-serif;
-    background-color: #d5a981;
+    background-color: #f6f6f6;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-  
+    background-color: #cfb49c;
     .left-section {
       padding: 0px 30px ;
       width: 50%;
       height: 100%;
-      background-color: #d5a981;
+      background-color: #cfb49c;
       border-right: 1px solid black;
       display: flex;
       flex-direction: column;
@@ -51,16 +51,16 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        background-color: #393636;
+        background-color: #141313;
         color: #ffffff;
         font-size: 1rem;
         padding: 3px 5px;
-        margin-top: 1rem;
+        margin-top: 1.5rem;
         cursor: pointer;
         box-sizing: border-box;
         transition: background-color 0.2s;
         width: 46vw;
-        height: 3rem;
+        height: 2rem;
        font-weight: 600;
        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
         &:hover {
@@ -74,12 +74,12 @@
 
     .back-btn1{
      all: unset;
-     height: 3rem;
+     height: 2rem;
      width: 46vw;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: #393636;
+    background-color: #141313;
     color: #ffffff;
     font-size: 1rem;
     padding: 3px 5px;
@@ -104,10 +104,11 @@
       justify-content: center;
       align-items: start;
       .project-info {
-       
+      
         display: flex;
         justify-content: space-between;
         font-size: 16px;
+ 
    
   
         p {
@@ -118,19 +119,19 @@
   
       .stages {
         .stage {
-     
+  
          border-bottom: 1px solid black ;
        
 
 
          img{
-           width: 50%;
+           width: 70%;
         
          }
           h3 {
             font-size: 18px;
             font-weight: bold;
-         
+           margin-top: 2rem;
             color: #333;
           }
   
