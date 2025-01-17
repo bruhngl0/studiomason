@@ -13,21 +13,28 @@ background-color: rgb(221, 216, 216);
    flex-direction: row;
    justify-content: center;
    align-items: center;
-    .product-carousel {
-      width: 100%;
-      width: 400px;
-    
 
+    .product-carousel {
+
+      width: 400px;
+      height: 87%;
+    
+   
+       box-shadow: 0 8px 15px rgba(0, 0, 0, 0.8); /* Deeper shadow on hover */
       .carousel-slide {
+   
         img {
           width: 100%;
           height: auto;
           object-fit: cover;
+        
         }
       }
 
       .slick-dots {
-        bottom: -30px;
+       
+        display: none;
+     
       }
 
       .slick-prev,
