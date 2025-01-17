@@ -77,12 +77,12 @@ const Hero = ({ image, onClose, layoutId, productData }) => {
           <div className="product-actions">
             <Link to = "/buyGuide">
             <button className="cta-button">
-              How To Buy
+              HOW TO BUY
             </button>
             </Link>
             <Link to="/products">
               <button onClick={onClose} className="back-button">
-                ←
+                ←BACK
               </button>
             </Link>
           </div>
