@@ -149,9 +149,11 @@ background-color: rgb(221, 216, 216);
           justify-content: center;
           background-color: #0c0c0c;
           color: #fefefe;
-          font-size: 14px;
+          font-size: 18px;
+          font-weight: 600;
           padding: 3px 8px;
-     
+          width: 40vw;
+          height: 3rem;
           cursor: pointer;
           box-sizing: border-box;
           transition: background-color 0.2s;
@@ -173,7 +175,8 @@ background-color: rgb(221, 216, 216);
           color: #ececec;
           font-size: 1rem;
           padding: 3px 5px;
-          
+          height: 3rem;
+          font-weight: 600;
           cursor: pointer;
           box-sizing: border-box;
           transition: background-color 0.2s;

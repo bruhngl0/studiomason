@@ -27,7 +27,7 @@ to deliver exceptional results.
             className="back-btn1"
             onClick={() => window.history.back()}
           >
-            ←
+            ←BACK
           </button>
       </div>
 

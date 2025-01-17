@@ -2,6 +2,7 @@
     display: flex;
  
     width: 100vw;
+    height: 110vh;
     justify-content: space-between;
 
     font-family: Arial, sans-serif;
@@ -12,9 +13,9 @@
     align-items: center;
   
     .left-section {
-      padding: 30px;
+      padding: 0px 30px ;
       width: 50%;
-      height: 100vh;
+      height: 100%;
       background-color: #d5a981;
       border-right: 1px solid black;
       display: flex;
@@ -31,12 +32,13 @@
       .intro {
         font-size: 16px;
         color: #555;
-        padding-top: 1rem;
+       
 
       }
   
       .project-image {
         width: 100%;
+      padding-top: 0.5rem;
        
         box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
   
@@ -49,7 +51,7 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        background-color: #0d0c0c;
+        background-color: #393636;
         color: #ffffff;
         font-size: 1rem;
         padding: 3px 5px;
@@ -57,7 +59,9 @@
         cursor: pointer;
         box-sizing: border-box;
         transition: background-color 0.2s;
-      
+        width: 46vw;
+        height: 3rem;
+       font-weight: 600;
         &:hover {
           background-color: #403e3e;
         }
@@ -69,11 +73,12 @@
 
     .back-btn1{
      all: unset;
- 
+     height: 3rem;
+     width: 46vw;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: #050505;
+    background-color: #393636;
     color: #ffffff;
     font-size: 1rem;
     padding: 3px 5px;
@@ -81,14 +86,16 @@
     cursor: pointer;
     box-sizing: border-box;
     transition: background-color 0.2s;
+    font-weight: 600;
   
     &:hover {
-      background-color: #3f3d3d;
+      background-color: #403e3e;
     }
   }
   
     .right-section {
       width: 50%;
+      height: 110vh;
       padding: 30px;
       display: flex;
       flex-direction: column;

@@ -76,13 +76,13 @@ const ProductPage = () => {
         {/* Buy Guide Button */}
         <div className="product-actions">
           <Link to="/buyGuide">
-            <button className="buy-guide-btn">How To Buy</button>
+            <button className="buy-guide-btn">HOW TO BUY</button>
           </Link>
           <button 
             className="back-btn"
             onClick={() => window.history.back()}
           >
-            ←
+            ←BACK
           </button>
         </div>
       </div>
