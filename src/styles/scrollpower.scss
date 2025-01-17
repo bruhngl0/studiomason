@@ -13,7 +13,7 @@
   justify-content: flex-end;
   align-items: center;
 
-  height: 130vh;
+  height: auto;
   
 }
 
@@ -23,10 +23,12 @@
     display: flex;
     align-items: center;
     justify-content: center ;
-     
+
+     width: 100vw;
+     padding: 20px;
     overflow-x: hidden;
-  
-   
+ 
+
    
   
     .about-inner-scrollpower {
@@ -35,12 +37,14 @@
       display: flex;
       flex-direction: row;
       align-items: center;
+    
       gap: 0rem;
       margin-top: 00rem;
       justify-content: flex-start;
       box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
       background-image: url("../../public/craftsmanshipi.jpg");
       background-size: cover;
+      box-shadow: 0 0 15px rgba(8, 8, 8, 0.8);
   
      
       
@@ -48,7 +52,7 @@
     
       
       >img{
-        
+  
       }
     }
   
@@ -66,7 +70,7 @@
 
   .craftsmanship{
     margin: 0 auto;
-    
+    margin-top: 20rem;
     font-size: 9rem;
 
   color: rgb(13, 13, 14);

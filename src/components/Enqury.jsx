@@ -46,8 +46,8 @@ const Enquiry = () => {
         <div className="enquiry-top">
         <div className="contact-info">
             <h3>CONTACT INFO</h3>
-            <p>email: info@studiomason.in</p>
-            <p>phone: +91 9980547044 </p>
+            <p>Email: info@studiomason.in</p>
+            <p>Phone: +919980547044 </p>
             <p>KSSIDC Industrial Estate, 74, Bommasandra,</p>
             <p>Bengaluru, Karnataka 560099</p>
           </div>
