@@ -30,29 +30,13 @@ import TestComp3 from './components/TestComp3';
 import TestComp4 from './components/TestComp4';
 import ProductPageTables from './components/ProductPageTables';
 import BeSpokeInt from './components/BeSpokeInt';
+import Try from './components/Try';
+
+import Col3 from './components/Col3';
 
 
 
-const categoryOne = [
-  { id: 1, image1: 'riovase1.jpg', image2: 'riovase2.jpg', image3: 'riovase3.jpg', image4: 'riovase5.jpg', image5:'riovase4.jpg', }, 
-];
 
-
-const categoryTwo = [
-  { id: 1, image1: 'vasef7.png', image2: 'vasef4.png', image3: 'vasef5.png', image4: 'vasef3.png', image5:'vasef.png', },  
-];
-const categoryThree = [
-  { id: 1, image1: 'vasef7.png', image2: 'vasef4.png', image3: 'vasef5.png', image4: 'vasef3.png', image5:'vasef.png', },  
-];
-const categoryFour = [
-  { id: 1, image1: 'vasef7.png', image2: 'vasef4.png', image3: 'vasef5.png', image4: 'vasef3.png', image5:'vasef.png', },  
-];
-const categoryFive = [
-  { id: 1, image1: 'vasef7.png', image2: 'vasef4.png', image3: 'vasef5.png', image4: 'vasef3.png', image5:'vasef.png', },  
-];
-const categorySix = [
-  { id: 1, image1: 'vasef7.png', image2: 'vasef4.png', image3: 'vasef5.png', image4: 'vasef3.png', image5:'vasef.png', },  
-];
 
 
 
@@ -67,17 +51,13 @@ function App() {
         <Route path= "/screensix" element= {< ScreenSix/>} />
         <Route path= "/bespoke" element= {<Clients/>} />
         <Route path= "/enquiry" element= {<Enquiry /> } />
-        <Route path= "/category-one" element= {<ClientOne props = {categoryOne} />} />
-        <Route path= "/category-two" element = {<ClientOne props = {categoryTwo}/>} />
-        <Route path= "/category-three" element = {<ClientOne props = {categoryThree}/>} />
-        <Route path= "/category-four" element = {<ClientOne props = {categoryFour}/>} />
-        <Route path= "/category-five" element = {<ClientOne props = {categoryFive}/>} />
-        <Route path= "/category-six" element = {<ClientOne props = {categorySix}/>} />
-        <Route path= "/test-comp" element = {<TestComp props = {bigPlanters}/>} />
-        <Route path= "/test-comp2" element = {<TestComp2 props = {smallPlanters}/>} />
+        <Route path= "/test-comp" element = {<Col3 />} />
+        <Route path= "/test-comp2" element = {<Try />} />
         <Route path="/product/:id" element={<ProductPage />} />
         <Route path= "/smallPlanters/:id" element = {<ProductPageSmallPlanters />} />
         <Route path= "/tables/:id" element = {<ProductPageTables />} />
+        <Route path= "/try" element = {<Try />} />
+        <Route path= "/try1" element = {<Col3 />} />
       
         <Route path="/buyGuide" element={<BuyGuide />} />
         <Route path="/bulkOrders" element={<BulkOrders />} />

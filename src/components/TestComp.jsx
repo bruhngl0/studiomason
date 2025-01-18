@@ -1,7 +1,7 @@
 
 import React from 'react'
 import FilterSidebar from './FilterSidebar'
-import "../styles/clientone.scss"
+import "../styles/try.scss"
 import bigPlanters from '../products/bigPlanters'
 import { Link } from 'react-router-dom'
 const TestComp = ({}) => {
