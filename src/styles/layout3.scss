@@ -1,38 +1,54 @@
 .layout-three {
     display: flex;
-    width: 400px; /* Set the width to fit one image */
+    width: 320px;  // Increased from 280px
+    aspect-ratio: 1;
     overflow: hidden;
-    margin: 10px;
+    margin: 0.5rem;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .image-container-three {
-    display: flex;
-    transition: transform 1s ease-in-out; /* Smooth transition for the sliding effect */
-  }
-  
-  .image-container-three img {
-    width: 400px; /* Each image takes up the full width of the container */
-    height:auto; /* Maintain aspect ratio */
-  }
-  
-  /* CSS classes to handle the right-to-left sliding effect */
-  .image-0 {
-    transform: translateX(0); /* First image visible */
-  }
-  
-  .image-1 {
-    transform: translateX(-660px); /* Second image slides in from the right */
-  }
-  
-  .image-2 {
-    transform: translateX(-330px); /* Third image slides in from the right */
-  }
+}
 
-  @media (max-width: 500px) {
-    .layout-three{
-     width: 180px;
-     margin: 2px;
- 
+.image-container-three {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.image-container-three img {
+    width: 320px;  // Match container width
+    height: 100%;
+    object-fit: cover;
+}
+
+/* CSS classes to handle the right-to-left sliding effect */
+.image-0 {
+    transform: translateX(0);
+}
+
+.image-1 {
+    transform: translateX(-320px);
+}
+
+.image-2 {
+    transform: translateX(-640px);
+}
+
+@media (max-width: 768px) {
+    .layout-three {
+        width: 300px;  // Slightly larger for tablet
+        margin: 0.25rem;
     }
+
+    .image-container-three img {
+        width: 300px;
     }
+}
+
+@media (max-width: 480px) {
+    .layout-three {
+        width: 260px;  // Larger for mobile
+        margin: 0.125rem;
+    }
+
+    .image-container-three img {
+        width: 260px;
+    }
+}

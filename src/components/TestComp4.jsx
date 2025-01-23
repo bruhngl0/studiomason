@@ -1,66 +1,44 @@
-
 import React from 'react'
 import FilterSidebar from './FilterSidebar'
 import "../styles/clientone.scss"
 import tables from '../products/tables'
 import { Link } from 'react-router-dom'
-const TestComp4 = ({}) => {
 
+const TestComp4 = () => {
+  // Array of table configurations to match your existing layout
+  const tableDisplayOrder = [
+    { id: tables[0].id, imageIndex: 0 },  // First large image
+    { id: tables[3].id, imageIndex: 2 },  // Top left
+    { id: tables[2].id, imageIndex: 2 },  // Top right
+    { id: tables[1].id, imageIndex: 1 },  // Bottom left
+      // Bottom right
+  ];
 
-
-  
   return (
-    <div className='client-one-main1'>
-      <div className='client-one-col1'>
+    <div className="catalog-container">
+      {/* Sidebar */}
+      <div className="catalog-sidebar">
         <FilterSidebar />
       </div>
-     
 
-     <div className='client-one-combined'>
-
-
-     <div className='client-one-col2-raja'>
-      <div className='client-one-col2'>
-      <Link to={`/tables/${tables[0].id}`} className="client-one-col2">
-              <img src={tables[0].images[0]} className="vase1" alt="Product" />
-     </Link>
-      </div>
-
-      <div className='client-one-col3'>
-
-      <div className='client-one-col3-grid1'>    
-         <div className='client-one-col3-grid1-1'>
-         <Link to={`/tables/${tables[3].id}`} className="client-one-col3-grid1-1">
-           <img src = {tables[3].images[2]} />
-           </Link>
-         </div>
-         <div className='client-one-col3-grid1-2'>
-         <Link to={`/tables/${tables[2].id}`} className="client-one-col3-grid1-2">
-           <img src = {tables[2].images[2]} />
-           </Link>
-         </div>
-       </div>
-       
-       <div className='client-one-col3-grid2'> 
-        <div className='client-one-col3-grid1-3'>
-        <Link to={`/tables/${tables[1].id}`} className="client-one-col3-grid1-3">
-        <img src = {tables[1].images[1]} />
-        </Link>
+      {/* Product Grid */}
+      <div className="catalog-content">
+        <div className="catalog-grid1">
+          {tableDisplayOrder.map((item, index) => (
+            <div key={index} className="catalog-item">
+              <Link to={`/tables/${item.id}`} className="catalog-item-link">
+                <img
+                  src={tables.find(table => table.id === item.id).images[item.imageIndex]}
+                  alt="Table"
+                  className="catalog-item-image"
+                />
+              </Link>
+            </div>
+          ))}
         </div>
-        <div className='client-one-col3-grid1-4'>
-        <Link to={`/tables/${tables[4].id}`} className="client-one-col3-grid1-4">
-        <img src = {tables[4].images[0]} /> 
-        </Link>
-        </div>
-       </div>
-       </div>
-      </div> 
       </div>
-
-
-
     </div>
-  )
-}
+  );
+};
 
 export default TestComp4

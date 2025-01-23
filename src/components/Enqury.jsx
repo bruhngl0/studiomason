@@ -1,9 +1,7 @@
-import React, { useState, useEffect } from "react";
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import React from "react";
 import { IoCallOutline, IoHomeOutline } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
 import "../styles/enquiry.scss"
-
 import Footer from "./Footer";
 
 const Enquiry = () => {
@@ -39,50 +37,65 @@ const Enquiry = () => {
     }
   };
 
-
   return (
     <div className="enquiry">
       <div className="container">
         <div className="enquiry-top">
-        <div className="contact-info">
+          <div className="contact-info">
             <h3>CONTACT INFO</h3>
-            <p>Email: info@studiomason.in</p>
-            <p>Phone: +919980547044 </p>
-            <p>KSSIDC Industrial Estate, 74, Bommasandra,</p>
-            <p>Bengaluru, Karnataka 560099</p>
+            <div className="info-item">
+              <CiMail className="info-icon" />
+              <p>info@studiomason.in</p>
+            </div>
+            <div className="info-item">
+              <IoCallOutline className="info-icon" />
+              <p>+919980547044</p>
+            </div>
+            <div className="info-item">
+              <IoHomeOutline className="info-icon" />
+              <div>
+                <p>KSSIDC Industrial Estate, 74,</p>
+                <p>Bommasandra, Bengaluru,</p>
+                <p>Karnataka 560099</p>
+              </div>
+            </div>
           </div>
 
           <div className="contact-form">
-            <h3>CONTACT US</h3>
+            <h3>GET IN TOUCH</h3>
             <form onSubmit={handleSubmit}>
-              <input type="text" name="name" placeholder="Name" required />
-              <input type="email" name="email" placeholder="Email" required />
-              <textarea
-                name="message"
-                placeholder="Message"
-                required
-              ></textarea>
-              <button type="submit">Send</button>
+              <div className="form-group">
+                <input type="text" name="name" placeholder="Name" required />
+              </div>
+              <div className="form-group">
+                <input type="email" name="email" placeholder="Email" required />
+              </div>
+              <div className="form-group">
+                <textarea
+                  name="message"
+                  placeholder="Message"
+                  required
+                  rows="5"
+                ></textarea>
+              </div>
+              <button type="submit">SEND MESSAGE</button>
             </form>
           </div>
         </div>
 
-
         <div className="google-map">
-        <iframe
+          <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.505108151897!2d77.68501447592263!3d12.810603318385848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6c39d357cfe7%3A0xcf94599f5bc54299!2sRM6Q%2B729%20KSSIDC%20Industrial%20Estate%2C%20Bommasandra%20Industrial%20Area%2C%20Bommasandra%2C%20Karnataka%20560099!5e0!3m2!1sen!2sin!4v1736496516180!5m2!1sen!2sin"
             width="100%"
             height="450"
- 
-            allowfullscreen=""
+            style={{ border: 0 }}
+            allowFullScreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
-
         </div>
-
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 };

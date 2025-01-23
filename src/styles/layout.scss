@@ -1,6 +1,6 @@
 .layout-one {
     display: flex;
-    width: 400px;
+    width: 320px;
     height: auto;
     overflow-x: hidden;
     margin: 10px;
@@ -13,8 +13,8 @@
   }
   
   .image-container img {
-    width: 400px; /* Each image takes up the full width of the container */
-    height: 400px; /* Maintain aspect ratio */
+    width: 320px; /* Each image takes up the full width of the container */
+    height: 100%; /* Maintain aspect ratio */
   }
   
   /* CSS classes to handle the right-to-left sliding effect */

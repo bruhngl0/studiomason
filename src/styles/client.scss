@@ -1,62 +1,85 @@
-
 @font-face {
     font-family: 'cool';
     src: url('../../public/coolmain.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
-    color: black;
-  }
+}
 
 .client-main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: auto;
+    min-height: 100vh;
     background-color:#e6d4c3;
-     overflow-x: hidden;
+    overflow-x: hidden;
+    position: relative;
+    padding: 0;
 
     >p{
         position: absolute;
         z-index: 12;
-        font-size: 20rem;
+        font-size: clamp(4rem, 15vw, 20rem);
         color: brown;
         font-family: "cool";
+        text-align: center;
+        top: 5%;
     }
 }
 
-
-.client-one{
-    padding-top: 3rem;
+.client-one,
+.client-two {
     display: flex;
     flex-direction: row;
-    
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0;
 }
 
-
-.client-two{
-    display: flex;
-    flex-direction: row;
+.client-one {
+    padding-top: 0;
 }
-
 
 .text-client{
     position: absolute;
     z-index: 4;
-    font-size: 11rem;
+    font-size: clamp(3rem, 8vw, 11rem);
     font-family: cool;
     color: greenyellow;
+    text-align: center;
 }
 
-@media (max-width: 500px) {
-    .client-main{
-       
-        >p{
-            position: absolute;
-            z-index: 12;
-            font-size: 5rem;
-            color: yellow;
-            font: "cool";
+.client-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 8vh;
+}
+
+@media (max-width: 768px) {
+    .client-main {
+        padding: 0;
+    }
+
+    .client-one,
+    .client-two {
+        gap: 0.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .client-main {
+        > p {
+            font-size: clamp(3rem, 10vw, 5rem);
         }
     }
- }
+
+    .client-one,
+    .client-two {
+        gap: 0.5rem;
+    }
+}

@@ -8,7 +8,7 @@ const projects = [
     title: 'PRODUCTS',
     description: 'Here is the new, light, and entertaining format of the series that we are excited to present to you format of the series that we are excited to',
     name: 'explore',
-    image: 'homedeco.png',
+    image: '/homedeco.png',
     description1: 'we live lit',
     route: '/products'
   },
@@ -41,6 +41,28 @@ const projects = [
   },
 ];
 
+const ProjectCard = ({ project, ref, onClick }) => (
+  <div
+    ref={ref}
+    className="project-card"
+    onClick={onClick}
+  >
+    <div className="content-top">
+      <h2 className='title'>{project.title}</h2>
+      <p className='des'>{project.description}</p>
+    </div>
+    
+    <div className="content-middle">
+      <img src={project.image} alt={project.title} className='proj-img'/>
+    </div>
+    
+    <div className="content-bottom">
+      <span className='name'>{project.name}</span>
+      <p className='desc-1'>{project.description1}</p>
+    </div>
+  </div>
+);
+
 const Project = () => {
   const navigate = useNavigate();
   const projectRefs = useRef([]);
@@ -52,7 +74,7 @@ const Project = () => {
       threshold: 0.1,
     };
 
-    const observer = new IntersectionObserver((entries) => {
+    const handleIntersection = (entries) => {
       entries.forEach((entry) => {
         const index = projectRefs.current.indexOf(entry.target);
         if (entry.isIntersecting) {
@@ -67,20 +89,18 @@ const Project = () => {
           }
         }
       });
-    }, options);
+    };
 
-    if (projectRefs.current) {
-      projectRefs.current.forEach((ref) => {
-        if (ref) observer.observe(ref);
-      });
-    }
+    const observer = new IntersectionObserver(handleIntersection, options);
+
+    projectRefs.current.forEach((ref) => {
+      if (ref) observer.observe(ref);
+    });
 
     return () => {
-      if (projectRefs.current) {
-        projectRefs.current.forEach((ref) => {
-          if (ref) observer.unobserve(ref);
-        });
-      }
+      projectRefs.current.forEach((ref) => {
+        if (ref) observer.unobserve(ref);
+      });
     };
   }, []);
 
@@ -91,18 +111,12 @@ const Project = () => {
   return (
     <div className="projects-container" id="project">
       {projects.map((project, index) => (
-        <div
+        <ProjectCard
           key={project.id}
+          project={project}
           ref={(el) => (projectRefs.current[index] = el)}
-          className="project-card"
           onClick={() => handleCardClick(project.route)}
-        >
-          <h2 className='title'>{project.title}</h2>
-          <p className='des'>{project.description}</p>
-          <span className='name'>{project.name}</span>
-          <img src={project.image} alt={project.title} className='proj-img'/>
-          <p className='desc-1'>{project.description1}</p>
-        </div>
+        />
       ))}
     </div>
   );

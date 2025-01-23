@@ -14,7 +14,7 @@ const Clients = () => {
      <p>BeSpoke.</p>
     
 
-<Link to="/bespokeint">
+<Link to="/bespokeint" className="client-link">
     <div className='client-one'>
 
      <Layout />
