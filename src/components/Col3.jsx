@@ -1,7 +1,7 @@
 import React from 'react';
 import FilterSidebar from './FilterSidebar';
 import "../styles/try1.scss";
-import bigPlanters from '../products/bigPlanters';
+import smallPlanters from '../products/smallPlanters';
 import { Link } from 'react-router-dom';
 
 const Col3 = () => {
@@ -15,9 +15,9 @@ const Col3 = () => {
       {/* Product Grid */}
       <div className="catalog-content">
         <div className="catalog-grid">
-          {bigPlanters.map((product, index) => (
+          {smallPlanters.map((product, index) => (
             <div key={index} className="catalog-item">
-              <Link to={`/product/${product.id}`} className="catalog-item-link">
+              <Link to={`/smallPlanters/${product.id}`} className="catalog-item-link">
                 <img
                   src={product.images[0]}
                   alt={product.name}

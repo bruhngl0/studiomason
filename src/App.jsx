@@ -51,8 +51,8 @@ function App() {
         <Route path= "/screensix" element= {< ScreenSix/>} />
         <Route path= "/bespoke" element= {<Clients/>} />
         <Route path= "/enquiry" element= {<Enquiry /> } />
-        <Route path= "/test-comp" element = {<Col3 />} />
-        <Route path= "/test-comp2" element = {<Try />} />
+        <Route path= "/test-comp" element = {<Try />} />
+        <Route path= "/test-comp2" element = {<Col3 />} />
         <Route path="/product/:id" element={<ProductPage />} />
         <Route path= "/smallPlanters/:id" element = {<ProductPageSmallPlanters />} />
         <Route path= "/tables/:id" element = {<ProductPageTables />} />

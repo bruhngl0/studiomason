@@ -146,9 +146,10 @@ export const bigPlanters =
     name: "ANTELIER",
     price: 129.99,
     images: [
+      image3,
       image1,
       image2,
-      image3
+    
     ],
     description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
@@ -229,9 +230,11 @@ export const bigPlanters =
     name: "CONCURVE",
     price: 129.99,
     images: [
-      image10,
       image11,
       image12,
+      image10,
+    
+    
     ],
     description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
     specifications: [
