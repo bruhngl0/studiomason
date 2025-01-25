@@ -39,7 +39,7 @@ const FilterSidebar = () => {
           </li>
 
           <li>
-            <a href="/test-comp3">BREEZE BLOCKS</a>
+            <a href="/breezeBlocks">BREEZE BLOCKS</a>
           </li>
 
           <li>

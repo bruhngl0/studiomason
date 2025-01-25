@@ -3,6 +3,8 @@ import './App.css';
 import { lazy, Suspense, memo } from 'react';
 import TestComp4 from './components/TestComp4';
 import TestComp3 from './components/TestComp3';
+import BreezeBlocks from './components/BreezeBlocks';
+import ProductPageBreeze from './components/productPageBreeze';
 
 // Lazy load components with better naming and chunking
 const ScrollHero = lazy(() => import('./components/ScrollHero' /* webpackChunkName: "home" */));
@@ -28,6 +30,7 @@ const InfoPages = {
 const BeSpokeInt = lazy(() => import('./components/BeSpokeInt' /* webpackChunkName: "bespoke" */));
 const Try = lazy(() => import('./components/Try' /* webpackChunkName: "test" */));
 const Col3 = lazy(() => import('./components/Col3' /* webpackChunkName: "test" */));
+const breezeBlocks = lazy(() => import('./components/BreezeBlocks' /* webpackChunkName: "test" */));
 
 // Memoize LoadingSpinner since it's static
 const LoadingSpinner = memo(() => (
@@ -50,6 +53,8 @@ function App() {
           <Route path="/product/:id" element={<ProductPage />} />
           <Route path="/smallPlanters/:id" element={<ProductPageSmallPlanters />} />
           <Route path="/tables/:id" element={<ProductPageTables />} />
+          <Route path="/breezeBlocks/:id" element={<ProductPageBreeze/>} />
+
           
           {/* Info pages */}
           <Route path="/buyGuide" element={<InfoPages.BuyGuide />} />
@@ -70,6 +75,7 @@ function App() {
           <Route path="/try" element={<Try />} />
           <Route path="/try1" element={<Col3 />} />
           <Route path="/test-comp3" element={<TestComp3 />} />
+          <Route path="/breezeBlocks" element={<BreezeBlocks />} />
         </Routes>
       </Suspense>
     </Router>
