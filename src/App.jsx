@@ -63,7 +63,7 @@ function App() {
           <Route path="/return-policy" element={<InfoPages.Return />} />
           <Route path="/terms-policy" element={<InfoPages.Terms />} />
           <Route path="/privacy-policy" element={<InfoPages.Privacy />} />
-          <Route path="/care-instructions" element={<InfoPages.Care />} />
+          <Route path="/care-instructions" element={<InfoPages.Care  />} />
           
           {/* Other routes */}
           <Route path="/bespokeInt" element={<BeSpokeInt />} />
