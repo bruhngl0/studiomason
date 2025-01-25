@@ -1,8 +1,15 @@
-import React, { memo, useMemo } from 'react'
+import React, { memo, useMemo, useState, useEffect } from 'react'
 import FilterSidebar from './FilterSidebar'
 import "../styles/try.scss"
 import tables from '../products/tables'
 import { Link } from 'react-router-dom'
+
+// Memoized skeleton item component
+const SkeletonItem = memo(() => (
+  <div className="catalog-item skeleton">
+    <div className="skeleton-image" />
+  </div>
+));
 
 // Memoized catalog item component
 const CatalogItem = memo(({ product }) => (
@@ -26,6 +33,25 @@ const Sidebar = memo(() => (
 ));
 
 const TestComp4 = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Simulate loading time
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  // Memoize the skeleton grid
+  const skeletonGrid = useMemo(() => (
+    <div className="catalog-grid1">
+      {[...Array(8)].map((_, index) => (
+        <SkeletonItem key={`skeleton-${index}`} />
+      ))}
+    </div>
+  ), []);
+
   // Memoize the product grid
   const productGrid = useMemo(() => (
     <div className="catalog-grid1">
@@ -42,7 +68,7 @@ const TestComp4 = () => {
     <div className="catalog-container">
       <Sidebar />
       <div className="catalog-content">
-        {productGrid}
+        {isLoading ? skeletonGrid : productGrid}
       </div>
     </div>
   );

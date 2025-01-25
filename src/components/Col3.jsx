@@ -18,7 +18,7 @@ const CatalogItem = memo(({ product }) => (
   </div>
 ));
 
-// Memoized sidebar to prevent unnecessary re-renders
+// Memoized sidebar component
 const Sidebar = memo(() => (
   <div className="catalog-sidebar">
     <FilterSidebar />
@@ -26,7 +26,6 @@ const Sidebar = memo(() => (
 ));
 
 const Col3 = () => {
-  // Memoize the product grid
   const productGrid = useMemo(() => (
     <div className="catalog-grid">
       {smallPlanters.map((product) => (
