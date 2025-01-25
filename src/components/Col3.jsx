@@ -1,35 +1,51 @@
-import React from 'react';
+import React, { memo, useMemo } from 'react';
+import { Link } from 'react-router-dom';
 import FilterSidebar from './FilterSidebar';
 import "../styles/try1.scss";
 import smallPlanters from '../products/smallPlanters';
-import { Link } from 'react-router-dom';
+
+// Memoized catalog item component
+const CatalogItem = memo(({ product }) => (
+  <div className="catalog-item">
+    <Link to={`/smallPlanters/${product.id}`} className="catalog-item-link">
+      <img
+        src={product.images[0]}
+        alt={product.name}
+        className="catalog-item-image"
+        loading="lazy"
+      />
+    </Link>
+  </div>
+));
+
+// Memoized sidebar to prevent unnecessary re-renders
+const Sidebar = memo(() => (
+  <div className="catalog-sidebar">
+    <FilterSidebar />
+  </div>
+));
 
 const Col3 = () => {
+  // Memoize the product grid
+  const productGrid = useMemo(() => (
+    <div className="catalog-grid">
+      {smallPlanters.map((product) => (
+        <CatalogItem 
+          key={product.id} 
+          product={product}
+        />
+      ))}
+    </div>
+  ), []); // Empty dependency array since smallPlanters is static
+
   return (
     <div className="catalog-container">
-      {/* Sidebar */}
-      <div className="catalog-sidebar">
-        <FilterSidebar />
-      </div>
-
-      {/* Product Grid */}
+      <Sidebar />
       <div className="catalog-content">
-        <div className="catalog-grid">
-          {smallPlanters.map((product, index) => (
-            <div key={index} className="catalog-item">
-              <Link to={`/smallPlanters/${product.id}`} className="catalog-item-link">
-                <img
-                  src={product.images[0]}
-                  alt={product.name}
-                  className="catalog-item-image"
-                />
-              </Link>
-            </div>
-          ))}
-        </div>
+        {productGrid}
       </div>
     </div>
   );
 };
 
-export default Col3;
+export default memo(Col3);

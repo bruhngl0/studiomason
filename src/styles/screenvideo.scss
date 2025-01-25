@@ -1,22 +1,66 @@
 .video-container-screen {
+  // Optimize paint operations
+  will-change: transform;
+  transform: translateZ(0);
   position: relative;
   width: 100%;
   height: 100vh;
   overflow: hidden;
 
   .video-bg-screen {
+    // Hardware acceleration
+    transform: translateZ(0);
+    will-change: transform;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+    // Prevent layout shifts
+    aspect-ratio: 16/9;
+    background: #000; // Fallback while video loads
+  }
+
+  .overlay-text-screen,
+  .overlay-text-screen-one {
+    // Optimize overlays
+    will-change: opacity;
+    pointer-events: none; // If overlays are purely decorative
+  }
+}
+
+// Loading optimization
+.video-container-screen {
+  &::before {
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    background: #000;
+    opacity: 1;
+    transition: opacity 0.3s ease;
   }
+  
+  &.loaded::before {
+    opacity: 0;
+  }
+}
 
-  .overlay-text-screen,
-  .overlay-text-screen-one {
-    position: absolute;
-    z-index: 1;
+// Optimize for reduced motion
+@media (prefers-reduced-motion: reduce) {
+  .video-container-screen {
+    .video-bg-screen {
+      // Show first frame instead of playing
+      animation: none !important;
+    }
+  }
+}
+
+// Print optimization
+@media print {
+  .video-container-screen {
+    display: none;
   }
 }
 
