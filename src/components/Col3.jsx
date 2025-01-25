@@ -1,7 +1,7 @@
 import React, { memo, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import FilterSidebar from './FilterSidebar';
-import "../styles/try1.scss";
+import "../styles/try.scss";
 import smallPlanters from '../products/smallPlanters';
 
 // Memoized catalog item component
