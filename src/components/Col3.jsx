@@ -27,7 +27,7 @@ const Sidebar = memo(() => (
 
 const Col3 = () => {
   const productGrid = useMemo(() => (
-    <div className="catalog-grid">
+    <div className="catalog-grid1">
       {smallPlanters.map((product) => (
         <CatalogItem 
           key={product.id} 
