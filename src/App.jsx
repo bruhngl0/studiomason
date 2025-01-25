@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import { lazy, Suspense, memo } from 'react';
+import TestComp4 from './components/TestComp4';
+import TestComp3 from './components/TestComp3';
 
 // Lazy load components with better naming and chunking
 const ScrollHero = lazy(() => import('./components/ScrollHero' /* webpackChunkName: "home" */));
@@ -64,8 +66,10 @@ function App() {
           {/* Test routes */}
           <Route path="/test-comp" element={<Try />} />
           <Route path="/test-comp2" element={<Col3 />} />
+          <Route path="/test-comp4" element={<TestComp4 />} />
           <Route path="/try" element={<Try />} />
           <Route path="/try1" element={<Col3 />} />
+          <Route path="/test-comp3" element={<TestComp3 />} />
         </Routes>
       </Suspense>
     </Router>

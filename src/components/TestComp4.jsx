@@ -1,44 +1,51 @@
-import React from 'react'
+import React, { memo, useMemo } from 'react'
 import FilterSidebar from './FilterSidebar'
-import "../styles/clientone.scss"
+import "../styles/try.scss"
 import tables from '../products/tables'
 import { Link } from 'react-router-dom'
 
+// Memoized catalog item component
+const CatalogItem = memo(({ product }) => (
+  <div className="catalog-item">
+    <Link to={`/tables/${product.id}`} className="catalog-item-link">
+      <img
+        src={product.images[0]}
+        alt={product.name}
+        className="catalog-item-image"
+        loading="lazy"
+      />
+    </Link>
+  </div>
+));
+
+// Memoized sidebar component
+const Sidebar = memo(() => (
+  <div className="catalog-sidebar">
+    <FilterSidebar />
+  </div>
+));
+
 const TestComp4 = () => {
-  // Array of table configurations to match your existing layout
-  const tableDisplayOrder = [
-    { id: tables[0].id, imageIndex: 0 },  // First large image
-    { id: tables[3].id, imageIndex: 2 },  // Top left
-    { id: tables[2].id, imageIndex: 2 },  // Top right
-    { id: tables[1].id, imageIndex: 1 },  // Bottom left
-      // Bottom right
-  ];
+  // Memoize the product grid
+  const productGrid = useMemo(() => (
+    <div className="catalog-grid1">
+      {tables.map((product) => (
+        <CatalogItem 
+          key={product.id} 
+          product={product}
+        />
+      ))}
+    </div>
+  ), []); // Empty dependency array since tables is static
 
   return (
     <div className="catalog-container">
-      {/* Sidebar */}
-      <div className="catalog-sidebar">
-        <FilterSidebar />
-      </div>
-
-      {/* Product Grid */}
+      <Sidebar />
       <div className="catalog-content">
-        <div className="catalog-grid1">
-          {tableDisplayOrder.map((item, index) => (
-            <div key={index} className="catalog-item">
-              <Link to={`/tables/${item.id}`} className="catalog-item-link">
-                <img
-                  src={tables.find(table => table.id === item.id).images[item.imageIndex]}
-                  alt="Table"
-                  className="catalog-item-image"
-                />
-              </Link>
-            </div>
-          ))}
-        </div>
+        {productGrid}
       </div>
     </div>
   );
 };
 
-export default TestComp4
+export default memo(TestComp4)
