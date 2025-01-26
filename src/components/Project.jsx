@@ -8,37 +8,37 @@ const projects = [
   {
     id: 1,
     title: 'PLANTERS',
-    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
-    name: 'explore',
+    description: "FRP and GRC planters merge enduring style with rugged durability. FRP offers sleek, lightweight design, while GRC delivers sturdy, eco-conscious elegance. Both effortlessly elevate indoor or outdoor spaces.",
+    name: 'EXPLORE BIG PLANTERS ↗',
     image: "mobile2.png",
-    description1: 'we live lit',
+    description1: '@STUDIO MASON',
     route: '/test-comp'
   },
   {
     id: 2,
     title: "DESK PLANTERS",
-    description: 'Here is the new, light, and entertaining format of the series that we are excited to present to you format of the series that we are excited to',
-    name: 'explore',
+    description: "Transform your workspace with minimalist Concrete Desk Planters that blend function and modern style. Handcrafted from premium concrete, their sleek industrial design elevates any desk or shelf with understated sophistication.",
+    name: 'EXPLORE DESK PLANTERS ↗',
     image: 'mobile1.png',
-    description1: 'we live lit',
-    route: '/test-comp'
+    description1: '@STUDIO MASON',
+    route: '/test-comp2'
   },
   {
     id: 3,
     title: "BREEZE BLOCKS",
-    description: "Timeless and versatile, Breeze Blocks combine functionality with striking aesthetics. Made from durable concrete, these decorative blocks feature iconic geometric patterns that enhance airflow and natural light. A standout element in modern architecture, they add character to both interior and exterior spaces.",
-    name: 'explore',
+    description: "Breeze Blocks are timeless and versatile, blending functionality with stunning design. Crafted from durable concrete, their iconic geometric patterns enhance airflow and natural light while adding a bold architectural statement to any interior or exterior space.",
+    name: 'EXPLORE BREEZE BLOCKS ↗',
     image: 'mobile5.png',
-    description1: 'we live lit',
-    route: '/test-comp2'
+    description1: '@STUDIO MASON',
+    route: '/breezeBlocks'
   },
   {
     id: 4,
     title: 'FURNITURE',
-    description: "Polished terrazzo table tops with customizable concrete color, chip size, and thickness (20mm to 40mm). Durable, easy to maintain, and reinforced with fiberglass mesh for added strength. Water, moss, and stain-resistant. Available in diameters from 1.5' to 8. Bases can be customized in MS, SS, or wood to suit customer preferences.",
-    name: 'explore',
+    description: "Polished terrazzo table tops feature customizable colors, chip sizes, and thicknesses (20mm-40mm). Durable, low-maintenance, and reinforced with fiberglass mesh, they resist water, moss, and stains. Available in 1.5' to 8' diameters with customizable MS, SS, or wood bases.",
+    name: 'EXPLORE FURNITURE ↗',
     image: 'mobile6.png',
-    description1: 'we live lit',
+    description1: '@STUDIO MASON',
     route: '/test-comp4'
   },
 ];
@@ -106,12 +106,14 @@ const Project = () => {
           <a href = {project.route}>
           <img src= {project.image}  className='proj-img'/>
           </a>
+          <p className='desc-1'>{project.description1}</p>
           <a href={project.route}>
+         
           <span className='name'>{project.name}</span>
           </a>
          
-          <p className='desc-1'>{project.description1}</p>
-          <p className='desc-2'>{project.description1}</p>
+         
+         
         </div>
       ))}
     </div>
