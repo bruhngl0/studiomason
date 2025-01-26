@@ -28,7 +28,7 @@ const ProductPageTables = () => {
     <div className="product-page">
     {/* Left Side - Image Carousel */}
     <div className="product-page__left">
-    <button 
+       <button 
           className="back-btn"
           onClick={() => window.history.back()}
         >

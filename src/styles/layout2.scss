@@ -1,7 +1,7 @@
 .layout-two {
     display: flex;
     width: 320px;  // Increased from 280px
-    aspect-ratio: 1;  // Added to maintain square ratio
+    height: 320px;
     overflow: hidden;
     margin: 0.5rem;  // Consistent margin
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -44,11 +44,11 @@
 
 @media (max-width: 480px) {
     .layout-two {
-        width: 260px;  // Larger for mobile
+        width: 180px;  // Larger for mobile
         margin: 0.125rem;
     }
 
     .image-container-two img {
-        width: 260px;
+        width: 320px;
     }
 }

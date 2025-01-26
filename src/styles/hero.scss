@@ -98,7 +98,7 @@
 
           ul {
             margin-left: 0;
-
+            padding-inline-start: 0;
             li {
               margin-bottom: 0.5rem;
               font-size: 14px;
@@ -125,6 +125,7 @@
           }
 
           ul {
+            padding-inline-start: 0;
             .spec-item {
               display: flex;
               justify-content: space-between;

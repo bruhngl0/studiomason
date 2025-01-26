@@ -1,7 +1,7 @@
 .layout-four {
     display: flex;
     width: 320px;  // Increased from 280px
-    aspect-ratio: 1;
+    height: 320px;
     overflow: hidden;
     margin: 0.5rem;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -45,11 +45,11 @@
 
 @media (max-width: 480px) {
     .layout-four {
-        width: 260px;  // Larger for mobile
+        width: 180px;  // Larger for mobile
         margin: 0.125rem;
     }
 
     .image-container-four img {
-        width: 260px;
+        width: 320px;
     }
 }
