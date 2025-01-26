@@ -1,11 +1,11 @@
 
 
 
-import image1 from "../../public/bigPlanters/Tables/tables_1.webp"
+import image1 from "../../public/bigPlanters/Tables/tables_01.jpg"
 import image2 from "../../public/bigPlanters/Tables/tables_2.webp"
 import image3 from "../../public/bigPlanters/Tables/tables_3.webp"
 import image4 from "../../public/bigPlanters/Tables/tables_4.webp"
-import image5 from "../../public/bigPlanters/Tables/tables_0.jpg"
+
 
 
 
@@ -17,7 +17,7 @@ export const tables =
     name: "CENTRE TABLE",
     price: 129.99,
     images: [
-      image5,
+      image1,
       image1,
       image1
     ],
@@ -112,27 +112,7 @@ export const tables =
 
 
 
-   {
-    id: 5,
-    name: "CENTRE TABLE",
-    price: 129.99,
-    images: [
-        image1,
-        image1,
-        image1,
-    ],
-    description: "Polished terrazzo table tops with customizable concrete color, chip size, and thickness (20mm to 40mm). Durable, easy to maintain, and reinforced with fiberglass mesh for added strength. Water, moss, and stain-resistant. Available in diameters from 1.5' to 8. Bases can be customized in MS, SS, or wood to suit customer preferences.",
-    specifications: [
-      {name: "Material", value: "GRC/FRP"},
-      { name: "Size", value: "D x H" },
-      { name: "M", value: "3ft' x 1.6ft'" },
-    ],
-    features: [
-      "HAND-CRAFTED DESIGN",
-      "WATERPROOF FINISH",
-      "SCRATCH RESISTANT"
-    ]
-   },
+   
 ]
 
 export default tables

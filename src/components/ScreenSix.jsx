@@ -14,8 +14,8 @@ import image6 from "../../public/6.jpg";
 const GRID_ITEMS = [
   { image: image1, text: 'PLANTERS', content: '.', id: 1, route: '/test-comp' },
   { image: image2, text: 'DESK PLANTERS', content: '.', id: 2, route: '/test-comp2' },
-  { image: image3, text: 'TABLES', content: '.', id: 3, route: '/test-comp4' },
   { image: image4, text: 'BREEZE BLOCKS', content: '.', id: 4, route: '/breezeBlocks' },
+  { image: image3, text: 'TABLES', content: '.', id: 3, route: '/test-comp4' },
   { image: image5, text: 'WALL CLADDING', content: '.', id: 5, route: '/test-comp3' },
   { image: image6, text: 'SCULPTURES', content: '.', id: 6, route: '/test-comp3' },
 ];

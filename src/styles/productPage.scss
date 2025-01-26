@@ -8,11 +8,36 @@ background-color: rgb(255, 255, 255);
   &__left {
     width: 40%;
     padding: 1.5rem;
-  
+ 
    display: flex;
-   flex-direction: row;
+   flex-direction:  column;
    justify-content: center;
    align-items: center;
+
+
+   .back-btn {
+    padding: 0.5rem;
+    
+      all: unset;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #070707;
+      color: #ececec;
+      font-size: 10px;
+      padding: 3px 5px;
+      height: 1.5rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-sizing: border-box;
+      transition: background-color 0.2s;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin-right: 22rem;
+      margin-bottom: 0.5rem;  
+      &:hover {
+        background-color: #6f6a6a;
+      }
+    }
 
     .product-carousel {
       width: 100%;
@@ -180,28 +205,7 @@ background-color: rgb(255, 255, 255);
         
       }
 
-      .back-btn {
-        padding: 0.5rem;
-        
-          all: unset;
-          display: inline-flex;
-          align-items: center;
-          justify-content: center;
-          background-color: #070707;
-          color: #ececec;
-          font-size: 1rem;
-          padding: 3px 5px;
-          height: 3rem;
-          font-weight: 600;
-          cursor: pointer;
-          box-sizing: border-box;
-          transition: background-color 0.2s;
-          box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
-        
-          &:hover {
-            background-color: #6f6a6a;
-          }
-        }
+     
     }
   }
 }

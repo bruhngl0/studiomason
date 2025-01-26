@@ -54,11 +54,11 @@ const FilterSidebar = () => {
       </div>
 
   
-     <Link to= "/screensix">
+     <a href= "/screensix">
       <button className='back-btn2'>
       ←BACK
       </button>
-      </Link>
+      </a>
     </div>
   );
 };

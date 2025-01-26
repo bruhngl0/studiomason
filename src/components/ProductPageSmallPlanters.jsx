@@ -27,8 +27,16 @@ const ProductPage = () => {
 
   return (
     <div className="product-page">
+
+
       {/* Left Side - Image Carousel */}
       <div className="product-page__left">
+      <button 
+            className="back-btn"
+            onClick={() => window.history.back()}
+          >
+            ←BACK
+          </button>
         <div className="product-carousel">
           <Slider {...sliderSettings}>
             {product.images.map((image, index) => (
@@ -79,12 +87,7 @@ const ProductPage = () => {
           <Link to="/buyGuide">
             <button className="buy-guide-btn">HOW TO BUY</button>
           </Link>
-          <button 
-            className="back-btn"
-            onClick={() => window.history.back()}
-          >
-            ←BACK
-          </button>
+         
         </div>
       </div>
     </div>

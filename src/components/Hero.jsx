@@ -68,11 +68,7 @@ const ProductActions = memo(({ onClose }) => (
         HOW TO BUY
       </button>
     </Link>
-    <Link to="/products">
-      <button onClick={onClose} className="back-button">
-        ←BACK
-      </button>
-    </Link>
+  
   </div>
 ));
 
@@ -101,6 +97,11 @@ const Hero = ({ image, onClose, layoutId, productData }) => {
       <div className="hero-content">
         {/* Left Side - Image */}
         <div className="hero-left">
+        <Link to="/products">
+      <button onClick={onClose} className="back-button">
+        ←BACK
+      </button>
+    </Link>
           <motion.div
             layoutId={layoutId}
             variants={imageVariants}

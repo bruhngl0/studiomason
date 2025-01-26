@@ -64,11 +64,12 @@ export const breezeBlocks = [
     name: "BARS",
     price: 129.99,
     images: [image1, image2, image3],
-    description: "Contemporary breeze blocks featuring a clean, linear design. Perfect for creating modern architectural screens and walls with optimal airflow and light filtration.",
+    description: "Timeless and versatile, Breeze Blocks combine functionality with striking aesthetics. Made from durable concrete, these decorative blocks feature iconic geometric patterns that enhance airflow and natural light. A standout element in modern architecture, they add character to both interior and exterior spaces.",
     specifications: [
-      { name: "Material", value: "GRC/FRP" },
-      { name: "Size", value: "W x H x D" },
-      { name: "Standard", value: "12' x 12' x 4'" }
+      { name: "Material", value: "GRC" },
+      { name: "Finishes" ,  value: "Natural, Pigmented, Exposed Aggregate"},
+      { name: "Size", value: "W x L x H (inch)" },
+      { name: "Standard", value: "8' x '8' x 2.4'" }
     ],
     features: [
       "WEATHER-RESISTANT",
@@ -82,11 +83,12 @@ export const breezeBlocks = [
     name: "BLOOM",
     price: 129.99,
     images: [image4, image5, image6],
-    description: "Floral-inspired breeze blocks that combine beauty with functionality. Creates stunning light patterns while maintaining privacy and airflow.",
+    description: "Timeless and versatile, Breeze Blocks combine functionality with striking aesthetics. Made from durable concrete, these decorative blocks feature iconic geometric patterns that enhance airflow and natural light. A standout element in modern architecture, they add character to both interior and exterior spaces.",
     specifications: [
-      { name: "Material", value: "GRC/FRP" },
-      { name: "Size", value: "W x H x D" },
-      { name: "Standard", value: "12' x 12' x 4'" }
+      { name: "Material", value: "GRC" },
+      { name: "Finishes" ,  value: "Natural, Pigmented, Exposed Aggregate"},
+      { name: "Size", value: "W x L x H (inch)" },
+      { name: "Standard", value: "8' x '8' x 2.4'" }
     ],
     features: [
       "WEATHER-RESISTANT",
@@ -100,11 +102,12 @@ export const breezeBlocks = [
     name: "BRANCH",
     price: 129.99,
     images: [image9, image8, image7],
-    description: "Nature-inspired breeze blocks featuring an organic branching pattern. Perfect for creating a harmonious blend of natural aesthetics and functional ventilation.",
+    description: "Timeless and versatile, Breeze Blocks combine functionality with striking aesthetics. Made from durable concrete, these decorative blocks feature iconic geometric patterns that enhance airflow and natural light. A standout element in modern architecture, they add character to both interior and exterior spaces.",
     specifications: [
-      { name: "Material", value: "GRC/FRP" },
-      { name: "Size", value: "W x H x D" },
-      { name: "Standard", value: "12' x 12' x 4'" }
+      { name: "Material", value: "GRC" },
+      { name: "Finishes" ,  value: "Natural, Pigmented, Exposed Aggregate"},
+      { name: "Size", value: "W x L x H (inch)" },
+      { name: "Standard", value: "8' x '8' x 2.4'" }
     ],
     features: [
       "WEATHER-RESISTANT",
@@ -118,11 +121,12 @@ export const breezeBlocks = [
     name: "DRAIN",
     price: 129.99,
     images: [image10, image11, image12],
-    description: "Geometric breeze blocks with a unique drainage-inspired pattern. Excellent for creating visual interest while maintaining practical airflow.",
+    description: "Timeless and versatile, Breeze Blocks combine functionality with striking aesthetics. Made from durable concrete, these decorative blocks feature iconic geometric patterns that enhance airflow and natural light. A standout element in modern architecture, they add character to both interior and exterior spaces.",
     specifications: [
-      { name: "Material", value: "GRC/FRP" },
-      { name: "Size", value: "W x H x D" },
-      { name: "Standard", value: "12' x 12' x 4'" }
+      { name: "Material", value: "GRC" },
+      { name: "Finishes",  value: "Natural, Pigmented, Exposed Aggregate"},
+      { name: "Size", value: "W x L x H (inch)" },
+      { name: "Standard", value: "8' x '8' x 2.4'" }
     ],
     features: [
       "WEATHER-RESISTANT",
@@ -136,11 +140,12 @@ export const breezeBlocks = [
     name: "FUNNEL",
     price: 129.99,
     images: [image13, image14, image15],
-    description: "Modern breeze blocks with a funnel-like pattern that creates dynamic light and shadow effects while ensuring optimal ventilation.",
+    description: "Timeless and versatile, Breeze Blocks combine functionality with striking aesthetics. Made from durable concrete, these decorative blocks feature iconic geometric patterns that enhance airflow and natural light. A standout element in modern architecture, they add character to both interior and exterior spaces.",
     specifications: [
-      { name: "Material", value: "GRC/FRP" },
-      { name: "Size", value: "W x H x D" },
-      { name: "Standard", value: "12' x 12' x 4'" }
+      { name: "Material", value: "GRC" },
+      { name: "Finishes",  value: "Natural, Pigmented, Exposed Aggregate"},
+      { name: "Size", value: "W x L x H (inch)" },
+      { name: "Standard", value: "8' x '8' x 2.4'" }
     ],
     features: [
       "WEATHER-RESISTANT",
@@ -154,11 +159,12 @@ export const breezeBlocks = [
     name: "LEAF",
     price: 129.99,
     images: [image16, image17, image18],
-    description: "Elegant leaf-patterned breeze blocks that bring a touch of nature to architectural screens. Perfect for creating serene, well-ventilated spaces.",
+    description: "Timeless and versatile, Breeze Blocks combine functionality with striking aesthetics. Made from durable concrete, these decorative blocks feature iconic geometric patterns that enhance airflow and natural light. A standout element in modern architecture, they add character to both interior and exterior spaces.",
     specifications: [
-      { name: "Material", value: "GRC/FRP" },
-      { name: "Size", value: "W x H x D" },
-      { name: "Standard", value: "12' x 12' x 4'" }
+      { name: "Material", value: "GRC" },
+      { name: "Finishes",  value: "Natural, Pigmented, Exposed Aggregate"},
+      { name: "Size", value: "W x L x H (inch)" },
+      { name: "Standard", value: "8' x '8' x 2.4'" }
     ],
     features: [
       "WEATHER-RESISTANT",
@@ -172,11 +178,12 @@ export const breezeBlocks = [
     name: "LEGO",
     price: 129.99,
     images: [image19, image20, image21],
-    description: "Playful, block-inspired breeze blocks that create interesting geometric patterns. Ideal for modern architectural applications requiring both style and function.",
+    description: "Timeless and versatile, Breeze Blocks combine functionality with striking aesthetics. Made from durable concrete, these decorative blocks feature iconic geometric patterns that enhance airflow and natural light. A standout element in modern architecture, they add character to both interior and exterior spaces.",
     specifications: [
-      { name: "Material", value: "GRC/FRP" },
-      { name: "Size", value: "W x H x D" },
-      { name: "Standard", value: "12' x 12' x 4'" }
+      { name: "Material", value: "GRC" },
+      { name: "Finishes",  value: "Natural, Pigmented, Exposed Aggregate"},
+      { name: "Size", value: "W x L x H (inch)" },
+      { name: "Standard", value: "8' x '8' x 2.4'" }
     ],
     features: [
       "WEATHER-RESISTANT",
@@ -190,11 +197,12 @@ export const breezeBlocks = [
     name: "LENS",
     price: 129.99,
     images: [image22, image23, image24],
-    description: "Optical-inspired breeze blocks featuring a lens-like pattern that creates fascinating light effects while maintaining privacy and airflow.",
+    description: "Timeless and versatile, Breeze Blocks combine functionality with striking aesthetics. Made from durable concrete, these decorative blocks feature iconic geometric patterns that enhance airflow and natural light. A standout element in modern architecture, they add character to both interior and exterior spaces.",
     specifications: [
-      { name: "Material", value: "GRC/FRP" },
-      { name: "Size", value: "W x H x D" },
-      { name: "Standard", value: "12' x 12' x 4'" }
+      { name: "Material", value: "GRC" },
+      { name: "Finishes",  value: "Natural, Pigmented, Exposed Aggregate"},
+      { name: "Size", value: "W x L x H (inch)" },
+      { name: "Standard", value: "8' x '8' x 2.4'" }
     ],
     features: [
       "WEATHER-RESISTANT",
@@ -208,11 +216,12 @@ export const breezeBlocks = [
     name: "LUNA",
     price: 129.99,
     images: [image25, image26, image27],
-    description: "Moon-inspired breeze blocks with circular patterns that create ethereal light and shadow effects. Perfect for creating atmospheric spaces.",
+    description: "Timeless and versatile, Breeze Blocks combine functionality with striking aesthetics. Made from durable concrete, these decorative blocks feature iconic geometric patterns that enhance airflow and natural light. A standout element in modern architecture, they add character to both interior and exterior spaces.",
     specifications: [
-      { name: "Material", value: "GRC/FRP" },
-      { name: "Size", value: "W x H x D" },
-      { name: "Standard", value: "12' x 12' x 4'" }
+      { name: "Material", value: "GRC" },
+      { name: "Finishes",  value: "Natural, Pigmented, Exposed Aggregate"},
+      { name: "Size", value: "W x L x H (inch)" },
+      { name: "Standard", value: "8' x '8' x 2.4'" }
     ],
     features: [
       "WEATHER-RESISTANT",
@@ -226,11 +235,12 @@ export const breezeBlocks = [
     name: "SHORT W",
     price: 129.99,
     images: [image28, image29, image30],
-    description: "Compact W-patterned breeze blocks that offer a modern take on classic designs. Ideal for contemporary architectural applications.",
+    description: "Timeless and versatile, Breeze Blocks combine functionality with striking aesthetics. Made from durable concrete, these decorative blocks feature iconic geometric patterns that enhance airflow and natural light. A standout element in modern architecture, they add character to both interior and exterior spaces.",
     specifications: [
-      { name: "Material", value: "GRC/FRP" },
-      { name: "Size", value: "W x H x D" },
-      { name: "Standard", value: "12' x 12' x 4'" }
+      { name: "Material", value: "GRC" },
+      { name: "Finishes",  value: "Natural, Pigmented, Exposed Aggregate"},
+      { name: "Size", value: "W x L x H (inch)" },
+      { name: "Standard", value: "8' x '8' x 2.4'" }
     ],
     features: [
       "WEATHER-RESISTANT",
@@ -244,11 +254,12 @@ export const breezeBlocks = [
     name: "SLANT",
     price: 129.99,
     images: [image31, image32, image33],
-    description: "Angular breeze blocks featuring dynamic diagonal patterns. Creates striking visual effects while maintaining excellent ventilation.",
+    description: "Timeless and versatile, Breeze Blocks combine functionality with striking aesthetics. Made from durable concrete, these decorative blocks feature iconic geometric patterns that enhance airflow and natural light. A standout element in modern architecture, they add character to both interior and exterior spaces.",
     specifications: [
-      { name: "Material", value: "GRC/FRP" },
-      { name: "Size", value: "W x H x D" },
-      { name: "Standard", value: "12' x 12' x 4'" }
+      { name: "Material", value: "GRC" },
+      { name: "Finishes",  value: "Natural, Pigmented, Exposed Aggregate"},
+      { name: "Size", value: "W x L x H (inch)" },
+      { name: "Standard", value: "8' x '8' x 2.4'" }
     ],
     features: [
       "WEATHER-RESISTANT",
@@ -262,11 +273,12 @@ export const breezeBlocks = [
     name: "STACK",
     price: 129.99,
     images: [image34, image35, image36],
-    description: "Layered-design breeze blocks that create a sense of depth and dimension. Perfect for modern architectural screens and partitions.",
+    description: "Timeless and versatile, Breeze Blocks combine functionality with striking aesthetics. Made from durable concrete, these decorative blocks feature iconic geometric patterns that enhance airflow and natural light. A standout element in modern architecture, they add character to both interior and exterior spaces.",
     specifications: [
-      { name: "Material", value: "GRC/FRP" },
-      { name: "Size", value: "W x H x D" },
-      { name: "Standard", value: "12' x 12' x 4'" }
+      { name: "Material", value: "GRC" },
+      { name: "Finishes",  value: "Natural, Pigmented, Exposed Aggregate"},
+      { name: "Size", value: "W x L x H (inch)" },
+      { name: "Standard", value: "8' x '8' x 2.4'" }
     ],
     features: [
       "WEATHER-RESISTANT",
@@ -280,11 +292,13 @@ export const breezeBlocks = [
     name: "STRAIN",
     price: 129.99,
     images: [image37, image38, image39],
-    description: "Uniquely textured breeze blocks that create interesting visual patterns while providing excellent airflow and light filtration.",
+
+    description: "Timeless and versatile, Breeze Blocks combine functionality with striking aesthetics. Made from durable concrete, these decorative blocks feature iconic geometric patterns that enhance airflow and natural light. A standout element in modern architecture, they add character to both interior and exterior spaces.",
     specifications: [
-      { name: "Material", value: "GRC/FRP" },
-      { name: "Size", value: "W x H x D" },
-      { name: "Standard", value: "12' x 12' x 4'" }
+      { name: "Material", value: "GRC" },
+      { name: "Finishes",  value: "Natural, Pigmented, Exposed Aggregate"},
+      { name: "Size", value: "W x L x H (inch)" },
+      { name: "Standard", value: "8' x '8' x 2.4'" }
     ],
     features: [
         "WEATHER-RESISTANT",
@@ -298,11 +312,12 @@ export const breezeBlocks = [
       name: "TALL W",
       price: 129.99,
       images: [image40, image41, image42],
-      description: "Tall W-patterned breeze blocks that add height and dimension to architectural screens. Ideal for modern architectural applications.",
+      description: "Timeless and versatile, Breeze Blocks combine functionality with striking aesthetics. Made from durable concrete, these decorative blocks feature iconic geometric patterns that enhance airflow and natural light. A standout element in modern architecture, they add character to both interior and exterior spaces.",
       specifications: [
-        { name: "Material", value: "GRC/FRP" },
-        { name: "Size", value: "W x H x D" },
-        { name: "Standard", value: "12' x 12' x 4'" }
+        { name: "Material", value: "GRC" },
+        { name: "Finishes",  value: "Natural, Pigmented, Exposed Aggregate"},
+        { name: "Size", value: "W x L x H (inch)" },
+        { name: "Standard", value: "8' x '8' x 2.4'" }
       ],
       features: [
         "WEATHER-RESISTANT",
@@ -316,11 +331,12 @@ export const breezeBlocks = [
       name: "ZAG",
       price: 129.99,
       images: [image43, image44, image45],
-      description: "Zigzag breeze blocks with a unique design that creates a sense of movement and movement. Perfect for modern architectural applications.",
+      description: "Timeless and versatile, Breeze Blocks combine functionality with striking aesthetics. Made from durable concrete, these decorative blocks feature iconic geometric patterns that enhance airflow and natural light. A standout element in modern architecture, they add character to both interior and exterior spaces.",
       specifications: [
-        { name: "Material", value: "GRC/FRP" },
-        { name: "Size", value: "W x H x D" },
-        { name: "Standard", value: "12' x 12' x 4'" }
+        { name: "Material", value: "GRC" },
+        { name: "Finishes",  value: "Natural, Pigmented, Exposed Aggregate"},
+        { name: "Size", value: "W x L x H (inch)" },
+        { name: "Standard", value: "8' x '8' x 2.4'" }
       ],
       features: [
         "WEATHER-RESISTANT",
