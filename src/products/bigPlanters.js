@@ -720,31 +720,7 @@ export const bigPlanters =
 
 
 
-   {
-    id: 22,
-    name: "CENTRE TABLE",
-    price: 129.99,
-    images: [
-      image45,
-      image45,
-      image45,
-    
-    ],
-    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
-    specifications: [
-      {name: "Material", value: "GRC/FRP"},
-      { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
-    ],
-    features: [
-      "FROST-RESISTANCE",
-      "UV-RESISTANCE",
-      "DRAINAGE",
-      "OUTDOOR-READY",
-      "INDOOR-READY"
-    ]
-   },
+   
 
 
 
@@ -917,57 +893,11 @@ export const bigPlanters =
 
 
 
-   {
-    id: 29,
-    name: "CONE",
-    price: 129.99,
-    images: [
-      image62,
-      image62,
-      image62,
-    ],
-    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
-    specifications: [
-      {name: "Material", value: "GRC/FRP"},
-     
-      { name: "Size", value: "W x H" },
-      { name: "M", value: "22.5' x 21'" },
-    ],
-    features: [
-      "FROST-RESISTANCE",
-      "UV-RESISTANCE",
-      "DRAINAGE",
-      "OUTDOOR-READY",
-      "INDOOR-READY"
-    ]
-   },
+  
+   
 
 
-   {
-    id: 30,
-    name: "CONE",
-    price: 129.99,
-    images: [
-      image13,
-      image13,
-      image13,
-    ],
-    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
-    specifications: [
-      {name: "Material", value: "GRC/FRP"},
-      { name: "Size", value: "W x H" },
-      { name: "S", value: "22.5' x 18'" },
-      { name: "L", value: "30' x 24'" }
-    ],
-    features: [
-      "FROST-RESISTANCE",
-      "UV-RESISTANCE",
-      "DRAINAGE",
-      "OUTDOOR-READY",
-      "INDOOR-READY"
-    ]
-   },
-
+   
   
 
 
