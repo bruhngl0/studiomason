@@ -118,11 +118,7 @@
 
 
 
-@media (max-width: 500px) {
-  .sticky-container {
-    display: none;
-  
-}}
+
 
 
 @media (max-width: 1440px) {
@@ -191,3 +187,9 @@
 
 }
  }
+
+ @media (max-width: 500px) {
+  .sticky-container {
+    display: none;
+  
+}}
