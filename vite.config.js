@@ -6,5 +6,15 @@ export default defineConfig({
   plugins: [react()],
   server: {
     favicon: false
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        assetFileNames: (assetInfo) => {
+          if (assetInfo.name === 'favicon.ico') return '';
+          return 'assets/[name]-[hash][extname]';
+        }
+      }
+    }
   }
 })
