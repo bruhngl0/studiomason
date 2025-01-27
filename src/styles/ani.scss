@@ -83,7 +83,7 @@
     display: flex;
     flex-direction: row;
     height:100px;
-    font-size: 60px;
+    font-size: 120px;
     font-weight: 400;
     justify-content: center;
     padding-left: 0;
@@ -93,6 +93,9 @@
   margin: 0 auto;
   padding: zero;
   overflow-x: hidden;
+  
+ 
+
   
     
 }
@@ -117,9 +120,9 @@
     display: flex;
     flex-direction: column;
     transition: transform 1s ease-in-out; /* Smooth transition for the sliding effect */
-    font-size: 50px;
+    font-size: 70px;
     height: 120px;
-    padding-left: 2rem;
+    padding-left: 1rem;
    
 
   }
@@ -135,31 +138,31 @@
   
   /* CSS classes to handle the right-to-left sliding effect */
   .ani-image-0 {
-    transform: translateY(-10px); /* First image visible */
+    transform: translateY(-30px); /* First image visible */
   }
   
   .ani-image-1 {
-    transform: translateY(-130px); /* Second image slides in from the right */
+    transform: translateY(-175px); /* Second image slides in from the right */
   }
   
   .ani-image-2 {
-    transform: translateY(-230px); /* Third image slides in from the right */
-  }
-
-  .ani-image-3 {
     transform: translateY(-330px); /* Third image slides in from the right */
   }
 
+  .ani-image-3 {
+    transform: translateY(-480px); /* Third image slides in from the right */
+  }
+
   .ani-image-4{
-    transform: translateY(-440px); /* Third image slides in from the right */
+    transform: translateY(-630px); /* Third image slides in from the right */
   }
 
   .ani-image-5{
-    transform: translateY(-550px); /* Third image slides in from the right */
+    transform: translateY(-780px); /* Third image slides in from the right */
   }
 
   .ani-image-6{
-    transform: translateY(-10px); /* Third image slides in from the right */
+    transform: translateY(-30px); /* Third image slides in from the right */
   }
 
   }
