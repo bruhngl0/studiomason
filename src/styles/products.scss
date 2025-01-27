@@ -145,7 +145,7 @@
 }
 
 
-@media (max-width: 1350px) {
+@media (max-width: 1400px) {
   .scroll-item
   .scroll-item-two  
  .scroll-item-three{
@@ -164,3 +164,30 @@
  }
  }
   
+
+ @media (max-width: 1390px) {
+  .scroll-item
+  .scroll-item-two  
+ .scroll-item-three{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .sticky-section{
+   width: 90%;
+   
+ }
+ 
+ .scroll-image{
+   width: 150px;
+ }
+
+ .sticky-container {
+  display: flex;
+  min-height: 100vh;
+  width: 100vw;
+
+}
+ }
