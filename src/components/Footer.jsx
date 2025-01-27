@@ -37,7 +37,7 @@ const Footer = () => {
             </div>
             <p className='footer-followus'>FOLLOW US</p>
             <div className='footer-follow-us'>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <a href="mailto:info@studiomason.in" target="_blank" rel="noopener noreferrer">
                 <IoMailSharp size={30} className='footer-facebook'/>
               </a>
               <a href="https://www.instagram.com/studiomason_blr?igsh=b3Z3eWo3NGo5YWt4" target="_blank" rel="noopener noreferrer">

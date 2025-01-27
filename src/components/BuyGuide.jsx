@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/buyGuide.scss"
+import { Link } from 'react-router-dom'
 
 const BuyGuide = () => {
   return (
@@ -13,13 +14,17 @@ const BuyGuide = () => {
             <p>Browse through our product range to see our signature products. 
             Each product page provides detailed descriptions, images, and material information.</p>
           </div>
-
+      
+         <Link to= "https://wa.me/+919980547044" style={{textDecoration: "none"}}>
           <div className="guide-step">
             <h2>Get in Touch</h2>
             <p>Ready to place an order or have questions? Reach out to us through 
             your preferred method—whether it's email, phone, social media, or 
-            whatsapp. We're here to assist!</p>
+            whatsapp. We're here to assist! <br/>
+            CLICK TO CONECT</p>
           </div>
+          </Link>
+
 
           <div className="guide-step">
             <h2>Discuss Custom Orders</h2>
