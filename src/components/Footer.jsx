@@ -35,8 +35,9 @@ const Footer = () => {
               <p>BOMMASANDRA</p>
               <p>BANGALORE, INDIA</p>
             </div>
-            <p className='footer-followus'>FOLLOW US</p>
+            <p className='footer-follow-us'>FOLLOW US</p>
             <div className='footer-follow-us'>
+           
               <a href="mailto:info@studiomason.in" target="_blank" rel="noopener noreferrer">
                 <IoMailSharp size={30} className='footer-facebook'/>
               </a>
