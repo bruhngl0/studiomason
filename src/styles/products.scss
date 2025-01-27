@@ -143,4 +143,24 @@
   width: 300px;
 }
 }
+
+
+@media (max-width: 1350px) {
+  .scroll-item
+  .scroll-item-two  
+ .scroll-item-three{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .sticky-section{
+   width: 80%;
+ }
+ 
+ .scroll-image{
+   width: 200px;
+ }
+ }
   
