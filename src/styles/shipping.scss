@@ -1,18 +1,19 @@
 .shipping {
     min-height: 100vh;
-    background-color: #e6d4c3;
-    padding: 4rem 2rem;
-  }
+    background-color: #cfb49c;
+    padding: 4rem 1rem;
+}
   
-  .shipping-container {
+.shipping-container {
     max-width: 1200px;
-    height: 70vh;
+    width: 100%;
+    min-height: 70vh;
     margin: 0 auto;
     padding: 2rem;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
+}
   
   .shipping-title {
     font-size: 3rem;
@@ -85,55 +86,69 @@
   }
   
   @media screen and (max-width: 1024px) {
-    .shipping-methods {
-      grid-template-columns: repeat(2, 1fr);
+    .shipping-container {
+        max-width: 90%;
     }
-  }
-  
-  @media screen and (max-width: 768px) {
+    
+    .shipping-methods {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
     .shipping {
-      padding: 2rem 1rem;
+        padding: 2rem 0.5rem;
     }
     
     .shipping-container {
-      padding: 1.5rem;
+        max-width: 95%;
+        padding: 1rem;
     }
     
     .shipping-title {
-      font-size: 2.2rem;
-      margin-bottom: 2rem;
+        font-size: 2.2rem;
+        margin-bottom: 2rem;
     }
     
     .shipping-methods {
-      grid-template-columns: 1fr;
-      gap: 1.5rem;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
     }
     
     .shipping-card {
-      padding: 1.5rem;
-      
-      h2 {
-        font-size: 1.4rem;
-        margin-bottom: 1rem;
-      }
-      
-      p {
-        font-size: 1rem;
-        line-height: 1.6;
-      }
+        padding: 1.5rem;
+        
+        h2 {
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+        }
+        
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
     }
-  }
-  
-  @media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 480px) {
+    .shipping {
+        padding: 1rem 0.5rem;
+    }
+
+    .shipping-container {
+        max-width: 100%;
+        padding: 1rem 0.5rem;
+    }
+    
     .shipping-title {
-      font-size: 1.8rem;
+        font-size: 1.8rem;
     }
     
     .shipping-card {
-      padding: 1.25rem;
-      
-      h2 {
-        font-size: 1.2rem;
-      }
+        padding: 1rem;
+        
+        h2 {
+            font-size: 1.2rem;
+        }
     }
-  }
+}

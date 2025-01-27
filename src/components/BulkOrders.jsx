@@ -30,7 +30,9 @@ const BulkOrders = () => {
           <div className="bulk-cta">
             <p>Ready to bring your project to life?</p>
             <p>Get in touch with us for tailored solutions and exclusive bulk order benefits.</p>
+            <a href =  "/enquiry" >
             <button className="contact-btn">Contact Us</button>
+            </a>
           </div>
         </div>
       </div>

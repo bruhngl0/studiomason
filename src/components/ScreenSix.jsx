@@ -6,7 +6,7 @@ import "../styles/screensix.scss";
 import image1 from "../../public/rio_1.jpg";
 import image2 from "../../public/rio_2.jpg";
 import image3 from "../../public/rio_3.jpg";
-import image4 from "../../public/rio_4.jpg";
+import image4 from "../../public/bree.png";
 import image5 from "../../public/5.jpg";
 import image6 from "../../public/6.jpg";
 

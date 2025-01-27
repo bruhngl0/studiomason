@@ -40,7 +40,7 @@ const Footer = () => {
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                 <FaFacebookSquare size={30} className='footer-facebook'/>
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/studiomason_blr?igsh=b3Z3eWo3NGo5YWt4" target="_blank" rel="noopener noreferrer">
                 <FaSquareInstagram size={30} className='footer-instagram'/>
               </a>
             </div>
@@ -120,7 +120,7 @@ const Footer = () => {
           </div>
           <div className={`section-content ${expandedSection === 'section5' ? 'expanded' : ''}`}>
             <div className='footer-icons'>
-              <a href="mailto:example@example.com" aria-label="Email us">
+              <a href="mailto:info@studiomason.in" aria-label="Email us">
                 <IoMailSharp size={40} style={{marginRight: "1rem"}}/>
               </a>
               <a href="https://wa.me/+919980547044" aria-label="Contact on WhatsApp">

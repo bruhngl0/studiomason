@@ -218,7 +218,9 @@ background-color: rgb(255, 255, 255);
     &__left {
       width: 100%;
       padding: 1rem;
-
+       .back-btn{
+        display: none;
+       }
       .product-carousel {
         width: 100%;
         max-width: 350px;
@@ -351,6 +353,7 @@ background-color: rgb(255, 255, 255);
           width: 90vw;
           height: 2rem;
           font-size: 14px;
+          
         }
       }
     }

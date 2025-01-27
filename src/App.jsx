@@ -5,6 +5,7 @@ import TestComp4 from './components/TestComp4';
 import TestComp3 from './components/TestComp3';
 import BreezeBlocks from './components/BreezeBlocks';
 import ProductPageBreeze from './components/productPageBreeze';
+import Project from './components/Project';
 
 // Lazy load components with better naming and chunking
 const ScrollHero = lazy(() => import('./components/ScrollHero' /* webpackChunkName: "home" */));
@@ -47,6 +48,7 @@ function App() {
           <Route path="/screensix" element={<ScreenSix />} />
           <Route path="/bespoke" element={<Clients />} />
           <Route path="/enquiry" element={<Enquiry />} />
+          <Route path="/project" element={<Project />} />
           
           {/* Product routes */}
           <Route path="/products" element={<Products />} />
