@@ -38,7 +38,7 @@ const Footer = () => {
             <p className='footer-followus'>FOLLOW US</p>
             <div className='footer-follow-us'>
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                <FaFacebookSquare size={30} className='footer-facebook'/>
+                <IoMailSharp size={30} className='footer-facebook'/>
               </a>
               <a href="https://www.instagram.com/studiomason_blr?igsh=b3Z3eWo3NGo5YWt4" target="_blank" rel="noopener noreferrer">
                 <FaSquareInstagram size={30} className='footer-instagram'/>
@@ -54,7 +54,7 @@ const Footer = () => {
           </div>
           <div className={`section-content ${expandedSection === 'section2' ? 'expanded' : ''}`}>
             <a href="/" className='about-link'>
-              <p className='section-item'>ABOUT STUDIO MASON</p>
+              <p className='section-item'>STUDIO MASON</p>
             </a>
             <a href="/enquiry" className='about-link'>
               <p className='section-item'>CONTACT</p>
@@ -106,6 +106,10 @@ const Footer = () => {
             </a>
             <a href="/test-comp2" className='about-link'>
               <p className='section-item'>DESK PLANTERS</p>
+            </a>
+
+            <a href="/breezeBlocks" className='about-link'>
+              <p className='section-item'>BREEZE BLOCKS</p>
             </a>
             <a href="/test-comp4" className='about-link'>
               <p className='section-item'>TABLES</p>
