@@ -288,8 +288,8 @@ export const bigPlanters =
     name: "CURVY",
     price: 129.99,
     images: [
-        image16,
         image17,
+        image16,
         image18
     ],
     description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
@@ -504,57 +504,11 @@ export const bigPlanters =
 
 
 
-   {
-    id: 14,
-    name: "MATKA PLANTER-1",
-    price: 129.99,
-    images: [
-      image30,
-      image30,
-      image30
-    ],
-    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
-    specifications: [
-      {name: "Material", value: "GRC/FRP"},
-      { name: "Size", value: "W x H" },
-      { name: "S", value: "10' x 10'" },
-      { name: "M", value: "10.5' x 10.5'" }
-    ],
-    features: [
-      "FROST-RESISTANCE",
-      "UV-RESISTANCE",
-      "DRAINAGE",
-      "OUTDOOR-READY",
-      "INDOOR-READY"
-    ]
-   },
+   
 
 
 
-   {
-    id: 15,
-    name: "MATKA PLANTER-2",
-    price: 129.99,
-    images: [
-      image31,
-      image31,
-      image31,
-    ],
-    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
-    specifications: [
-      {name: "Material", value: "GRC/FRP"},
-      { name: "Size", value: "W x H" },
-      { name: "S", value: "10' x 10'" },
-      { name: "M", value: "10.5' x 10.5'" }
-    ],
-    features: [
-      "FROST-RESISTANCE",
-      "UV-RESISTANCE",
-      "DRAINAGE",
-      "OUTDOOR-READY",
-      "INDOOR-READY"
-    ]
-   },
+   
 
 
    {
@@ -892,12 +846,58 @@ export const bigPlanters =
    },
 
 
-
+   {
+    id: 14,
+    name: "MATKA PLANTER-1",
+    price: 129.99,
+    images: [
+      image30,
+      image30,
+      image30
+    ],
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
+    specifications: [
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "10' x 10'" },
+      { name: "M", value: "10.5' x 10.5'" }
+    ],
+    features: [
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
+    ]
+   },
   
    
 
 
-   
+   {
+    id: 15,
+    name: "MATKA PLANTER-2",
+    price: 129.99,
+    images: [
+      image31,
+      image31,
+      image31,
+    ],
+    description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
+    specifications: [
+      {name: "Material", value: "GRC/FRP"},
+      { name: "Size", value: "W x H" },
+      { name: "S", value: "10' x 10'" },
+      { name: "M", value: "10.5' x 10.5'" }
+    ],
+    features: [
+      "FROST-RESISTANCE",
+      "UV-RESISTANCE",
+      "DRAINAGE",
+      "OUTDOOR-READY",
+      "INDOOR-READY"
+    ]
+   },
   
 
 

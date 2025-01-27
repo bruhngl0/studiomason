@@ -60,6 +60,8 @@
  
 }
 
+
+
 @media (max-width: 768px) {
     .client-main {
         padding: 0;
@@ -68,6 +70,14 @@
     .client-one,
     .client-two {
         gap: 0.25rem;
+    }
+
+    .client-main > p {
+        font-size: 100px;
+        top: 30%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
     }
 }
 
@@ -88,4 +98,7 @@
     .client-two {
         gap: 0.5rem;
     }
+    
 }
+
+

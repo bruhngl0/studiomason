@@ -31,7 +31,14 @@
   }
   
 
+  @media (max-width: 768px) {
+    .layout-one {
+        width: 200px;  // Slightly larger for tablet
+        margin: 0.25rem;
+    }
 
+    
+}
   @media (max-width: 500px) {
    .layout-one{
     width: 180px;

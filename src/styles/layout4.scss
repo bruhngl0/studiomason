@@ -34,12 +34,12 @@
 
 @media (max-width: 768px) {
     .layout-four {
-        width: 300px;  // Slightly larger for tablet
+        width: 200px;  // Slightly larger for tablet
         margin: 0.25rem;
     }
 
     .image-container-four img {
-        width: 300px;
+        height: 100%;
     }
 }
 
