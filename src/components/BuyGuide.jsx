@@ -20,8 +20,8 @@ const BuyGuide = () => {
             <h2>Get in Touch</h2>
             <p>Ready to place an order or have questions? Reach out to us through 
             your preferred method—whether it's email, phone, social media, or 
-            whatsapp. We're here to assist! <br/>
-            CLICK TO CONECT</p>
+            whatsapp. We're here to assist! </p>
+            <p style={{color: "#fc6406" , fontWeight: "900"}}>CLICK TO CONTINUE</p>
           </div>
           </Link>
 

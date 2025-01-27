@@ -15,7 +15,7 @@ const DESIGN_MENU_ITEMS = [
 
 const PRODUCT_MENU_ITEMS = [
   'FURNITURE',
-  "PLANTER'S",
+  "PLANTERS",
   'WALL PANNEL'
 ];
 
