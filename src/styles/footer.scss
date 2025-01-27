@@ -1,6 +1,6 @@
 .footer-main {
   width: 100vw;
-  height: 47vh;
+  height: auto;
   background-color: #e6d4c3;
   z-index: 4;
   margin: 0 auto;
@@ -25,7 +25,7 @@
 }
 
 .footer-two-one {
-  width: 25vw;
+  width: auto;
 
   display: flex;
   flex-direction: column;

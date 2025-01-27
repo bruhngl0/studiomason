@@ -106,16 +106,16 @@ background-color: transparent;
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .projects-container {
-    height: 400vh;
+    height: auto;
     display: flex;
     flex-direction: column;
    
   }
 
   .project-card {
-    height: 100vh;
+    height:  auto;
     background-color: rgb(217, 163, 93);
   }
   .project-card img {
