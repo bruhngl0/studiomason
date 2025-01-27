@@ -53,3 +53,11 @@
         width: 320px;
     }
 }
+
+@media (max-width: 375px){
+    .layout-four{
+      width: 150px;
+      margin: 2px;
+  
+     }
+   }
