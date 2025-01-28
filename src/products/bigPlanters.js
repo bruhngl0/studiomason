@@ -650,8 +650,8 @@ export const bigPlanters =
     name: "STONE SERIES",
     price: 129.99,
     images: [
-      image42,
       image43,
+      image42,
       image44
     ],
     description: "FRP and GRC planters are durable, weather-resistant, and stylish options for any space. FRP offers a lightweight, sleek look, while GRC combines concrete strength with reduced weight and eco-friendly materials. Both add elegance and versatility indoors or outdoors.",
