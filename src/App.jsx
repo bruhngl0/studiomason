@@ -18,28 +18,25 @@ const ProductPageTables = lazy(() => import('./components/ProductPageTables' /* 
 const Products = lazy(() => import('./components/Products' /* webpackChunkName: "products" */));
 
 // Group policy and info pages
-const InfoPages = {
-  BuyGuide: lazy(() => import('./components/BuyGuide' /* webpackChunkName: "info" */)),
-  BulkOrders: lazy(() => import('./components/BulkOrders' /* webpackChunkName: "info" */)),
-  Shipping: lazy(() => import('./components/Shipping' /* webpackChunkName: "policies" */)),
-  Return: lazy(() => import('./components/Return' /* webpackChunkName: "policies" */)),
-  Terms: lazy(() => import('./components/Terms' /* webpackChunkName: "policies" */)),
-  Privacy: lazy(() => import('./components/Privacy' /* webpackChunkName: "policies" */)),
-  Care: lazy(() => import('./components/Care' /* webpackChunkName: "info" */)),
-};
+const BuyGuide = lazy(() => import('./components/BuyGuide' /* webpackChunkName: "info" */));
+const BulkOrders = lazy(() => import('./components/BulkOrders' /* webpackChunkName: "info" */));
+const Shipping = lazy(() => import('./components/Shipping' /* webpackChunkName: "policies" */));
+const Return = lazy(() => import('./components/Return' /* webpackChunkName: "policies" */));
+const Terms = lazy(() => import('./components/Terms' /* webpackChunkName: "policies" */));
+const Privacy = lazy(() => import('./components/Privacy' /* webpackChunkName: "policies" */));
+const Care = lazy(() => import('./components/Care' /* webpackChunkName: "info" */));
 
 const BeSpokeInt = lazy(() => import('./components/BeSpokeInt' /* webpackChunkName: "bespoke" */));
 const Try = lazy(() => import('./components/Try' /* webpackChunkName: "test" */));
 const Col3 = lazy(() => import('./components/Col3' /* webpackChunkName: "test" */));
-const breezeBlocks = lazy(() => import('./components/BreezeBlocks' /* webpackChunkName: "test" */));
 
-// Memoize LoadingSpinner since it's static
-
+// Loading fallback component
+const LoadingSpinner = () => <div>Loading...</div>;
 
 function App() {
   return (
     <Router>
- 
+      <Suspense fallback={<LoadingSpinner />}>
         <Routes>
           {/* Main routes */}
           <Route path="/" element={<ScrollHero />} />
@@ -53,17 +50,16 @@ function App() {
           <Route path="/product/:id" element={<ProductPage />} />
           <Route path="/smallPlanters/:id" element={<ProductPageSmallPlanters />} />
           <Route path="/tables/:id" element={<ProductPageTables />} />
-          <Route path="/breezeBlocks/:id" element={<ProductPageBreeze/>} />
+          <Route path="/breezeBlocks/:id" element={<ProductPageBreeze />} />
 
-          
           {/* Info pages */}
-          <Route path="/buyGuide" element={<InfoPages.BuyGuide />} />
-          <Route path="/bulkOrders" element={<InfoPages.BulkOrders />} />
-          <Route path="/shipping-policy" element={<InfoPages.Shipping />} />
-          <Route path="/return-policy" element={<InfoPages.Return />} />
-          <Route path="/terms-policy" element={<InfoPages.Terms />} />
-          <Route path="/privacy-policy" element={<InfoPages.Privacy />} />
-          <Route path="/care-instructions" element={<InfoPages.Care  />} />
+          <Route path="/buyGuide" element={<BuyGuide />} />
+          <Route path="/bulkOrders" element={<BulkOrders />} />
+          <Route path="/shipping-policy" element={<Shipping />} />
+          <Route path="/return-policy" element={<Return />} />
+          <Route path="/terms-policy" element={<Terms />} />
+          <Route path="/privacy-policy" element={<Privacy />} />
+          <Route path="/care-instructions" element={<Care />} />
           
           {/* Other routes */}
           <Route path="/bespokeInt" element={<BeSpokeInt />} />
@@ -72,12 +68,10 @@ function App() {
           <Route path="/test-comp" element={<Try />} />
           <Route path="/test-comp2" element={<Col3 />} />
           <Route path="/test-comp4" element={<TestComp4 />} />
-          <Route path="/try" element={<Try />} />
-          <Route path="/try1" element={<Col3 />} />
           <Route path="/test-comp3" element={<TestComp3 />} />
           <Route path="/breezeBlocks" element={<BreezeBlocks />} />
         </Routes>
-  
+      </Suspense>
     </Router>
   );
 }
