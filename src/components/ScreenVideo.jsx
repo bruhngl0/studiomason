@@ -15,7 +15,7 @@ const THUMBNAIL_SOURCES = {
 };
 
 // Memoized video component
-const Video = memo(({ src, onLoaded }) => (
+const Video = memo(({ src, onStart }) => (
   <video 
     autoPlay 
     loop 
@@ -24,7 +24,7 @@ const Video = memo(({ src, onLoaded }) => (
     className="video-bg-screen"
     preload="auto"
     aria-hidden="true"
-    onCanPlayThrough={onLoaded} // Hide thumbnail when video is ready
+    onPlaying={onStart} // Hide thumbnail only when video actually starts playing
   >
     <source src={src} type="video/mp4" />
     <track kind="captions" />
@@ -75,13 +75,13 @@ const ScreenVideo = () => {
     <>
       <Header />
       <div className="video-container-screen">
-        {/* Thumbnail Placeholder (Remains until video loads) */}
+        {/* Thumbnail Placeholder (Remains until video starts playing) */}
         {isLoading && (
           <img src={thumbnailSrc} alt="Video thumbnail" className="thumbnail" />
         )}
 
         {/* Video Player */}
-        <Video src={videoSrc} onLoaded={() => setIsLoading(false)} />
+        <Video src={videoSrc} onStart={() => setIsLoading(false)} />
 
         <Overlay />
       </div>
@@ -90,3 +90,4 @@ const ScreenVideo = () => {
 };
 
 export default memo(ScreenVideo);
+
