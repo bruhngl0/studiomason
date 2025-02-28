@@ -1,7 +1,8 @@
 import React, { useState, useEffect, memo, useCallback } from 'react';
 import '../styles/screenvideo.scss';
 import Header from './Header';
-import thumbnail from "../../public/thumbnail.jpeg"
+import thumbnail from "../../public/thumbnail.jpeg";
+
 // Constants
 const MOBILE_BREAKPOINT = 768;
 const VIDEO_SOURCES = {
@@ -23,7 +24,7 @@ const Video = memo(({ src, onLoaded }) => (
     className="video-bg-screen"
     preload="auto"
     aria-hidden="true"
-    onCanPlayThrough={onLoaded} // Hide loader when video is ready
+    onCanPlayThrough={onLoaded} // Hide thumbnail when video is ready
   >
     <source src={src} type="video/mp4" />
     <track kind="captions" />
@@ -74,12 +75,9 @@ const ScreenVideo = () => {
     <>
       <Header />
       <div className="video-container-screen">
-        {/* Thumbnail Placeholder */}
+        {/* Thumbnail Placeholder (Remains until video loads) */}
         {isLoading && (
-          <div className="thumbnail-container">
-            <img src={thumbnailSrc} alt="Video thumbnail" className="thumbnail" />
-            <div className="loading-bar"></div>
-          </div>
+          <img src={thumbnailSrc} alt="Video thumbnail" className="thumbnail" />
         )}
 
         {/* Video Player */}
