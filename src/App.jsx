@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import { lazy, Suspense, memo } from 'react';
-import TestComp4 from './components/TestComp4';
-import TestComp3 from './components/TestComp3';
-import BreezeBlocks from './components/BreezeBlocks';
+
+
+
 import ProductPageBreeze from './components/productPageBreeze';
 import Project from './components/Project';
 import ScrollHero from './components/ScrollHero';
@@ -26,6 +26,9 @@ const Return = lazy(() => import('./components/Return' /* webpackChunkName: "pol
 const Terms = lazy(() => import('./components/Terms' /* webpackChunkName: "policies" */));
 const Privacy = lazy(() => import('./components/Privacy' /* webpackChunkName: "policies" */));
 const Care = lazy(() => import('./components/Care' /* webpackChunkName: "info" */));
+const TestComp3 = lazy(()=>import('./components/TestComp3'))
+const TestComp4 = lazy(()=> import('./components/TestComp4'))
+const BreezeBlocks = lazy(()=> import('./components/BreezeBlocks'))
 
 const BeSpokeInt = lazy(() => import('./components/BeSpokeInt' /* webpackChunkName: "bespoke" */));
 const Try = lazy(() => import('./components/Try' /* webpackChunkName: "test" */));
