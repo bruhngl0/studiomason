@@ -6,9 +6,10 @@ import TestComp3 from './components/TestComp3';
 import BreezeBlocks from './components/BreezeBlocks';
 import ProductPageBreeze from './components/productPageBreeze';
 import Project from './components/Project';
+import ScrollHero from './components/ScrollHero';
 
 // Lazy load components with better naming and chunking
-const ScrollHero = lazy(() => import('./components/ScrollHero' /* webpackChunkName: "home" */));
+
 const ScreenSix = lazy(() => import('./components/ScreenSix' /* webpackChunkName: "screen" */));
 const Clients = lazy(() => import('./components/Clients' /* webpackChunkName: "clients" */));
 const Enquiry = lazy(() => import('./components/Enqury' /* webpackChunkName: "forms" */));
