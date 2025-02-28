@@ -28,3 +28,35 @@
   object-fit: cover;
   background: black; // Prevents white flash before video starts
 }
+
+
+.video-container-screen {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+// Thumbnail Styling
+.thumbnail {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 2;
+  transition: opacity 0.5s ease-in-out;
+}
+
+// Hide thumbnail only when video actually starts playing
+.video-container-screen:not(.loading) .thumbnail {
+  opacity: 0;
+  pointer-events: none;
+}
+
+// Video Styling
+.video-bg-screen {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: transparent; // Prevent black screen flash
+}
