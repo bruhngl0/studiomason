@@ -7,7 +7,7 @@ import smallPlanters from '../products/smallPlanters';
 // Memoized catalog item component
 const CatalogItem = memo(({ product }) => (
   <div className="catalog-item">
-    <Link to={`/smallPlanters/${smallPlanters[0].id}`} className="catalog-item-link">
+    <Link to={`/smallPlanters/${smallPlanters.id}`} className="catalog-item-link">
       <img
         src={product.images[0]}
         alt={product.name}
