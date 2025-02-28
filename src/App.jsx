@@ -34,14 +34,12 @@ const Col3 = lazy(() => import('./components/Col3' /* webpackChunkName: "test" *
 const breezeBlocks = lazy(() => import('./components/BreezeBlocks' /* webpackChunkName: "test" */));
 
 // Memoize LoadingSpinner since it's static
-const LoadingSpinner = memo(() => (
-  <div className="loading-spinner">Loading...</div>
-));
+
 
 function App() {
   return (
     <Router>
-      <Suspense fallback={<LoadingSpinner />}>
+ 
         <Routes>
           {/* Main routes */}
           <Route path="/" element={<ScrollHero />} />
@@ -79,7 +77,7 @@ function App() {
           <Route path="/test-comp3" element={<TestComp3 />} />
           <Route path="/breezeBlocks" element={<BreezeBlocks />} />
         </Routes>
-      </Suspense>
+  
     </Router>
   );
 }

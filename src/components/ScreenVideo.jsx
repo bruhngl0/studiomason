@@ -1,4 +1,4 @@
-import React, { useState, useEffect, memo, useCallback } from 'react';
+import React, { useState, useEffect, memo, useCallback, useRef } from 'react';
 import '../styles/screenvideo.scss';
 import Header from './Header';
 import thumbnail from "../../public/thumbnail.jpeg";
@@ -9,49 +9,16 @@ const VIDEO_SOURCES = {
   mobile: 'mobile_final_video.mp4',
   desktop: 'final_video.mp4'
 };
-const THUMBNAIL_SOURCES = {
-  mobile: thumbnail,
-  desktop: thumbnail
-};
-
-// Memoized video component
-const Video = memo(({ src, onStart }) => (
-  <video 
-    autoPlay 
-    loop 
-    muted 
-    playsInline
-    className="video-bg-screen"
-    preload="auto"
-    aria-hidden="true"
-    onPlaying={onStart} // Hide thumbnail only when video actually starts playing
-  >
-    <source src={src} type="video/mp4" />
-    <track kind="captions" />
-  </video>
-));
-
-// Memoized overlay components
-const Overlay = memo(() => (
-  <>
-    <div className="overlay-text-screen" />
-    <div className="overlay-text-screen-one" />
-  </>
-));
 
 const ScreenVideo = () => {
   const [videoSrc, setVideoSrc] = useState(VIDEO_SOURCES.desktop);
-  const [thumbnailSrc, setThumbnailSrc] = useState(THUMBNAIL_SOURCES.desktop);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isThumbnailVisible, setIsThumbnailVisible] = useState(true);
+  const videoRef = useRef(null);
 
   // Memoized resize handler
   const handleResize = useCallback(() => {
     const isMobile = window.innerWidth <= MOBILE_BREAKPOINT;
-    const newSrc = isMobile ? VIDEO_SOURCES.mobile : VIDEO_SOURCES.desktop;
-    const newThumb = isMobile ? THUMBNAIL_SOURCES.mobile : THUMBNAIL_SOURCES.desktop;
-
-    setVideoSrc(prevSrc => (prevSrc !== newSrc ? newSrc : prevSrc));
-    setThumbnailSrc(prevThumb => (prevThumb !== newThumb ? newThumb : prevThumb));
+    setVideoSrc(isMobile ? VIDEO_SOURCES.mobile : VIDEO_SOURCES.desktop);
   }, []);
 
   // Set up resize listener
@@ -71,23 +38,39 @@ const ScreenVideo = () => {
     };
   }, [handleResize]);
 
+  // Hide thumbnail smoothly when the first frame appears
+  const handleFirstFrame = () => {
+    setTimeout(() => {
+      setIsThumbnailVisible(false);
+    }, 300); // Allow slight delay for smooth transition
+  };
+
   return (
     <>
       <Header />
       <div className="video-container-screen">
-        {/* Thumbnail Placeholder (Remains until video starts playing) */}
-        {isLoading && (
-          <img src={thumbnailSrc} alt="Video thumbnail" className="thumbnail" />
+        {/* Thumbnail Background */}
+        {isThumbnailVisible && (
+          <img src={thumbnail} alt="Video thumbnail" className={`thumbnail ${isThumbnailVisible ? "fade-out" : ""}`} />
         )}
 
         {/* Video Player */}
-        <Video src={videoSrc} onStart={() => setIsLoading(false)} />
-
-        <Overlay />
+        <video 
+          ref={videoRef}
+          autoPlay 
+          loop 
+          muted 
+          playsInline
+          className="video-bg-screen"
+          preload="auto"
+          aria-hidden="true"
+          onPlaying={handleFirstFrame} // Trigger smooth fade when video starts playing
+        >
+          <source src={videoSrc} type="video/mp4" />
+        </video>
       </div>
     </>
   );
 };
 
 export default memo(ScreenVideo);
-
