@@ -8,7 +8,7 @@ import bigPlanters from '../products/bigPlanters';
 // Memoized catalog item component
 const CatalogItem = memo(({ product }) => (
   <div className="catalog-item">
-     <Link to={`/product/${product.id}`} className="catalog-item-link">
+    <Link to={`/smallPlanters/${product.id}`} className="catalog-item-link">
       <img
         src={product.images[0]}
         alt={product.name}
@@ -29,7 +29,7 @@ const Sidebar = memo(() => (
 const Col3 = () => {
   const productGrid = useMemo(() => (
     <div className="catalog-grid1">
-      {bigPlanters.map((product) => (
+      {smallPlanters.map((product) => (
         <CatalogItem 
           key={product.id} 
           product={product}
