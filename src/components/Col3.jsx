@@ -1,55 +1,51 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { memo, useMemo } from 'react';
 import FilterSidebar from './FilterSidebar';
-import "../styles/bruh.scss";
-import smallPlanters from '../products/smallPlanters';
+import "../styles/try.scss";
+import bigPlanters from '../products/bigPlanters';
+import smallPlanters from "../products/smallPlanters"
+import { Link } from 'react-router-dom';
 
-// Catalog Item Component
-const CatalogItem = ({ product }) => {
-  if (!product || !product.images || !product.images[0]) return null;
+// Memoized catalog item component
+const CatalogItem = memo(({ product }) => (
+  <div className="catalog-item">
+    <Link to={`/smallPlanters/${product.id}`} className="catalog-item-link">
+      <img
+        src={product.images[0]}
+        alt={product.name}
+        className="catalog-item-image"
+        loading="lazy"
+      />
+    </Link>
+  </div>
+));
 
-  return (
-    <div className="catalog-item">
-      <Link to={`/smallPlanters/${product.id}`} className="catalog-item-link">
-        <img
-          src={product.images[0]}
-          alt={product.name || "Product Image"}
-          className="catalog-item-image"
-          loading="lazy"
-          width="250"
-          height="250"
-          onError={(e) => { e.target.src = "fallback-image.jpg"; }}
-        />
-      </Link>
-    </div>
-  );
-};
-
-// Sidebar Component
-const Sidebar = () => (
+// Memoized sidebar component
+const Sidebar = memo(() => (
   <div className="catalog-sidebar">
     <FilterSidebar />
   </div>
-);
+));
 
-const Col3 = () => {
-  if (!smallPlanters || !Array.isArray(smallPlanters)) {
-    return <div>Error: No products found!</div>;
-  }
+const   Col3 = () => {
+  const productGrid = useMemo(() => (
+    <div className="catalog-grid1">
+      {smallPlanters.map((product) => (
+        <CatalogItem 
+          key={product.id} 
+          product={product}
+        />
+      ))}
+    </div>
+  ), []); // Empty dependency array since bigPlanters is static
 
   return (
     <div className="catalog-container">
       <Sidebar />
       <div className="catalog-content">
-        <div className="catalog-grid1">
-          {smallPlanters.map((product) => (
-            <CatalogItem key={product.id} product={product} />
-          ))}
-        </div>
+        {productGrid}
       </div>
     </div>
   );
 };
 
-export default Col3;
-
+export default memo(Col3);
