@@ -18,6 +18,7 @@
     "react-intersection-observer": "^9.13.1",
     "react-router-dom": "^6.27.0",
     "react-slick": "^0.30.3",
+    "react-window": "^1.8.11",
     "sass": "^1.79.4",
     "scss": "^0.2.4",
     "slick-carousel": "^1.8.1",
