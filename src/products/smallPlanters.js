@@ -668,7 +668,7 @@ export const smallPlanters =
    },
 
 
-/*
+
    {
     id: 22,
     name: "M&S POT 4",
@@ -873,7 +873,7 @@ export const smallPlanters =
       "PLANT-FRIENDLY FEATURES",
       "GIFT-READY",
     ]
-   }, */
+   },
 
 
    {
