@@ -69,9 +69,9 @@ function App() {
           <Route path="/bespokeInt" element={<BeSpokeInt />} />
           
           {/* Test routes */}
-          <Route path="/test-comp" element={<Try />} />
-          <Route path="/test-comp2" element={<Col3 />} />
-          <Route path="/test-comp4" element={<TestComp4 />} />
+          <Route path="/planters" element={<Try />} />
+          <Route path="/desk-planters" element={<Col3 />} />
+          <Route path="/furniture" element={<TestComp4 />} />
           <Route path="/test-comp3" element={<TestComp3 />} />
           <Route path="/breezeBlocks" element={<BreezeBlocks />} />
         </Routes>

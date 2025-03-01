@@ -12,7 +12,7 @@ const projects = [
     name: 'EXPLORE BIG PLANTERS ↗',
     image: "mobile2.png",
     description1: '@STUDIO MASON',
-    route: '/test-comp'
+    route: '/planters'
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const projects = [
     name: 'EXPLORE DESK PLANTERS ↗',
     image: 'mobile1.png',
     description1: '@STUDIO MASON',
-    route: '/test-comp2'
+    route: '/desk-planters'
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const projects = [
     name: 'EXPLORE FURNITURE ↗',
     image: 'mobile6.png',
     description1: '@STUDIO MASON',
-    route: '/test-comp4'
+    route: '/furniture'
   },
 ];
 
