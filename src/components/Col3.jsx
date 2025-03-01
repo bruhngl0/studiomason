@@ -39,10 +39,7 @@ const Col3 = () => {
 
   return (
     <div className="catalog-container">
-      <Sidebar />
-      <div className="catalog-content">
-        {productGrid}
-      </div>
+      lol
     </div>
   );
 };
