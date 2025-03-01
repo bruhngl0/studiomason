@@ -29,17 +29,17 @@ const FilterSidebar = () => {
             <a>CATEGORIES</a>
           </li>
           <li>
-            <a href="/test-comp">PLANTERS</a>
+            <a href="/planters">PLANTERS</a>
           </li>
           <li>
-            <a href="/test-comp2">DESK PLANTERS</a>
+            <a href="/desk-planters">DESK PLANTERS</a>
           </li>
 
           <li>
             <a href="/breezeBlocks">BREEZE BLOCKS</a>
           </li>
           <li>
-            <a href="/test-comp4">TABLES</a>
+            <a href="/furiture">TABLES</a>
           </li>
 
        
