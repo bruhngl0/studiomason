@@ -3,11 +3,12 @@ import { Link } from 'react-router-dom';
 import FilterSidebar from './FilterSidebar';
 import "../styles/try.scss";
 import smallPlanters from '../products/smallPlanters';
+import bigPlanters from '../products/bigPlanters';
 
 // Memoized catalog item component
 const CatalogItem = memo(({ product }) => (
   <div className="catalog-item">
-    <Link to={`/smallPlanters/${product.id}`} className="catalog-item-link">
+     <Link to={`/product/${product.id}`} className="catalog-item-link">
       <img
         src={product.images[0]}
         alt={product.name}
@@ -28,7 +29,7 @@ const Sidebar = memo(() => (
 const Col3 = () => {
   const productGrid = useMemo(() => (
     <div className="catalog-grid1">
-      {smallPlanters.map((product) => (
+      {bigPlanters.map((product) => (
         <CatalogItem 
           key={product.id} 
           product={product}
