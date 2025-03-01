@@ -1,50 +1,55 @@
-import React, { memo, useMemo } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import FilterSidebar from './FilterSidebar';
-import "../styles/try.scss";
+import "../styles/bruh.scss";
 import smallPlanters from '../products/smallPlanters';
 
-// Memoized catalog item component
-const CatalogItem = memo(({ product }) => (
-  <div className="catalog-item">
-    <Link to={`/smallPlanters/${product.id}`} className="catalog-item-link">
-      <img
-        src={product.images[0]}
-        alt={product.name}
-        className="catalog-item-image"
-        loading="lazy"
-      />
-    </Link>
-  </div>
-));
+// Catalog Item Component
+const CatalogItem = ({ product }) => {
+  if (!product || !product.images || !product.images[0]) return null;
 
-// Memoized sidebar component
-const Sidebar = memo(() => (
+  return (
+    <div className="catalog-item">
+      <Link to={`/smallPlanters/${product.id}`} className="catalog-item-link">
+        <img
+          src={product.images[0]}
+          alt={product.name || "Product Image"}
+          className="catalog-item-image"
+          loading="lazy"
+          width="250"
+          height="250"
+          onError={(e) => { e.target.src = "fallback-image.jpg"; }}
+        />
+      </Link>
+    </div>
+  );
+};
+
+// Sidebar Component
+const Sidebar = () => (
   <div className="catalog-sidebar">
     <FilterSidebar />
   </div>
-));
+);
 
 const Col3 = () => {
-  const productGrid = useMemo(() => (
-    <div className="catalog-grid1">
-      {smallPlanters.map((product) => (
-        <CatalogItem 
-          key={product.id} 
-          product={product}
-        />
-      ))}
-    </div>
-  ), []); // Empty dependency array since smallPlanters is static
+  if (!smallPlanters || !Array.isArray(smallPlanters)) {
+    return <div>Error: No products found!</div>;
+  }
 
   return (
     <div className="catalog-container">
       <Sidebar />
       <div className="catalog-content">
-        {productGrid}
+        <div className="catalog-grid1">
+          {smallPlanters.map((product) => (
+            <CatalogItem key={product.id} product={product} />
+          ))}
+        </div>
       </div>
     </div>
   );
 };
 
-export default memo(Col3);
+export default Col3;
+

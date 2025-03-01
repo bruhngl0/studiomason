@@ -19,7 +19,8 @@
     flex: 1;
     padding: 2rem;
     overflow-y: auto;
-    height: 100vh;
+    height: 100%;
+    scroll-behavior: smooth;
 
     .catalog-grid1 {
       display: grid;
