@@ -1,6 +1,6 @@
 import React, { memo, useMemo } from 'react';
 import FilterSidebar from './FilterSidebar';
-import "../styles/try.scss";
+import "../styles/bruh.scss";
 import bigPlanters from '../products/bigPlanters';
 import smallPlanters from "../products/smallPlanters"
 import { Link } from 'react-router-dom';
@@ -14,6 +14,7 @@ const CatalogItem = memo(({ product }) => (
         alt={product.name}
         className="catalog-item-image"
         loading="lazy"
+       
       />
     </Link>
   </div>
