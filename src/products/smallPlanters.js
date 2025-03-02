@@ -1,122 +1,122 @@
 
 
 
-import image1 from "../../public/smallPlanters/AboutSpacePot1/aboutspacepot_1_1.webp"
+import image1 from "../../public/smallPlanters/AboutSpacePot1/aboutspacepot_1_1.jpeg"
 import image2 from "../../public/smallPlanters/AboutSpacePot1/aboutspacepot_1_2.jpg"
-import image3 from "../../public/smallPlanters/AboutSpacePot1/aboutspacepot_1_3.webp"
+import image3 from "../../public/smallPlanters/AboutSpacePot1/aboutspacepot_1_3.jpeg"
 
 
-import image4 from "../../public/smallPlanters/AboutSpacePot2/aboutspacepot_2_1.webp"
-import image5 from "../../public/smallPlanters/AboutSpacePot2/aboutspacepot_2_2.webp"
-import image6 from "../../public/smallPlanters/AboutSpacePot2/aboutspacepot_2_3.webp"
+import image4 from "../../public/smallPlanters/AboutSpacePot2/aboutspacepot_2_1.jpeg"
+import image5 from "../../public/smallPlanters/AboutSpacePot2/aboutspacepot_2_2.jpeg"
+import image6 from "../../public/smallPlanters/AboutSpacePot2/aboutspacepot_2_3.jpeg"
 
 
-import image7 from "../../public/smallPlanters/BasicRound/basicround_1.webp"
-import image8 from "../../public/smallPlanters/BasicRound/basicround_2.webp"
-import image9 from "../../public/smallPlanters/BasicRound/basicround_3.webp"
+import image7 from "../../public/smallPlanters/BasicRound/basicround_1.jpeg"
+import image8 from "../../public/smallPlanters/BasicRound/basicround_2.jpeg"
+import image9 from "../../public/smallPlanters/BasicRound/basicround_3.jpeg"
 
 
-import image10 from "../../public/smallPlanters/DecorKartPot1/decorKartpot_1_1.webp"
-import image11 from "../../public/smallPlanters/DecorKartPot1/decorKartpot_1_2.webp"
-import image12 from "../../public/smallPlanters/DecorKartPot1/decorKartpot_1_3.webp"
+import image10 from "../../public/smallPlanters/DecorKartPot1/decorKartpot_1_1.jpeg"
+import image11 from "../../public/smallPlanters/DecorKartPot1/decorKartpot_1_2.jpeg"
+import image12 from "../../public/smallPlanters/DecorKartPot1/decorKartpot_1_3.jpeg"
 
 
-import image13 from "../../public/smallPlanters/DecorKartPot2/decorKartpot_2_1.webp"
-import image14 from "../../public/smallPlanters/DecorKartPot2/decorKartpot_2_2.webp"
-import image15 from "../../public/smallPlanters/DecorKartPot2/decorKartpot_2_3.webp"
+import image13 from "../../public/smallPlanters/DecorKartPot2/decorKartpot_2_1.jpeg"
+import image14 from "../../public/smallPlanters/DecorKartPot2/decorKartpot_2_2.jpeg"
+import image15 from "../../public/smallPlanters/DecorKartPot2/decorKartpot_2_3.jpeg"
 
 
-import image16 from "../../public/smallPlanters/DecorKartPot3/decorKartpot_3_1.webp"
-import image17 from "../../public/smallPlanters/DecorKartPot3/decorKartpot_3_2.webp"
-import image18 from "../../public/smallPlanters/DecorKartPot3/decorKartpot_3_2.webp"
+import image16 from "../../public/smallPlanters/DecorKartPot3/decorKartpot_3_1.jpeg"
+import image17 from "../../public/smallPlanters/DecorKartPot3/decorKartpot_3_2.jpeg"
+import image18 from "../../public/smallPlanters/DecorKartPot3/decorKartpot_3_2.jpeg"
 
-import image19 from "../../public/smallPlanters/Face/face_1.webp"
-import image20 from "../../public/smallPlanters/Face/face_2.webp"
-import image21 from "../../public/smallPlanters/Face/face_3.webp"
-
-
-import image22 from "../../public/smallPlanters/Fracral8/fracral8_1.webp"
-
-import image23 from "../../public/smallPlanters/Fractal1/fractal1_1.webp"
-import image24 from "../../public/smallPlanters/Fractal1/fractal1_2.webp"
-import image25 from "../../public/smallPlanters/Fractal1/fractal1_3.webp"
+import image19 from "../../public/smallPlanters/Face/face_1.jpeg"
+import image20 from "../../public/smallPlanters/Face/face_2.jpeg"
+import image21 from "../../public/smallPlanters/Face/face_3.jpeg"
 
 
-import image26 from "../../public/smallPlanters/Fractal5/fractal5_1.webp"
+import image22 from "../../public/smallPlanters/Fracral8/fracral8_1.jpeg"
 
-import image27 from "../../public/smallPlanters/Fractal7/fractal7_1.webp"
-import image28 from "../../public/smallPlanters/Fractal7/fractal7_2.webp"
-import image29 from "../../public/smallPlanters/Fractal7/fractal7_3.webp"
-
-
-import image30 from "../../public/smallPlanters/GeoHex/geohex_1.webp"
-import image31 from "../../public/smallPlanters/GeoHex/geohex_2.webp"
-import image32 from "../../public/smallPlanters/GeoHex/geohex_3.webp"
-
-import image33 from "../../public/smallPlanters/GeohHex(Broad)/Geohhex(Broad)_1.webp"
-import image34 from "../../public/smallPlanters/GeohHex(Broad)/Geohhex(Broad)_2.webp"
+import image23 from "../../public/smallPlanters/Fractal1/fractal1_1.jpeg"
+import image24 from "../../public/smallPlanters/Fractal1/fractal1_2.jpeg"
+import image25 from "../../public/smallPlanters/Fractal1/fractal1_3.jpeg"
 
 
-import image35 from "../../public/smallPlanters/Grano/Grano_1.webp"
-import image36 from "../../public/smallPlanters/Grano/Grano_2.webp"
-import image37 from "../../public/smallPlanters/Grano/Grano_3.webp"
+import image26 from "../../public/smallPlanters/Fractal5/fractal5_1.jpeg"
 
-import image38 from "../../public/smallPlanters/GranoLarge/granolarge_1.webp"
-import image39 from "../../public/smallPlanters/GranoLarge/granolarge_2.webp"
-
-import image40 from "../../public/smallPlanters/Hexagon/hexagon_1.webp"
-import image41 from "../../public/smallPlanters/Hexagon/hexagon_2.webp"
-
-import image42 from "../../public/smallPlanters/Honeycomb/honeycomb_1.webp"
-import image43 from "../../public/smallPlanters/Honeycomb/honeycomb_2.webp"
-import image44 from "../../public/smallPlanters/Honeycomb/honeycomb_3.webp"
+import image27 from "../../public/smallPlanters/Fractal7/fractal7_1.jpeg"
+import image28 from "../../public/smallPlanters/Fractal7/fractal7_2.jpeg"
+import image29 from "../../public/smallPlanters/Fractal7/fractal7_3.jpeg"
 
 
-import image45 from "../../public/smallPlanters/InvertedGrano/invertedgrano_1.webp"
-import image46 from "../../public/smallPlanters/InvertedGrano/invertedgrano_2.webp"
-import image47 from "../../public/smallPlanters/InvertedGrano/invertedgrano_3.webp"
+import image30 from "../../public/smallPlanters/GeoHex/geohex_1.jpeg"
+import image31 from "../../public/smallPlanters/GeoHex/geohex_2.jpeg"
+import image32 from "../../public/smallPlanters/GeoHex/geohex_3.jpeg"
+
+import image33 from "../../public/smallPlanters/GeohHex(Broad)/Geohhex(Broad)_1.jpeg"
+import image34 from "../../public/smallPlanters/GeohHex(Broad)/Geohhex(Broad)_2.jpeg"
 
 
-import image48 from "../../public/smallPlanters/M&SPot1/mspot1_1.webp"
-import image49 from "../../public/smallPlanters/M&SPot1/mspot1_2.webp"
+import image35 from "../../public/smallPlanters/Grano/Grano_1.jpeg"
+import image36 from "../../public/smallPlanters/Grano/Grano_2.jpeg"
+import image37 from "../../public/smallPlanters/Grano/Grano_3.jpeg"
+
+import image38 from "../../public/smallPlanters/GranoLarge/granolarge_1.jpeg"
+import image39 from "../../public/smallPlanters/GranoLarge/granolarge_2.jpeg"
+
+import image40 from "../../public/smallPlanters/Hexagon/hexagon_1.jpeg"
+import image41 from "../../public/smallPlanters/Hexagon/hexagon_2.jpeg"
+
+import image42 from "../../public/smallPlanters/Honeycomb/honeycomb_1.jpeg"
+import image43 from "../../public/smallPlanters/Honeycomb/honeycomb_2.jpeg"
+import image44 from "../../public/smallPlanters/Honeycomb/honeycomb_3.jpeg"
 
 
-import image50 from "../../public/smallPlanters/M&SPot2/mspot2_1.webp"
-import image51 from "../../public/smallPlanters/M&SPot2/mspot2_2.webp"
-
-import image52 from "../../public/smallPlanters/M&SPot3/mspot3_1.webp"
-import image53 from "../../public/smallPlanters/M&SPot3/mspot3_2.webp"
-
-import image54 from "../../public/smallPlanters/M&SPot4/mspot4_1.webp"
-import image55 from "../../public/smallPlanters/M&SPot4/mspot4_2.webp"
+import image45 from "../../public/smallPlanters/InvertedGrano/invertedgrano_1.jpeg"
+import image46 from "../../public/smallPlanters/InvertedGrano/invertedgrano_2.jpeg"
+import image47 from "../../public/smallPlanters/InvertedGrano/invertedgrano_3.jpeg"
 
 
-import image56 from "../../public/smallPlanters/M&SPot5/mspot5_1.webp"
-import image57 from "../../public/smallPlanters/M&SPot5/mspot5_2.webp"
-
-import image58 from "../../public/smallPlanters/Marco/marco_1.webp"
-import image59 from "../../public/smallPlanters/Marco/marco_2.webp"
-import image60 from "../../public/smallPlanters/Marco/marco_3.webp"
+import image48 from "../../public/smallPlanters/M&SPot1/mspot1_1.jpeg"
+import image49 from "../../public/smallPlanters/M&SPot1/mspot1_2.jpeg"
 
 
+import image50 from "../../public/smallPlanters/M&SPot2/mspot2_1.jpeg"
+import image51 from "../../public/smallPlanters/M&SPot2/mspot2_2.jpeg"
 
-import image61 from "../../public/smallPlanters/Pluto/pluto_1.webp"
-import image62 from "../../public/smallPlanters/Pluto/pluto_2.webp"
+import image52 from "../../public/smallPlanters/M&SPot3/mspot3_1.jpeg"
+import image53 from "../../public/smallPlanters/M&SPot3/mspot3_2.jpeg"
+
+import image54 from "../../public/smallPlanters/M&SPot4/mspot4_1.jpeg"
+import image55 from "../../public/smallPlanters/M&SPot4/mspot4_2.jpeg"
 
 
-import image63 from "../../public/smallPlanters/ReverseMarco/reversemarco_1.webp"
-import image64 from "../../public/smallPlanters/ReverseMarco/reversemarco_2.webp"
-import image65 from "../../public/smallPlanters/ReverseMarco/reversemarco_3.webp"
+import image56 from "../../public/smallPlanters/M&SPot5/mspot5_1.jpeg"
+import image57 from "../../public/smallPlanters/M&SPot5/mspot5_2.jpeg"
+
+import image58 from "../../public/smallPlanters/Marco/marco_1.jpeg"
+import image59 from "../../public/smallPlanters/Marco/marco_2.jpeg"
+import image60 from "../../public/smallPlanters/Marco/marco_3.jpeg"
 
 
 
-import image66 from "../../public/smallPlanters/VexGeo/vexgeo_1.webp"
-import image67 from "../../public/smallPlanters/VexGeo/vexgeo_2.webp"
+import image61 from "../../public/smallPlanters/Pluto/pluto_1.jpeg"
+import image62 from "../../public/smallPlanters/Pluto/pluto_2.jpeg"
+
+
+import image63 from "../../public/smallPlanters/ReverseMarco/reversemarco_1.jpeg"
+import image64 from "../../public/smallPlanters/ReverseMarco/reversemarco_2.jpeg"
+import image65 from "../../public/smallPlanters/ReverseMarco/reversemarco_3.jpeg"
 
 
 
-import image68 from "../../public/smallPlanters/VexGeoTall/vexgeo(Tall)_1.webp"
-import image69 from "../../public/smallPlanters/VexGeoTall/vexgeo(Tall)_2.webp"
+import image66 from "../../public/smallPlanters/VexGeo/vexgeo_1.jpeg"
+import image67 from "../../public/smallPlanters/VexGeo/vexgeo_2.jpeg"
+
+
+
+import image68 from "../../public/smallPlanters/VexGeoTall/vexgeo(Tall)_1.jpeg"
+import image69 from "../../public/smallPlanters/VexGeoTall/vexgeo(Tall)_2.jpeg"
 
 
 

@@ -1,10 +1,10 @@
 
 
 
-import image1 from "../../public/bigPlanters/Tables/tables_01.jpg"
-import image2 from "../../public/bigPlanters/Tables/tables_2.webp"
-import image3 from "../../public/bigPlanters/Tables/tables_3.webp"
-import image4 from "../../public/bigPlanters/Tables/tables_4.webp"
+import image1 from "../../public/bigPlanters/Tables/tables_01.jpeg"
+import image2 from "../../public/bigPlanters/Tables/tables_2.jpeg"
+import image3 from "../../public/bigPlanters/Tables/tables_3.jpeg"
+import image4 from "../../public/bigPlanters/Tables/tables_4.jpeg"
 
 
 
