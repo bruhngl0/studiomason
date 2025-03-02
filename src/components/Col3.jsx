@@ -1,6 +1,6 @@
 import React, { memo, useMemo } from 'react';
 import FilterSidebar from './FilterSidebar';
-import "../styles/bruh.scss";
+import "../styles/try.scss";
 import bigPlanters from '../products/bigPlanters';
 import smallPlanters from "../products/smallPlanters"
 import { Link } from 'react-router-dom';
