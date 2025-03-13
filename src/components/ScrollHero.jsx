@@ -9,11 +9,14 @@ import Description from './Description'
 import Footer from './Footer'
 import Project from './Project'
 import Logo from './Logo'
+import NeonCursor from './NeonCursor'
+
 
 
 const ScrollHero = () => {
   return (
     <div>
+      <NeonCursor />
       <Logo />
       <ScreenVideo />
       <Project/>
