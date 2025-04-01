@@ -34,3 +34,9 @@
     filter: blur(8px);
   }
   
+
+  @media (hover: none) and (pointer: coarse) {
+    .neon-cursor-container {
+      display: none;
+    }
+  }
